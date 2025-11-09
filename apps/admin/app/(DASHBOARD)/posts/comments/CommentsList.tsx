@@ -1,17 +1,17 @@
-import EditButton from "@ezlegin/ui/components/EditButton";
+import EditButton from "@parallane/ui/components/EditButton";
 import CommentForm from "@/components/forms/dashboard/post/CommentForm";
-import Pagination from "@ezlegin/ui/components/Pagination";
-import Table from "@ezlegin/ui/components/Table";
+import Pagination from "@parallane/ui/components/Pagination";
+import Table from "@parallane/ui/components/Table";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@ezlegin/ui/components/ui/dialog";
-import { TableCell, TableRow } from "@ezlegin/ui/components/ui/table";
-import { formatMiladiDate } from "@ezlegin/utils";
-import { Comment, Post, User } from "@ezlegin/database";
+} from "@parallane/ui/components/ui/dialog";
+import { TableCell, TableRow } from "@parallane/ui/components/ui/table";
+import { formatMiladiDate } from "@parallane/utils";
+import { Comment, Post, User } from "@parallane/database";
 import Link from "next/link";
 
 interface CommentType extends Comment {

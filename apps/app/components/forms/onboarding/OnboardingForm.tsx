@@ -1,7 +1,7 @@
 "use client";
 
-import { User, Wallet } from "@ezlegin/database";
-import { Card } from "@ezlegin/ui/components/ui/card";
+import { User, Wallet } from "@parallane/database";
+import { Card } from "@parallane/ui/components/ui/card";
 import { useState } from "react";
 import PersonalInfoForm from "./PersonalInfoForm";
 import ConfirmEmailForm from "./ConfirmEmailForm";

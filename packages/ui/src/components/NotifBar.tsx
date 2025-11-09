@@ -1,5 +1,5 @@
-import { database } from "@ezlegin/database";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { database } from "@parallane/database";
+import { Button } from "@parallane/ui/components/ui/button";
 import Link from "next/link";
 
 const NotifBar = async () => {

@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Form,
   FormControl,
@@ -8,8 +8,8 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Textarea } from "@ezlegin/ui/components/ui/textarea";
+} from "@parallane/ui/components/ui/form";
+import { Textarea } from "@parallane/ui/components/ui/textarea";
 import { walletFormSchema, WalletFormType } from "@/lib/validationSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
@@ -19,18 +19,18 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@ezlegin/ui/components/ui/select";
-import { Input } from "@ezlegin/ui/components/ui/input";
+} from "@parallane/ui/components/ui/select";
+import { Input } from "@parallane/ui/components/ui/input";
 import { useEffect, useState } from "react";
 import { getWalletByUserId } from "@/data/wallet";
-import { Wallet } from "@ezlegin/database";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { formatPrice } from "@ezlegin/utils";
+import { Wallet } from "@parallane/database";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { formatPrice } from "@parallane/utils";
 import { toast } from "sonner";
 import { updateWallet } from "@/actions/wallet";
-import { useLoading } from "@ezlegin/utils";
+import { useLoading } from "@parallane/utils";
 import { useRouter } from "next/navigation";
-import Loader from "@ezlegin/ui/components/Loader";
+import Loader from "@parallane/ui/components/Loader";
 import SearchUsers from "@/components/SearchUsers";
 
 const WalletForm = () => {

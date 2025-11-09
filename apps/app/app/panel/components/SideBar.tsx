@@ -1,9 +1,9 @@
 "use client";
 
 import { loginPageRoute } from "@/middleware";
-import { User } from "@ezlegin/database";
-import Avatar from "@ezlegin/ui/components/Avatar";
-import EzleginLogo from "@ezlegin/ui/components/EzleginLogo";
+import { User } from "@parallane/database";
+import Avatar from "@parallane/ui/components/Avatar";
+import parallaneLogo from "@parallane/ui/components/parallaneLogo";
 import {
   Sidebar,
   SidebarContent,
@@ -15,7 +15,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@ezlegin/ui/components/ui/sidebar";
+} from "@parallane/ui/components/ui/sidebar";
 import {
   CreditCard,
   Headset,
@@ -41,7 +41,7 @@ export function SideBar({ user }: Props) {
     <Sidebar className="p-2 border-dashed border-muted bg-background">
       <SidebarHeader className="p-4 space-y-8">
         <Link href={"/"}>
-          <EzleginLogo width={120} />
+          <parallaneLogo width={120} />
         </Link>
 
         <div className="flex justify-between items-center">

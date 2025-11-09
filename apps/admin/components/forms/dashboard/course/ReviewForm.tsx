@@ -2,10 +2,10 @@
 
 import { createReview, deleteReview, updateReview } from "@/actions/review";
 import { ReviewType } from "@/app/(DASHBOARD)/courses/reviews/ReviewsList";
-import DeleteButton from "@ezlegin/ui/components/DeleteButton";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { Calendar } from "@ezlegin/ui/components/ui/calendar";
+import DeleteButton from "@parallane/ui/components/DeleteButton";
+import Loader from "@parallane/ui/components/Loader";
+import { Button } from "@parallane/ui/components/ui/button";
+import { Calendar } from "@parallane/ui/components/ui/calendar";
 import {
   Form,
   FormControl,
@@ -13,24 +13,24 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
+} from "@parallane/ui/components/ui/form";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@ezlegin/ui/components/ui/popover";
+} from "@parallane/ui/components/ui/popover";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@ezlegin/ui/components/ui/select";
-import { Textarea } from "@ezlegin/ui/components/ui/textarea";
-import { cn } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/select";
+import { Textarea } from "@parallane/ui/components/ui/textarea";
+import { cn } from "@parallane/utils";
 import { ReviewFormType, reviewFormSchema } from "@/lib/validationSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useLoading } from "@ezlegin/utils";
+import { useLoading } from "@parallane/utils";
 import { format } from "date-fns";
 import { CalendarIcon, Star } from "lucide-react";
 import { useRouter } from "next/navigation";

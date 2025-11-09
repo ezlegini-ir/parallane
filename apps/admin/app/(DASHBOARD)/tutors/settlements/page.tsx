@@ -1,18 +1,18 @@
 import SettlementForm from "@/components/forms/tutor/SettlementForm";
-import NewButton from "@ezlegin/ui/components/NewButton";
+import NewButton from "@parallane/ui/components/NewButton";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@ezlegin/ui/components/ui/dialog";
-import { globalPageSize, pagination } from "@ezlegin/utils";
-import { database } from "@ezlegin/database";
+} from "@parallane/ui/components/ui/dialog";
+import { globalPageSize, pagination } from "@parallane/utils";
+import { database } from "@parallane/database";
 import SettlementsList from "./SettlementsList";
-import Filter from "@ezlegin/ui/components/Filter";
-import Search from "@ezlegin/ui/components/Search";
-import { Prisma, SettlementStatus } from "@ezlegin/database";
+import Filter from "@parallane/ui/components/Filter";
+import Search from "@parallane/ui/components/Search";
+import { Prisma, SettlementStatus } from "@parallane/database";
 interface Props {
   searchParams: Promise<{
     page: string;

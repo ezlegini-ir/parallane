@@ -1,8 +1,8 @@
 import Slider from "@/components/Slider";
 import { getSessionUser } from "@/data/user";
 import { wallet as walletPic } from "@/public";
-import { database } from "@ezlegin/database";
-import { formatPrice } from "@ezlegin/utils";
+import { database } from "@parallane/database";
+import { formatPrice } from "@parallane/utils";
 import Image from "next/image";
 import LastTicketsList from "./components/LastTicketsList";
 import RunningCourses from "./components/RunningCourses";

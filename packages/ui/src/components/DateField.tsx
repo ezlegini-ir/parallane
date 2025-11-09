@@ -1,20 +1,20 @@
 "use client";
 
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { Calendar } from "@ezlegin/ui/components/ui/calendar";
+import { Button } from "@parallane/ui/components/ui/button";
+import { Calendar } from "@parallane/ui/components/ui/calendar";
 import {
   FormControl,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
+} from "@parallane/ui/components/ui/form";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@ezlegin/ui/components/ui/popover";
-import { cn } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/popover";
+import { cn } from "@parallane/utils";
 import { format } from "date-fns";
 import { CalendarIcon } from "lucide-react";
 import { UseFormReturn } from "react-hook-form";

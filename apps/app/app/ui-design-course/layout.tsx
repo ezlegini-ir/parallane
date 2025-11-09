@@ -2,7 +2,7 @@ import FloatingBanner from "@/components/FloatingBanner";
 import Footer from "@/components/Footer";
 import MobileNavbar from "@/components/MobileNavbar";
 import SquarePattern from "@/components/SquarePattern";
-import NotifBar from "@ezlegin/ui/components/NotifBar";
+import NotifBar from "@parallane/ui/components/NotifBar";
 
 export default async function Layout({
   children,

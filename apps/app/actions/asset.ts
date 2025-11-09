@@ -1,6 +1,6 @@
 "use server";
 
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 
 export const addDownloadCount = async (assetId: number) => {
   try {

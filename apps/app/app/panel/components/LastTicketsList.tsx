@@ -1,9 +1,9 @@
-import Table from "@ezlegin/ui/components/Table";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { TableCell, TableRow } from "@ezlegin/ui/components/ui/table";
+import Table from "@parallane/ui/components/Table";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { TableCell, TableRow } from "@parallane/ui/components/ui/table";
 import Link from "next/dist/client/link";
 import CardBox from "./CardBox";
-import { Ticket } from "@ezlegin/database";
+import { Ticket } from "@parallane/database";
 
 const LastTicketsList = ({ tickets }: { tickets: Ticket[] }) => {
   const renderRows = (ticket: Ticket) => {

@@ -1,6 +1,6 @@
-import { database } from "@ezlegin/database";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { SidebarTrigger } from "@ezlegin/ui/components/ui/sidebar";
+import { database } from "@parallane/database";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { SidebarTrigger } from "@parallane/ui/components/ui/sidebar";
 import { Home, MessageCircleQuestion } from "lucide-react";
 import Link from "next/link";
 import { getSessionTutor } from "@/data/tutor";

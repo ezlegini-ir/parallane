@@ -2,10 +2,10 @@
 
 import { getAdminById, getAdminByEmail } from "@/data/admin";
 import { AdminFormType } from "@/lib/validationSchema";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import bcrypt from "bcrypt";
 import { UploadApiResponse } from "cloudinary";
-import { deleteCloudFile, uploadCloudFile } from "@ezlegin/utils";
+import { deleteCloudFile, uploadCloudFile } from "@parallane/utils";
 
 //* CREATE ------------------------------------------------------------
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { ChartConfig } from "@ezlegin/ui/components/ui/chart";
+import { ChartConfig } from "@parallane/ui/components/ui/chart";
 import { EllipsisVertical } from "lucide-react";
 import RadialChartBar from "./RadialChartBar";
 

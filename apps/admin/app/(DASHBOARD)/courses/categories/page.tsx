@@ -1,15 +1,15 @@
 import CategoryForm from "@/components/forms/dashboard/post/CategoryForm";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@ezlegin/ui/components/ui/dialog";
+} from "@parallane/ui/components/ui/dialog";
 import CategoriesList from "./CategoriesList";
-import { globalPageSize, pagination } from "@ezlegin/utils";
-import { database } from "@ezlegin/database";
+import { globalPageSize, pagination } from "@parallane/utils";
+import { database } from "@parallane/database";
 
 interface Props {
   searchParams: Promise<{ page: string }>;

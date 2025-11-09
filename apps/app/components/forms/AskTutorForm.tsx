@@ -7,10 +7,10 @@ import {
   TicketMessageFormType,
 } from "@/lib/validationSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { AskTutorStatus } from "@ezlegin/database";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { AskTutorStatus } from "@parallane/database";
+import Loader from "@parallane/ui/components/Loader";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Form,
   FormControl,
@@ -18,10 +18,10 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
-import { Textarea } from "@ezlegin/ui/components/ui/textarea";
-import { truncateFileName, useFileName, useLoading } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
+import { Textarea } from "@parallane/ui/components/ui/textarea";
+import { truncateFileName, useFileName, useLoading } from "@parallane/utils";
 import { Link, RefreshCcw, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { ControllerRenderProps, useForm } from "react-hook-form";

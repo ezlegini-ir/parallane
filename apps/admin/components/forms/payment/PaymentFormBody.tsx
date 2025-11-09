@@ -2,17 +2,17 @@
 
 import { EnrollmentFormType } from "@/lib/validationSchema";
 import { placeHolder } from "@/public";
-import { User, Wallet } from "@ezlegin/database";
-import Avatar from "@ezlegin/ui/components/Avatar";
-import DateField from "@ezlegin/ui/components/DateField";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { User, Wallet } from "@parallane/database";
+import Avatar from "@parallane/ui/components/Avatar";
+import DateField from "@parallane/ui/components/DateField";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { formatPrice } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/form";
+import { formatPrice } from "@parallane/utils";
 import { Plus, Trash } from "lucide-react";
 import Image from "next/image";
 import { Dispatch, SetStateAction, useEffect } from "react";

@@ -1,18 +1,18 @@
-import Avatar from "@ezlegin/ui/components/Avatar";
-import EditButton from "@ezlegin/ui/components/EditButton";
+import Avatar from "@parallane/ui/components/Avatar";
+import EditButton from "@parallane/ui/components/EditButton";
 import AdminForm from "@/components/forms/dashboard/admin/AdminForm";
-import Pagination from "@ezlegin/ui/components/Pagination";
-import Table from "@ezlegin/ui/components/Table";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
+import Pagination from "@parallane/ui/components/Pagination";
+import Table from "@parallane/ui/components/Table";
+import { Badge } from "@parallane/ui/components/ui/badge";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@ezlegin/ui/components/ui/dialog";
-import { TableCell, TableRow } from "@ezlegin/ui/components/ui/table";
-import { Admin, Image as ImageType } from "@ezlegin/database";
+} from "@parallane/ui/components/ui/dialog";
+import { TableCell, TableRow } from "@parallane/ui/components/ui/table";
+import { Admin, Image as ImageType } from "@parallane/database";
 
 export type AdminType = Admin & { image: ImageType | null };
 

@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@ezlegin/ui/*": ["./src/*"]
+      "@parallane/ui/*": ["./src/*"]
     }
   },
   "include": ["src", "../../apps/admin/components/SearchCourses.tsx"],

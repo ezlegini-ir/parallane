@@ -1,7 +1,7 @@
 import AnimatedTitle from "@/components/animations/AnimatedTitle";
 import { alirezaEzlegniPodcast } from "@/public";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { Button } from "@parallane/ui/components/ui/button";
 import { AlignLeft, ArrowDown, Brain, Headphones, Video } from "lucide-react";
 import Image from "next/image";
 
@@ -11,7 +11,7 @@ const VoiceoverSection = () => {
       <div className="grid grid-cols-1 items-center md:grid-cols-2 gap-10 md:gap-3">
         <div className="relative">
           <Image
-            alt="Alireza Ezlegini"
+            alt="Alireza parallanei"
             src={alirezaEzlegniPodcast}
             width={575}
             height={275}

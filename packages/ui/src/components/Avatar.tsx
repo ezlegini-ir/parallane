@@ -1,4 +1,4 @@
-import { Skeleton } from "@ezlegin/ui/components/ui/skeleton";
+import { Skeleton } from "@parallane/ui/components/ui/skeleton";
 import Image from "next/image";
 
 const Avatar = ({

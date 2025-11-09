@@ -4,7 +4,7 @@ import {
   Image as ImageType,
   Slider as SlidersType,
   SliderType,
-} from "@ezlegin/database";
+} from "@parallane/database";
 import {
   Carousel,
   CarouselApi,
@@ -12,7 +12,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@ezlegin/ui/components/ui/carousel";
+} from "@parallane/ui/components/ui/carousel";
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";

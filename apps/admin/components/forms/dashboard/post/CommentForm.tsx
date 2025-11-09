@@ -5,10 +5,10 @@ import {
   deleteComment,
   updateComment,
 } from "@/actions/postComment";
-import DeleteButton from "@ezlegin/ui/components/DeleteButton";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { Calendar } from "@ezlegin/ui/components/ui/calendar";
+import DeleteButton from "@parallane/ui/components/DeleteButton";
+import Loader from "@parallane/ui/components/Loader";
+import { Button } from "@parallane/ui/components/ui/button";
+import { Calendar } from "@parallane/ui/components/ui/calendar";
 import {
   Form,
   FormControl,
@@ -16,18 +16,18 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
+} from "@parallane/ui/components/ui/form";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@ezlegin/ui/components/ui/popover";
-import { Textarea } from "@ezlegin/ui/components/ui/textarea";
-import { cn } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/popover";
+import { Textarea } from "@parallane/ui/components/ui/textarea";
+import { cn } from "@parallane/utils";
 import { CommentFormType, commentFormSchema } from "@/lib/validationSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Comment, Post, User } from "@ezlegin/database";
-import { useLoading } from "@ezlegin/utils";
+import { Comment, Post, User } from "@parallane/database";
+import { useLoading } from "@parallane/utils";
 import { format } from "date-fns";
 import { CalendarIcon } from "lucide-react";
 import { useRouter } from "next/navigation";

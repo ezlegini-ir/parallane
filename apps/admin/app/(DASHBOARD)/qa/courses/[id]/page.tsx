@@ -1,10 +1,10 @@
-import Avatar from "@ezlegin/ui/components/Avatar";
-import Pagination from "@ezlegin/ui/components/Pagination";
-import Search from "@ezlegin/ui/components/Search";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import Avatar from "@parallane/ui/components/Avatar";
+import Pagination from "@parallane/ui/components/Pagination";
+import Search from "@parallane/ui/components/Search";
+import { Button } from "@parallane/ui/components/ui/button";
 import { getCourseById } from "@/data/course";
-import { pagination } from "@ezlegin/utils";
-import { database } from "@ezlegin/database";
+import { pagination } from "@parallane/utils";
+import { database } from "@parallane/database";
 import {
   AskTutor,
   AskTutorMessages,
@@ -12,7 +12,7 @@ import {
   Prisma,
   Tutor,
   User,
-} from "@ezlegin/database";
+} from "@parallane/database";
 import Link from "next/link";
 
 interface Props {

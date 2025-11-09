@@ -1,12 +1,12 @@
 "use client";
 
 import { createSlider, updateSlider } from "@/actions/slider";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { Form } from "@ezlegin/ui/components/ui/form";
+import { Button } from "@parallane/ui/components/ui/button";
+import { Form } from "@parallane/ui/components/ui/form";
 import { SlidersFormType, slidersFormSchema } from "@/lib/validationSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Image, Slider } from "@ezlegin/database";
-import { useLoading } from "@ezlegin/utils";
+import { Image, Slider } from "@parallane/database";
+import { useLoading } from "@parallane/utils";
 import { Plus } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useFieldArray, useForm } from "react-hook-form";

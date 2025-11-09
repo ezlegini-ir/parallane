@@ -1,5 +1,5 @@
 import { authErrorScreen } from "@/public";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 

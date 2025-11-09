@@ -1,9 +1,9 @@
-import { Ticket } from "@ezlegin/database";
-import Filter from "@ezlegin/ui/components/Filter";
-import Pagination from "@ezlegin/ui/components/Pagination";
-import Table from "@ezlegin/ui/components/Table";
-import { TableCell, TableRow } from "@ezlegin/ui/components/ui/table";
-import { formatMiladiDate, globalPageSize } from "@ezlegin/utils";
+import { Ticket } from "@parallane/database";
+import Filter from "@parallane/ui/components/Filter";
+import Pagination from "@parallane/ui/components/Pagination";
+import Table from "@parallane/ui/components/Table";
+import { TableCell, TableRow } from "@parallane/ui/components/ui/table";
+import { formatMiladiDate, globalPageSize } from "@parallane/utils";
 import { Eye } from "lucide-react";
 import Link from "next/link";
 import CardBox from "../../components/CardBox";

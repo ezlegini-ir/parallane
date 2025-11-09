@@ -1,7 +1,7 @@
 "use client";
 
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { Button } from "@parallane/ui/components/ui/button";
 import { formatDate } from "date-fns";
 import { UserRoundPlus } from "lucide-react";
 import Link from "next/link";

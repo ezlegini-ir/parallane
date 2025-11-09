@@ -1,22 +1,22 @@
 "use client";
 
-import { deleteImage } from "@ezlegin/utils";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { deleteImage } from "@parallane/utils";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   FormControl,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
-import { useLoading } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
+import { useLoading } from "@parallane/utils";
 // import { placeHolder } from "@/public";
 import { X } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { ChangeEvent, Dispatch, SetStateAction } from "react";
-import Loader from "@ezlegin/ui/components/Loader";
+import Loader from "@parallane/ui/components/Loader";
 import { toast } from "sonner";
 import { placeHolder } from "@/public";
 

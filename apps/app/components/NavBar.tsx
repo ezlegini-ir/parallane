@@ -1,5 +1,5 @@
 import { getSessionUser } from "@/data/user";
-import { User } from "@ezlegin/database";
+import { User } from "@parallane/database";
 import NavBarContent from "./NavBarContent";
 
 export interface NavbarProps {

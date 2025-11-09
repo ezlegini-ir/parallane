@@ -1,5 +1,5 @@
 import React from "react";
-import { Course, Enrollment, Payment } from "@ezlegin/database";
+import { Course, Enrollment, Payment } from "@parallane/database";
 import {
   Body,
   Container,
@@ -65,8 +65,8 @@ const Header = () => {
       }}
     >
       <Img
-        src="https://dl.ezlegin.com/public/ezlegin-logo.png"
-        alt="Ezlegin"
+        src="https://dl.parallane.com/public/parallane-logo.png"
+        alt="parallane"
         width="135"
         height="auto"
         style={{ display: "inline-block" }}
@@ -81,13 +81,13 @@ const OtpEmail = ({ otp }: OtpEmailProps) => {
   return (
     <Html lang="en" dir="ltr">
       <Head />
-      <Preview>Your Verification Code for Ezlegin</Preview>
+      <Preview>Your Verification Code for parallane</Preview>
       <Body style={bodyStyles}>
         <Header />
 
         <Container style={containerStyles}>
           <Text style={{ fontSize: "18px", color: "#333", direction: "ltr" }}>
-            Hello! Thank you for registering with Ezlegin.
+            Hello! Thank you for registering with parallane.
           </Text>
 
           <Text style={{ fontSize: "16px", color: "#333", direction: "ltr" }}>
@@ -106,7 +106,7 @@ const OtpEmail = ({ otp }: OtpEmailProps) => {
             {otp}
           </Text>
 
-          {/* <Button href={"https://ezlegin.com/login"} style={buttonStyles}>
+          {/* <Button href={"https://parallane.com/login"} style={buttonStyles}>
             Access Your Account
           </Button> */}
 
@@ -117,11 +117,11 @@ const OtpEmail = ({ otp }: OtpEmailProps) => {
           </Text>
 
           <Text style={{ fontSize: "12px", color: "#888", direction: "ltr" }}>
-            Questions? Contact our support team at ezlegin.com@gmail.com
+            Questions? Contact our support team at parallane.com@gmail.com
           </Text>
 
           <Link href={process.env.NEXT_PUBLIC_BASE_URL} style={linkStyles}>
-            Visit Ezlegin
+            Visit parallane
           </Link>
         </Container>
       </Body>
@@ -176,15 +176,15 @@ const ResetPasswordEmail = ({
           <Text style={{ fontSize: "14px", color: "#666", direction: "ltr" }}>
             Need assistance? Contact our support team at{" "}
             <Link
-              href="mailto:support@ezlegin.com"
+              href="mailto:support@parallane.com"
               style={{ color: "#526eff" }}
             >
-              support@ezlegin.com
+              support@parallane.com
             </Link>
           </Text>
 
           <Link href={process.env.NEXT_PUBLIC_BASE_URL} style={linkStyles}>
-            Visit Ezlegin
+            Visit parallane
           </Link>
 
           {/* 
@@ -236,14 +236,14 @@ const FinishCourseEmail = ({
             courses.
           </Text>
 
-          <Button href="https://ezlegin.com/panel/courses" style={buttonStyles}>
+          <Button href="https://parallane.com/panel/courses" style={buttonStyles}>
             Rate & Download Certificate
           </Button>
 
           <Hr className="my-[16px] border-t-2 border-gray-300" />
 
           <Link href={process.env.NEXT_PUBLIC_BASE_URL} style={linkStyles}>
-            Ezlegin.com
+            parallane.com
           </Link>
         </Container>
       </Body>
@@ -274,7 +274,7 @@ const SuccessPaymentEmail = (data: {
   return (
     <Html lang="en">
       <Head />
-      <Preview>🔹 Your registration in Ezlegin course was successful!</Preview>
+      <Preview>🔹 Your registration in parallane course was successful!</Preview>
       <Body style={bodyStyles}>
         <Header />
 
@@ -284,7 +284,7 @@ const SuccessPaymentEmail = (data: {
           </Text>
 
           <Text style={{ fontSize: "18px", color: "#333" }}>
-            Thank you for trusting Ezlegin 🌟
+            Thank you for trusting parallane 🌟
             <br />
             Your payment of <strong>${payment.total}</strong> was successful,
             and your registration in the following course has been completed:
@@ -306,7 +306,7 @@ const SuccessPaymentEmail = (data: {
 
           <Hr className="my-[16px] border-t-2 border-gray-300" />
 
-          <Button href="https://ezlegin.com/panel/courses" style={buttonStyles}>
+          <Button href="https://parallane.com/panel/courses" style={buttonStyles}>
             Go to Panel & View Courses
           </Button>
 
@@ -324,7 +324,7 @@ const SuccessPaymentEmail = (data: {
           </Text>
 
           <Link href={process.env.NEXT_PUBLIC_BASE_URL} style={linkStyles}>
-            Ezlegin.com
+            parallane.com
           </Link>
         </Container>
       </Body>
@@ -383,7 +383,7 @@ const SuccessPaymentEmailToAdmin = (data: {
           <Hr className="my-[16px] border-t-2 border-gray-300" />
 
           <Link href={process.env.NEXT_PUBLIC_BASE_URL} style={linkStyles}>
-            Ezlegin.com
+            parallane.com
           </Link>
         </Container>
       </Body>

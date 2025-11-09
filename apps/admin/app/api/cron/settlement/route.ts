@@ -1,5 +1,5 @@
-import { database } from "@ezlegin/database";
-import { sendPaidSettlmentSms } from "@ezlegin/utils";
+import { database } from "@parallane/database";
+import { sendPaidSettlmentSms } from "@parallane/utils";
 import { endOfMonth, startOfMonth, subDays } from "date-fns";
 import { NextRequest, NextResponse } from "next/server";
 

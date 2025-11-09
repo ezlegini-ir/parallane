@@ -7,7 +7,7 @@ import {
   Lesson,
   LessonProgress,
   Tutor,
-} from "@ezlegin/database";
+} from "@parallane/database";
 import CardBox from "./CardBox";
 import RunningCourseCard from "./RunningCourseCard";
 

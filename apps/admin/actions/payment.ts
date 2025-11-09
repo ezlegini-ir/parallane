@@ -6,8 +6,8 @@ import { getAllCoursesByIds } from "@/data/course";
 import { getPaymentById } from "@/data/payment";
 import { getUserById } from "@/data/user";
 import { EnrollmentFormType as PaymentFormType } from "@/lib/validationSchema";
-import { database } from "@ezlegin/database";
-import { cashBackCalculator } from "@ezlegin/utils";
+import { database } from "@parallane/database";
+import { cashBackCalculator } from "@parallane/utils";
 
 //* CREATE -----------------------------------------------------------
 

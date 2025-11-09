@@ -1,7 +1,7 @@
 // LOGOS
-export { default as ezleginLogo } from "./ezlegin-logo-dark.svg";
-export { default as ezleginLogoIcon } from "./ezlegin-logo-icon.svg";
-export { default as ezleginLogoSquare } from "./ezlegin-logo-square.svg";
+export { default as parallaneLogo } from "./parallane-logo-dark.svg";
+export { default as parallaneLogoIcon } from "./parallane-logo-icon.svg";
+export { default as parallaneLogoSquare } from "./parallane-logo-square.svg";
 
 // NONE-EXISTING PHOTOS
 export const avatar = "/avatar.svg";
@@ -40,9 +40,9 @@ export const figmaCursor = "/figma-cursor.svg";
 // VIDEOS
 export const sketchVideo = "/sketch.mp4";
 
-// ALIREZA EZLEGINI
-export const alirezaEzleginiProfile = "/alireza-ezlegini/profile.png";
-export const alirezaEzlegniPen = "/alireza-ezlegini/pen.png";
-export const alirezaEzlegniPodcast = "/alireza-ezlegini/podcast.png";
-export const alirezaEzlegniPointing = "/alireza-ezlegini/pointing.png";
-export const alirezaEzlegniLooking = "/alireza-ezlegini/looking.png";
+// ALIREZA parallaneI
+export const alirezaparallaneiProfile = "/alireza-parallanei/profile.png";
+export const alirezaEzlegniPen = "/alireza-parallanei/pen.png";
+export const alirezaEzlegniPodcast = "/alireza-parallanei/podcast.png";
+export const alirezaEzlegniPointing = "/alireza-parallanei/pointing.png";
+export const alirezaEzlegniLooking = "/alireza-parallanei/looking.png";

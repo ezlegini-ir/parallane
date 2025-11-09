@@ -1,6 +1,6 @@
 import React from "react";
 import CardBox from "../../components/CardBox";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
+import { Badge } from "@parallane/ui/components/ui/badge";
 
 const Summery = () => {
   return (

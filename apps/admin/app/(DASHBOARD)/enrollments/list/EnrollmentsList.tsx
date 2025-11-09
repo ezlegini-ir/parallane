@@ -1,15 +1,15 @@
-import { Course, Enrollment, Payment, User } from "@ezlegin/database";
-import Avatar from "@ezlegin/ui/components/Avatar";
-import Pagination from "@ezlegin/ui/components/Pagination";
-import Table from "@ezlegin/ui/components/Table";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { TableCell, TableRow } from "@ezlegin/ui/components/ui/table";
+import { Course, Enrollment, Payment, User } from "@parallane/database";
+import Avatar from "@parallane/ui/components/Avatar";
+import Pagination from "@parallane/ui/components/Pagination";
+import Table from "@parallane/ui/components/Table";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { TableCell, TableRow } from "@parallane/ui/components/ui/table";
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from "@ezlegin/ui/components/ui/tooltip";
-import { formatMiladiDate, formatPrice } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/tooltip";
+import { formatMiladiDate, formatPrice } from "@parallane/utils";
 import Link from "next/link";
 import EnrollmentPreview from "./EnrollmentPreview";
 

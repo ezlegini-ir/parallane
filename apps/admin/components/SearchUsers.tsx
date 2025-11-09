@@ -1,8 +1,8 @@
 "use client";
 
-import { User } from "@ezlegin/database";
+import { User } from "@parallane/database";
 import { useEffect, useState } from "react";
-import SearchField from "@ezlegin/ui/components/SearchField";
+import SearchField from "@parallane/ui/components/SearchField";
 import { searchUsers } from "@/data/search";
 import { getUserById } from "@/data/user";
 

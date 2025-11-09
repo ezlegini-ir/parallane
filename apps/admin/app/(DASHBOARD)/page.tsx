@@ -1,12 +1,12 @@
 import { getGAViewsAndSessions, getTopPages } from "@/data/ga";
-import { database } from "@ezlegin/database";
-import GraduateVsEnrolled from "@ezlegin/ui/components/GraduateVsEnrolled";
-import RecentComments from "@ezlegin/ui/components/RecentComments";
-import RecentReviews from "@ezlegin/ui/components/RecentReviews";
-import StatCards from "@ezlegin/ui/components/StatCards";
-import TopViewedPages from "@ezlegin/ui/components/TopViewedPages";
-import DashboardViewsChart from "@ezlegin/ui/components/ViewsChart";
-import ViewsTable from "@ezlegin/ui/components/ViewTable";
+import { database } from "@parallane/database";
+import GraduateVsEnrolled from "@parallane/ui/components/GraduateVsEnrolled";
+import RecentComments from "@parallane/ui/components/RecentComments";
+import RecentReviews from "@parallane/ui/components/RecentReviews";
+import StatCards from "@parallane/ui/components/StatCards";
+import TopViewedPages from "@parallane/ui/components/TopViewedPages";
+import DashboardViewsChart from "@parallane/ui/components/ViewsChart";
+import ViewsTable from "@parallane/ui/components/ViewTable";
 import { format, startOfMonth, startOfYear, subDays } from "date-fns";
 
 const page = async () => {

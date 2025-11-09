@@ -1,4 +1,4 @@
-import { Badge } from "@ezlegin/ui/components/ui/badge";
+import { Badge } from "@parallane/ui/components/ui/badge";
 import React from "react";
 
 const TicketStatus = ({

@@ -1,6 +1,6 @@
-import CardBox from "@ezlegin/ui/components/CardBox";
-import Table from "@ezlegin/ui/components/Table";
-import { TableCell, TableRow } from "@ezlegin/ui/components/ui/table";
+import CardBox from "@parallane/ui/components/CardBox";
+import Table from "@parallane/ui/components/Table";
+import { TableCell, TableRow } from "@parallane/ui/components/ui/table";
 import Link from "next/link";
 
 interface Column {

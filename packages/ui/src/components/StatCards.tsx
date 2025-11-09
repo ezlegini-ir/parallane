@@ -2,7 +2,7 @@
 
 import { CreditCard, MessageCircle, Users } from "lucide-react";
 import StatCard from "./StatCard";
-import { calculateSum } from "@ezlegin/utils";
+import { calculateSum } from "@parallane/utils";
 
 type statsDataType = {
   date: string;

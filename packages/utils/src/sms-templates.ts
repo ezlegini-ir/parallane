@@ -14,10 +14,10 @@ export function newQaCreationText() {
 
 export function paidSettlementSmsText(fullName: string, amount: number) {
   const message = [
-    `🔷 ${fullName}, dear tutor of Ezlegin,`,
-    `An amount of ${amount.toLocaleString("en-US")} Toman has been queued for payment for this course from your sales rights on the Ezlegin website.`,
+    `🔷 ${fullName}, dear tutor of parallane,`,
+    `An amount of ${amount.toLocaleString("en-US")} Toman has been queued for payment for this course from your sales rights on the parallane website.`,
     "It is our honor to collaborate with you.",
-    "Ezlegin",
+    "parallane",
   ].join("\n");
 
   return message;

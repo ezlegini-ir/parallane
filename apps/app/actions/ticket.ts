@@ -2,8 +2,8 @@
 
 import { adminData } from "@/data/adminData";
 import { TicketFormType } from "@/lib/validationSchema";
-import { database } from "@ezlegin/database";
-import { sendNewTicketCreationSms, uploadCloudFile } from "@ezlegin/utils";
+import { database } from "@parallane/database";
+import { sendNewTicketCreationSms, uploadCloudFile } from "@parallane/utils";
 import { UploadApiResponse } from "cloudinary";
 
 export const createTicket = async (data: TicketFormType, userId: number) => {

@@ -1,7 +1,7 @@
 "use server";
 
 import { ReviewFormType } from "@/lib/validationSchema";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 
 //* CREATE ---------------------------------------------------------
 

@@ -7,17 +7,17 @@ import {
   exportUsersFormSchema,
 } from "@/lib/validationSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Coupon, Course } from "@ezlegin/database";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Coupon, Course } from "@parallane/database";
+import Loader from "@parallane/ui/components/Loader";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Form,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { useLoading } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/form";
+import { useLoading } from "@parallane/utils";
 import { Plus, Trash } from "lucide-react";
 import { useFieldArray, useForm } from "react-hook-form";
 

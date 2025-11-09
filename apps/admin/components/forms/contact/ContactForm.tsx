@@ -5,10 +5,10 @@ import {
   sendContactResponse,
   updateContact,
 } from "@/actions/contact";
-import DeleteButton from "@ezlegin/ui/components/DeleteButton";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import DeleteButton from "@parallane/ui/components/DeleteButton";
+import Loader from "@parallane/ui/components/Loader";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Form,
   FormControl,
@@ -16,19 +16,19 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
+} from "@parallane/ui/components/ui/form";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@ezlegin/ui/components/ui/select";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
-import { Textarea } from "@ezlegin/ui/components/ui/textarea";
-import { useLoading } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/select";
+import { Separator } from "@parallane/ui/components/ui/separator";
+import { Textarea } from "@parallane/ui/components/ui/textarea";
+import { useLoading } from "@parallane/utils";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Contact, ContactResponse } from "@ezlegin/database";
+import { Contact, ContactResponse } from "@parallane/database";
 import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";

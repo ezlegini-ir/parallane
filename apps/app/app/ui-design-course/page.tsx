@@ -1,5 +1,5 @@
 import NavBar from "@/components/NavBar";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import { notFound } from "next/navigation";
 import CourseImpactSection from "./components/CourseImpactSection";
 import CurriculumSection from "./components/CurriculumSection";
@@ -101,11 +101,11 @@ export default page;
 export const metadata: Metadata = {
   title: "UI Design Course",
   description:
-    "Join the UI Design Course at Ezlegin to master user interface design principles, tools, and techniques. Learn from industry experts and build a strong portfolio.",
+    "Join the UI Design Course at parallane to master user interface design principles, tools, and techniques. Learn from industry experts and build a strong portfolio.",
   keywords: [
     "UI Design Course",
     "User Interface Design",
-    "Ezlegin",
+    "parallane",
     "Design Principles",
     "UI/UX Design",
     "Design Tools",

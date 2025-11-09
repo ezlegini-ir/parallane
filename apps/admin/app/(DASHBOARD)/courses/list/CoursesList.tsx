@@ -1,4 +1,4 @@
-import Pagination from "@ezlegin/ui/components/Pagination";
+import Pagination from "@parallane/ui/components/Pagination";
 import CourseCard from "./CourseCard";
 import {
   Course,
@@ -9,7 +9,7 @@ import {
   Lesson,
   Review,
   Tutor,
-} from "@ezlegin/database";
+} from "@parallane/database";
 import { Frown } from "lucide-react";
 
 export interface CourseType extends Course {

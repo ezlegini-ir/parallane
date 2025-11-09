@@ -1,5 +1,5 @@
 import PostForm from "@/components/forms/dashboard/post/PostForm";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import React from "react";
 
 const page = async () => {

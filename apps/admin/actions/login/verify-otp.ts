@@ -2,9 +2,9 @@
 
 import { getOtpByEmail } from "@/data/otp";
 import { getAdminByEmail } from "@/data/admin";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import bcrypt from "bcrypt";
-import { isHumanOrNot } from "@ezlegin/utils";
+import { isHumanOrNot } from "@parallane/utils";
 
 export const verifyOtp = async (
   otp: string,

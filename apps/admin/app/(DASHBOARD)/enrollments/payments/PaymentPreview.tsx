@@ -1,18 +1,18 @@
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@ezlegin/ui/components/ui/dialog";
-import ViewButton from "@ezlegin/ui/components/ViewButton";
-import { formatPrice } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/dialog";
+import ViewButton from "@parallane/ui/components/ViewButton";
+import { formatPrice } from "@parallane/utils";
 import { placeHolder } from "@/public";
 import Image from "next/image";
 import Link from "next/link";
 import { PaymentType } from "./PaymentsList";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
+import { Badge } from "@parallane/ui/components/ui/badge";
 
 const PaymentPreview = ({ payment }: { payment: PaymentType }) => {
   const pending = payment.status === "PENDING";

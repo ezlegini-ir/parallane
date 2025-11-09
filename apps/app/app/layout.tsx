@@ -1,4 +1,4 @@
-import "@ezlegin/ui/globals.css";
+import "@parallane/ui/globals.css";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -32,22 +32,22 @@ export default function RootLayout({
 
 export const metadata: Metadata = {
   title: {
-    default: "Ezlegin",
-    template: "%s - Ezlegin",
+    default: "parallane",
+    template: "%s - parallane",
   },
-  description: "Ezlegin: Design Without Limits",
+  description: "parallane: Design Without Limits",
   icons: {
     icon: "/favicon.svg",
   },
-  keywords: ["Ezlegin", "Ui Design Course", "Web Design Course"],
-  authors: [{ name: "Ezlegin", url: process.env.NEXT_PUBLIC_BASE_URL }],
-  creator: "Ezlegin",
-  publisher: "Ezlegin",
+  keywords: ["parallane", "Ui Design Course", "Web Design Course"],
+  authors: [{ name: "parallane", url: process.env.NEXT_PUBLIC_BASE_URL }],
+  creator: "parallane",
+  publisher: "parallane",
   openGraph: {
-    title: "Ezlegin",
-    description: "Ezlegin: Design Without Limits",
+    title: "parallane",
+    description: "parallane: Design Without Limits",
     url: process.env.NEXT_PUBLIC_BASE_URL,
-    siteName: "Ezlegin",
+    siteName: "parallane",
     locale: "en",
     type: "website",
     images: [
@@ -55,14 +55,14 @@ export const metadata: Metadata = {
         url: "/og-cover.png",
         width: 1200,
         height: 630,
-        alt: "Ezlegin",
+        alt: "parallane",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ezlegin",
-    description: "Ezlegin: Design Without Limits",
+    title: "parallane",
+    description: "parallane: Design Without Limits",
     images: ["/og-cover.png"],
   },
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL!),

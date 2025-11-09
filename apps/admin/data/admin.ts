@@ -1,6 +1,6 @@
 "use server";
-import { auth } from "@ezlegin/auth";
-import { database } from "@ezlegin/database";
+import { auth } from "@parallane/auth";
+import { database } from "@parallane/database";
 
 export const getAdmins = async () => {
   return await database.admin.findMany();

@@ -2,7 +2,7 @@ import {
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from "@ezlegin/ui/components/ui/chart";
+} from "@parallane/ui/components/ui/chart";
 import { RadialBar, RadialBarChart, PolarRadiusAxis, Label } from "recharts";
 
 interface RadialChartProps {

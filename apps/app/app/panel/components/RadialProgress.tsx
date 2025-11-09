@@ -7,7 +7,7 @@ import {
   RadialBar,
   RadialBarChart,
 } from "recharts";
-import { ChartConfig, ChartContainer } from "@ezlegin/ui/components/ui/chart";
+import { ChartConfig, ChartContainer } from "@parallane/ui/components/ui/chart";
 
 interface Props {
   count: number;

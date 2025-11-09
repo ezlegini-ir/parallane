@@ -1,9 +1,9 @@
 "use server";
 
 import { TicketMessageFormType } from "@/lib/validationSchema";
-import { sendNewQaCreationSms, uploadCloudFile } from "@ezlegin/utils";
+import { sendNewQaCreationSms, uploadCloudFile } from "@parallane/utils";
 import { UploadApiResponse } from "cloudinary";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 
 export const createAskTutor = async (
   data: TicketMessageFormType,

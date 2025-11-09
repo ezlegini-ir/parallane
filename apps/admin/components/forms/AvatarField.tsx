@@ -1,19 +1,19 @@
 "use client";
 
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   FormControl,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
-import { deleteUserImage } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
+import { deleteUserImage } from "@parallane/utils";
 // import { avatar } from "@/public";
 import { avatar } from "@/public";
-import Loader from "@ezlegin/ui/components/Loader";
-import { useLoading } from "@ezlegin/utils";
+import Loader from "@parallane/ui/components/Loader";
+import { useLoading } from "@parallane/utils";
 import { X } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";

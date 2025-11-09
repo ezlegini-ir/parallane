@@ -1,7 +1,7 @@
 import MobileNavbar from "@/components/MobileNavbar";
 import SimpleFooter from "@/components/SimpleFooter";
 import { authenticateSession } from "@/lib/auth";
-import NotifBar from "@ezlegin/ui/components/NotifBar";
+import NotifBar from "@parallane/ui/components/NotifBar";
 import { Metadata } from "next";
 
 export default async function PanelLayout({
@@ -33,6 +33,6 @@ export default async function PanelLayout({
 export const metadata: Metadata = {
   title: {
     default: "Cart",
-    template: "%s - Ezlegin",
+    template: "%s - parallane",
   },
 };

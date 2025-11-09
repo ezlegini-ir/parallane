@@ -1,1 +1,1 @@
-export { default } from "@ezlegin/ui/postcss.config";
+export { default } from "@parallane/ui/postcss.config";

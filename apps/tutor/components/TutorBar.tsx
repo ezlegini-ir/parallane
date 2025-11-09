@@ -1,12 +1,12 @@
-import { signOut } from "@ezlegin/auth";
-import Avatar from "@ezlegin/ui/components/Avatar";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { signOut } from "@parallane/auth";
+import Avatar from "@parallane/ui/components/Avatar";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@ezlegin/ui/components/ui/popover";
-import { Image, Tutor } from "@ezlegin/database";
+} from "@parallane/ui/components/ui/popover";
+import { Image, Tutor } from "@parallane/database";
 import {
   CircleArrowOutDownLeft,
   ChartNoAxesCombined,

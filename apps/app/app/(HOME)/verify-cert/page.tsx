@@ -1,6 +1,6 @@
 import AnimatedTitle from "@/components/animations/AnimatedTitle";
 import CertificateVerifyForm from "@/components/forms/certificate/CertificateVerifyForm";
-import RecaptchaWrapper from "@ezlegin/ui/components/RecaptchaWrapper";
+import RecaptchaWrapper from "@parallane/ui/components/RecaptchaWrapper";
 import { Metadata } from "next";
 
 const page = () => {
@@ -9,7 +9,7 @@ const page = () => {
       <AnimatedTitle
         title={"Certificate Verification"}
         highlight="Verification"
-        subtitle={"On this page, you can verify your Ezlegin certificate."}
+        subtitle={"On this page, you can verify your parallane certificate."}
       />
 
       <RecaptchaWrapper
@@ -26,5 +26,5 @@ export default page;
 export const metadata: Metadata = {
   title: "Certificate Verification",
   description:
-    "Online verification of certificates for completed courses at Ezlegin. Simply enter the certificate serial number to check its validity.",
+    "Online verification of certificates for completed courses at parallane. Simply enter the certificate serial number to check its validity.",
 };

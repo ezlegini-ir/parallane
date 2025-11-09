@@ -1,6 +1,6 @@
 "use client";
 
-import { User } from "@ezlegin/database";
+import { User } from "@parallane/database";
 import { useEffect, useState } from "react";
 import SmallNavBar from "./SmallNavBar";
 import WideNavBar from "./WideNavBar";

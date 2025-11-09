@@ -1,5 +1,5 @@
 {
-  "name": "@ezlegin/auth",
+  "name": "@parallane/auth",
   "version": "0.0.0",
   "type": "module",
   "sideEffects": false,
@@ -7,7 +7,7 @@
     ".": "./auth.ts"
   },
   "dependencies": {
-    "@ezlegin/database": "^0.0.0",
+    "@parallane/database": "^0.0.0",
     "next-auth": "^5.0.0-beta.25",
     "bcryptjs": "^3.0.2"
   },

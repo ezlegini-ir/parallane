@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import "@ezlegin/ui/globals.css";
+import "@parallane/ui/globals.css";
 import "./fonts.css";
-import { Toaster } from "@ezlegin/ui/components/ui/sonner";
+import { Toaster } from "@parallane/ui/components/ui/sonner";
 
 export default function RootLayout({
   children,
@@ -20,11 +20,11 @@ export default function RootLayout({
 
 export const metadata: Metadata = {
   title: {
-    default: "Tutor - Ezlegin",
-    template: "%s - Ezlegin",
+    default: "Tutor - parallane",
+    template: "%s - parallane",
   },
   icons: {
     icon: "/favicon.svg",
   },
-  description: "Ezlegin Panel",
+  description: "parallane Panel",
 };

@@ -1,7 +1,7 @@
 "use server";
 
 import { getUserByEmail } from "@/data/user";
-import { sendOtpEmail } from "@ezlegin/utils";
+import { sendOtpEmail } from "@parallane/utils";
 
 export async function sendOtp({
   email,

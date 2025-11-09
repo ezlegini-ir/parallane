@@ -23,11 +23,11 @@ import {
 import type { JSX } from "react";
 import { useEffect, useRef, useState } from "react";
 
-import { Image as ImageType } from "@ezlegin/database";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Button as UiButton } from "@ezlegin/ui/components/ui/button";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
-import { createPostAssetImage, deleteImage, useLoading } from "@ezlegin/utils";
+import { Image as ImageType } from "@parallane/database";
+import Loader from "@parallane/ui/components/Loader";
+import { Button as UiButton } from "@parallane/ui/components/ui/button";
+import { Separator } from "@parallane/ui/components/ui/separator";
+import { createPostAssetImage, deleteImage, useLoading } from "@parallane/utils";
 import { Frown, Link, Plus, Trash, Upload } from "lucide-react";
 import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";

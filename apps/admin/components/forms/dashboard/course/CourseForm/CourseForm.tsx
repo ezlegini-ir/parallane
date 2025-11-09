@@ -4,8 +4,8 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 
 import { createCourse, updateCourse } from "@/actions/course";
-import { Form } from "@ezlegin/ui/components/ui/form";
-import { useLoading } from "@ezlegin/utils";
+import { Form } from "@parallane/ui/components/ui/form";
+import { useLoading } from "@parallane/utils";
 import { CourseFormType, courseFormSchema } from "@/lib/validationSchema";
 import {
   Course,
@@ -18,7 +18,7 @@ import {
   Lesson,
   Prerequisite,
   Tutor,
-} from "@ezlegin/database";
+} from "@parallane/database";
 import { addDays } from "date-fns";
 import { useRouter } from "next/navigation";
 import { useState } from "react";

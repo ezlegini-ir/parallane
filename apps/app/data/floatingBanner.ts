@@ -1,6 +1,6 @@
 "use server";
 
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import { unstable_cache } from "next/cache";
 
 export const getFloatingBanner = unstable_cache(

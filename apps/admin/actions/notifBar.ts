@@ -3,7 +3,7 @@
 //* CREATE ------------------------------------------------------------
 
 import { NotifbarFormType } from "@/lib/validationSchema";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 
 export const createNotifBar = async (data: NotifbarFormType) => {
   const { active, bgColor, content, link, textColor } = data;

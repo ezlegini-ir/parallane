@@ -1,4 +1,4 @@
-import { cn } from "@ezlegin/ui/lib/utils";
+import { cn } from "@parallane/ui/lib/utils";
 
 function Skeleton({
   className,

@@ -1,6 +1,6 @@
 import LoginForm from "@/components/forms/login/LoginForm";
-import EzleginLogoSquare from "@ezlegin/ui/components/EzleginLogoSquare";
-import { Card } from "@ezlegin/ui/components/ui/card";
+import parallaneLogoSquare from "@parallane/ui/components/parallaneLogoSquare";
+import { Card } from "@parallane/ui/components/ui/card";
 import Link from "next/link";
 
 interface Props {
@@ -18,7 +18,7 @@ const page = async ({ searchParams }: Props) => {
 
         <div className="relative z-10 flex flex-col items-center text-center space-y-3">
           <Link href={"/"} className="block">
-            <EzleginLogoSquare size={70} />
+            <parallaneLogoSquare size={70} />
           </Link>
 
           <h2 className="text-xl text-foreground font-medium">

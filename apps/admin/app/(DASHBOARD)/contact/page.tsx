@@ -1,8 +1,8 @@
-import Filter from "@ezlegin/ui/components/Filter";
-import Search from "@ezlegin/ui/components/Search";
-import { globalPageSize, pagination } from "@ezlegin/utils";
-import { database } from "@ezlegin/database";
-import { ContactStatus, Prisma } from "@ezlegin/database";
+import Filter from "@parallane/ui/components/Filter";
+import Search from "@parallane/ui/components/Search";
+import { globalPageSize, pagination } from "@parallane/utils";
+import { database } from "@parallane/database";
+import { ContactStatus, Prisma } from "@parallane/database";
 import PostsList from "./ContactsList";
 interface Props {
   searchParams: Promise<{ page: string; status: string; search: string }>;

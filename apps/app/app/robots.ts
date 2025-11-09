@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { privateRoutes } from "@/middleware";
 
-const url = process.env.NEXT_PUBLIC_BASE_URL || "https://ezlegin.com";
+const url = process.env.NEXT_PUBLIC_BASE_URL || "https://parallane.com";
 
 export default function robots(): MetadataRoute.Robots {
   return {

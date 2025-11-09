@@ -3,12 +3,12 @@
 import { createPost, deletePost, updatePost } from "@/actions/post";
 import { PostType } from "@/app/(DASHBOARD)/posts/list/PostsList";
 import { PostFormType, postFormSchema } from "@/lib/validationSchema";
-import { Admin, PostCategory } from "@ezlegin/database";
-import CardBox from "@ezlegin/ui/components/CardBox";
-import DeleteButton from "@ezlegin/ui/components/DeleteButton";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { Checkbox } from "@ezlegin/ui/components/ui/checkbox";
+import { Admin, PostCategory } from "@parallane/database";
+import CardBox from "@parallane/ui/components/CardBox";
+import DeleteButton from "@parallane/ui/components/DeleteButton";
+import Loader from "@parallane/ui/components/Loader";
+import { Button } from "@parallane/ui/components/ui/button";
+import { Checkbox } from "@parallane/ui/components/ui/checkbox";
 import {
   Form,
   FormControl,
@@ -16,21 +16,21 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
 import {
   RadioGroup,
   RadioGroupItem,
-} from "@ezlegin/ui/components/ui/radio-group";
+} from "@parallane/ui/components/ui/radio-group";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@ezlegin/ui/components/ui/select";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
-import { useImagePreview, useLoading } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/select";
+import { Separator } from "@parallane/ui/components/ui/separator";
+import { useImagePreview, useLoading } from "@parallane/utils";
 import { zodResolver } from "@hookform/resolvers/zod";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -38,9 +38,9 @@ import { useForm } from "react-hook-form";
 import { toast } from "sonner";
 import ImageField from "../../ImageField";
 import dynamic from "next/dynamic";
-import { Skeleton } from "@ezlegin/ui/components/ui/skeleton";
+import { Skeleton } from "@parallane/ui/components/ui/skeleton";
 
-const TextEditor = dynamic(() => import("@ezlegin/editor/Editor"), {
+const TextEditor = dynamic(() => import("@parallane/editor/Editor"), {
   ssr: false,
   loading: () => (
     <Skeleton className="w-full h-[450px] bg-white border rounded-sm" />

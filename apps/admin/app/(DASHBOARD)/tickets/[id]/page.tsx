@@ -1,5 +1,5 @@
 import TicketForm from "@/components/forms/ticket/TicketForm";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import { notFound } from "next/navigation";
 
 interface Props {

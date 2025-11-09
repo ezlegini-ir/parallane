@@ -1,8 +1,8 @@
 import AnimatedTitle from "@/components/animations/AnimatedTitle";
-import { alirezaEzleginiProfile, sketchVideo } from "@/public";
-import Avatar from "@ezlegin/ui/components/Avatar";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { alirezaparallaneiProfile, sketchVideo } from "@/public";
+import Avatar from "@parallane/ui/components/Avatar";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { Button } from "@parallane/ui/components/ui/button";
 import { ArrowDown, Check } from "lucide-react";
 
 const PromiseSection = () => {
@@ -41,7 +41,7 @@ const PromiseSection = () => {
 
         <div className="flex flex-col items-center gap-4">
           <div className="flex flex-col md:flex-row gap-2 items-center">
-            <Avatar src={alirezaEzleginiProfile} size={35} />
+            <Avatar src={alirezaparallaneiProfile} size={35} />
             <p className="text-center md:text-left">
               "See? I meant it when I said A Complete Course! 😎"
             </p>

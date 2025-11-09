@@ -2,7 +2,7 @@
 
 import { Line, LineChart } from "recharts";
 
-import { ChartConfig, ChartContainer } from "@ezlegin/ui/components/ui/chart";
+import { ChartConfig, ChartContainer } from "@parallane/ui/components/ui/chart";
 
 const chartConfig = {
   desktop: {

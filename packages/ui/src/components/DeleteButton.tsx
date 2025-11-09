@@ -8,8 +8,8 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@ezlegin/ui/components/ui/alert-dialog";
-import { Button } from "@ezlegin/ui/components/ui/button";
+} from "@parallane/ui/components/ui/alert-dialog";
+import { Button } from "@parallane/ui/components/ui/button";
 import Loader from "./Loader";
 
 interface Props {

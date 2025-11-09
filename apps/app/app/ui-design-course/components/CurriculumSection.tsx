@@ -2,7 +2,7 @@ import CourseCurriculum, {
   CurriculumType,
 } from "@/app/ui-design-course/components/CourseCurriculum";
 import AnimatedTitle from "@/components/animations/AnimatedTitle";
-import { Card } from "@ezlegin/ui/components/ui/card";
+import { Card } from "@parallane/ui/components/ui/card";
 import { FileText, Video } from "lucide-react";
 import React from "react";
 

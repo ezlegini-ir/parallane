@@ -1,6 +1,6 @@
 "use client";
 
-import { Skeleton } from "@ezlegin/ui/components/ui/skeleton";
+import { Skeleton } from "@parallane/ui/components/ui/skeleton";
 import { Play } from "lucide-react";
 import dynamic from "next/dynamic";
 import { useRef, useState, useMemo } from "react";

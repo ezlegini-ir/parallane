@@ -1,4 +1,4 @@
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import { subDays } from "date-fns";
 import { NextResponse } from "next/server";
 

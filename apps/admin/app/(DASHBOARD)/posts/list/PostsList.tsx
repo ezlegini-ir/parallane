@@ -1,17 +1,17 @@
-import EditButton from "@ezlegin/ui/components/EditButton";
-import Pagination from "@ezlegin/ui/components/Pagination";
-import Table from "@ezlegin/ui/components/Table";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { TableCell, TableRow } from "@ezlegin/ui/components/ui/table";
-import ViewButton from "@ezlegin/ui/components/ViewButton";
-import { formatMiladiDate } from "@ezlegin/utils";
+import EditButton from "@parallane/ui/components/EditButton";
+import Pagination from "@parallane/ui/components/Pagination";
+import Table from "@parallane/ui/components/Table";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { TableCell, TableRow } from "@parallane/ui/components/ui/table";
+import ViewButton from "@parallane/ui/components/ViewButton";
+import { formatMiladiDate } from "@parallane/utils";
 import { placeHolder } from "@/public";
 import {
   Admin,
   Image as ImageType,
   Post,
   PostCategory,
-} from "@ezlegin/database";
+} from "@parallane/database";
 import Image from "next/image";
 import Link from "next/link";
 import { getPageViews } from "@/data/ga";

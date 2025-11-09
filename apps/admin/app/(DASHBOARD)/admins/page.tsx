@@ -1,17 +1,17 @@
-import Filter from "@ezlegin/ui/components/Filter";
+import Filter from "@parallane/ui/components/Filter";
 import AdminForm from "@/components/forms/dashboard/admin/AdminForm";
-import NewButton from "@ezlegin/ui/components/NewButton";
+import NewButton from "@parallane/ui/components/NewButton";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@ezlegin/ui/components/ui/dialog";
-import { database } from "@ezlegin/database";
-import { AdminRole } from "@ezlegin/database";
+} from "@parallane/ui/components/ui/dialog";
+import { database } from "@parallane/database";
+import { AdminRole } from "@parallane/database";
 import AdminsList from "./AdminsList";
-import { globalPageSize, pagination } from "@ezlegin/utils";
+import { globalPageSize, pagination } from "@parallane/utils";
 interface Props {
   searchParams: Promise<{ page: string; filter: string; search: string }>;
 }

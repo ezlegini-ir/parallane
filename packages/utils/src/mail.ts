@@ -24,7 +24,7 @@ export const sendEmail = async ({
 }) => {
   try {
     const { data, error } = await resend.emails.send({
-      from: "Ezlegin <admin@ezlegin.com>",
+      from: "parallane <admin@parallane.com>",
       to,
       subject,
       html,
@@ -78,7 +78,7 @@ export const sendResetPasswordEmail = async (email: string, token: string) => {
     const emailHtml = await renderResetPasswordEmail(token, email);
 
     await sendEmail({
-      subject: `🔒 Reset Password | Ezlegin`,
+      subject: `🔒 Reset Password | parallane`,
       to: email,
       html: emailHtml,
     });

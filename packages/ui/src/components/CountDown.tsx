@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { Progress } from "@ezlegin/ui/components/ui/progress";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
+import { Progress } from "@parallane/ui/components/ui/progress";
+import { Badge } from "@parallane/ui/components/ui/badge";
 
 interface Props {
   seconds: number;

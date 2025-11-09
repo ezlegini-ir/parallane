@@ -1,4 +1,4 @@
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import CompletedCourses from "./components/CompletedCourses";
 import { getSessionUser } from "@/data/user";
 import RunningCourses from "../components/RunningCourses";

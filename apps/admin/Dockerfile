@@ -47,7 +47,7 @@
   RUN apk update && apk add --no-cache nano
   RUN apk add --no-cache mysql mysql-client
 
-  ENV DATABASE_URL="mysql://root@database:3306/ezlegin"
+  ENV DATABASE_URL="mysql://root@database:3306/parallane"
   ENV AUTH_APP="admin"
   
   # Create user and set permissions

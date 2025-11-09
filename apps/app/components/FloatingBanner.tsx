@@ -6,8 +6,8 @@ import {
   Coupon,
   Image as ImageType,
   FloatingBanner as MyFloatingBanner,
-} from "@ezlegin/database";
-import { Button } from "@ezlegin/ui/components/ui/button";
+} from "@parallane/database";
+import { Button } from "@parallane/ui/components/ui/button";
 import { Copy, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";

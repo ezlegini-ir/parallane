@@ -2,8 +2,8 @@
 
 import { getUserById } from "@/data/user";
 import { studentFormSchema, StudentFormType } from "@/lib/validationSchema";
-import { database } from "@ezlegin/database";
-import { uploadCloudFile } from "@ezlegin/utils";
+import { database } from "@parallane/database";
+import { uploadCloudFile } from "@parallane/utils";
 import { UploadApiResponse } from "cloudinary";
 
 //* CREATE ------------------------------------------------------------

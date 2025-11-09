@@ -1,9 +1,9 @@
 "use server";
 
 import { SlidersFormType } from "@/lib/validationSchema";
-import { database, SliderType } from "@ezlegin/database";
+import { database, SliderType } from "@parallane/database";
 import { UploadApiResponse } from "cloudinary";
-import { deleteCloudFile, uploadManyCloudFiles } from "@ezlegin/utils";
+import { deleteCloudFile, uploadManyCloudFiles } from "@parallane/utils";
 
 //* CREATE ------------------------------------------------------------
 

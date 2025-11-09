@@ -1,17 +1,17 @@
 "use client";
 
 import { verifyCertificate } from "@/actions/certificate";
-import { Certificate, Course, Enrollment, User } from "@ezlegin/database";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Certificate, Course, Enrollment, User } from "@parallane/database";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Form,
   FormControl,
   FormField,
   FormItem,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
-import { useLoading } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
+import { useLoading } from "@parallane/utils";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { formatDate } from "date-fns";
 import { CheckCircle, XCircle } from "lucide-react";

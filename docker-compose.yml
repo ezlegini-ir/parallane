@@ -41,8 +41,8 @@ services:
     platform: linux/amd64
     restart: always
     environment:
-      DATABASE_URL: mysql://root:R@MIN3517r@m@localhost:3306/ezlegin
-      MYSQL_DATABASE: ezlegin
+      DATABASE_URL: mysql://root:R@MIN3517r@m@localhost:3306/parallane
+      MYSQL_DATABASE: parallane
       MYSQL_ALLOW_EMPTY_PASSWORD: "1"
     volumes:
       - database:/var/lib/mysql
@@ -65,14 +65,14 @@ services:
     container_name: tutor
     restart: always
     env_file:
-      - /root/projects/ezlegin/apps/tutor/.env.local
+      - /root/projects/parallane/apps/tutor/.env.local
     environment:
       VIRTUAL_PORT: 3000
-      VIRTUAL_HOST: tutor.ezlegin.com
-      LETSENCRYPT_HOST: tutor.ezlegin.com
-      LETSENCRYPT_EMAIL: admin@ezlegin.com
-      DATABASE_URL: "mysql://root@database:3306/ezlegin"
-      NEXTAUTH_URL: https://tutor.ezlegin.com
+      VIRTUAL_HOST: tutor.parallane.com
+      LETSENCRYPT_HOST: tutor.parallane.com
+      LETSENCRYPT_EMAIL: admin@parallane.com
+      DATABASE_URL: "mysql://root@database:3306/parallane"
+      NEXTAUTH_URL: https://tutor.parallane.com
       CLIENT_MAX_BODY_SIZE: 10m
     depends_on:
       database:
@@ -94,13 +94,13 @@ services:
     container_name: admin
     restart: always
     env_file:
-      - /root/projects/ezlegin/apps/admin/.env.local
+      - /root/projects/parallane/apps/admin/.env.local
     environment:
       VIRTUAL_PORT: 3000
-      VIRTUAL_HOST: admin.ezlegin.com
-      LETSENCRYPT_HOST: admin.ezlegin.com
-      LETSENCRYPT_EMAIL: admin@ezlegin.com
-      NEXTAUTH_URL: https://admin.ezlegin.com
+      VIRTUAL_HOST: admin.parallane.com
+      LETSENCRYPT_HOST: admin.parallane.com
+      LETSENCRYPT_EMAIL: admin@parallane.com
+      NEXTAUTH_URL: https://admin.parallane.com
       CLIENT_MAX_BODY_SIZE: 10m
     depends_on:
       database:
@@ -109,7 +109,7 @@ services:
       - app_network
     volumes:
       - db_backups:/app/backups
-      - /root/projects/ezlegin/apps/admin/ga.json:/app/ga.json:ro # Google Analytics
+      - /root/projects/parallane/apps/admin/ga.json:/app/ga.json:ro # Google Analytics
 
   #! App service
   app:
@@ -123,13 +123,13 @@ services:
     container_name: app
     restart: always
     env_file:
-      - /root/projects/ezlegin/apps/app/.env.local
+      - /root/projects/parallane/apps/app/.env.local
     environment:
       VIRTUAL_PORT: 3000
-      VIRTUAL_HOST: ezlegin.com
-      LETSENCRYPT_HOST: ezlegin.com
-      LETSENCRYPT_EMAIL: admin@ezlegin.com
-      NEXTAUTH_URL: https://ezlegin.com
+      VIRTUAL_HOST: parallane.com
+      LETSENCRYPT_HOST: parallane.com
+      LETSENCRYPT_EMAIL: admin@parallane.com
+      NEXTAUTH_URL: https://parallane.com
       CLIENT_MAX_BODY_SIZE: 10m
     depends_on:
       database:

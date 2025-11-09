@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Course } from "@ezlegin/database";
-import SearchField from "@ezlegin/ui/components/SearchField";
+import { Course } from "@parallane/database";
+import SearchField from "@parallane/ui/components/SearchField";
 import { getCourseById } from "@/data/course";
 import { searchCourses } from "@/data/search";
 

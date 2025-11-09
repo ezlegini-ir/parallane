@@ -4,24 +4,24 @@ import { deleteImage } from "@/actions/image";
 import { deleteSlider } from "@/actions/slider";
 import { SlidersFormType } from "@/lib/validationSchema";
 import { sliderPlaceholder } from "@/public";
-import Loader from "@ezlegin/ui/components/Loader";
+import Loader from "@parallane/ui/components/Loader";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@ezlegin/ui/components/ui/accordion";
-import { Button } from "@ezlegin/ui/components/ui/button";
+} from "@parallane/ui/components/ui/accordion";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   FormControl,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
-import { Switch } from "@ezlegin/ui/components/ui/switch";
-import { useLoading } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
+import { Switch } from "@parallane/ui/components/ui/switch";
+import { useLoading } from "@parallane/utils";
 import { Trash } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";

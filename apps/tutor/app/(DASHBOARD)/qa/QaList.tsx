@@ -1,11 +1,11 @@
-import Avatar from "@ezlegin/ui/components/Avatar";
-import Pagination from "@ezlegin/ui/components/Pagination";
-import Table from "@ezlegin/ui/components/Table";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { TableCell, TableRow } from "@ezlegin/ui/components/ui/table";
-import ViewButton from "@ezlegin/ui/components/ViewButton";
+import Avatar from "@parallane/ui/components/Avatar";
+import Pagination from "@parallane/ui/components/Pagination";
+import Table from "@parallane/ui/components/Table";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { TableCell, TableRow } from "@parallane/ui/components/ui/table";
+import ViewButton from "@parallane/ui/components/ViewButton";
 import { placeHolder } from "@/public";
-import { AskTutor, Course, Image as ImageType, User } from "@ezlegin/database";
+import { AskTutor, Course, Image as ImageType, User } from "@parallane/database";
 import Image from "next/image";
 import { formatDate } from "date-fns";
 

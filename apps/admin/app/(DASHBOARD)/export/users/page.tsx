@@ -1,5 +1,5 @@
 import { ExportTabs } from "@/components/ExportTabs";
-import Title from "@ezlegin/ui/components/Title";
+import Title from "@parallane/ui/components/Title";
 
 const page = () => {
   return (

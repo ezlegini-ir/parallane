@@ -1,7 +1,7 @@
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import TicketSidebar from "./components/TicketSidebar";
 import TicketChat from "./components/TicketChat";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import { notFound } from "next/navigation";
 import { cache } from "react";
 import { Metadata } from "next";

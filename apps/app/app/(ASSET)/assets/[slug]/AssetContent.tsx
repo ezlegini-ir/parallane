@@ -4,23 +4,23 @@ import { addDownloadCount as downloadAsset } from "@/actions/asset";
 import LoginForm from "@/components/forms/login/LoginForm";
 import { getSessionUser } from "@/data/user";
 import { placeHolder } from "@/public";
-import { Asset, Image as ImageType } from "@ezlegin/database";
-import EzleginLogoSquare from "@ezlegin/ui/components/EzleginLogoSquare";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Asset, Image as ImageType } from "@parallane/database";
+import parallaneLogoSquare from "@parallane/ui/components/parallaneLogoSquare";
+import Loader from "@parallane/ui/components/Loader";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
-} from "@ezlegin/ui/components/ui/dialog";
+} from "@parallane/ui/components/ui/dialog";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@ezlegin/ui/components/ui/tooltip";
-import { useLoading } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/tooltip";
+import { useLoading } from "@parallane/utils";
 import { formatDate } from "date-fns";
 import { Download, Info } from "lucide-react";
 import Image from "next/image";
@@ -72,12 +72,12 @@ const AssetContent = ({ asset }: Props) => {
     <div className="flex flex-col gap-10 items-center">
       <div className="flex justify-between items-center gap-4 flex-wrap w-full">
         <div className="flex gap-3 items-center">
-          <EzleginLogoSquare />
+          <parallaneLogoSquare />
           <div>
             <h1 className="text-xl">{asset.title}</h1>
             <span className="text-sm text-muted-foreground">
               {" "}
-              Ezlegin Assets
+              parallane Assets
             </span>
           </div>
         </div>

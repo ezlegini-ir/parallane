@@ -6,7 +6,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@ezlegin/ui/components/ui/select";
+} from "@parallane/ui/components/ui/select";
 import { Dispatch, SetStateAction } from "react";
 
 interface Props {

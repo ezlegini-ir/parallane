@@ -1,4 +1,4 @@
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import { FileWarning } from "lucide-react";
 import { Metadata } from "next";
 import Link from "next/link";

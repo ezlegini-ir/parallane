@@ -1,17 +1,17 @@
-import Filter from "@ezlegin/ui/components/Filter";
+import Filter from "@parallane/ui/components/Filter";
 import CouponForm from "@/components/forms/marketing/CouponForm";
-import Search from "@ezlegin/ui/components/Search";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import Search from "@parallane/ui/components/Search";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@ezlegin/ui/components/ui/dialog";
-import { pagination } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/dialog";
+import { pagination } from "@parallane/utils";
 import CouponsList from "./CouponsList";
-import { CouponType, Prisma, database } from "@ezlegin/database";
+import { CouponType, Prisma, database } from "@parallane/database";
 
 interface Props {
   searchParams: Promise<{

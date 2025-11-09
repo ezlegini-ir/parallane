@@ -5,9 +5,9 @@ import {
   personalInfoFormSchema,
   PersonalInfoFormType,
 } from "@/lib/validationSchema";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { CardContent, CardHeader } from "@ezlegin/ui/components/ui/card";
+import Loader from "@parallane/ui/components/Loader";
+import { Button } from "@parallane/ui/components/ui/button";
+import { CardContent, CardHeader } from "@parallane/ui/components/ui/card";
 import {
   Form,
   FormControl,
@@ -15,9 +15,9 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
-import { useLoading } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
+import { useLoading } from "@parallane/utils";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { redirect, useSearchParams } from "next/navigation";
 import { useForm } from "react-hook-form";

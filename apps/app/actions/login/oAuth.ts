@@ -1,6 +1,6 @@
 "use server";
 
-import { signIn } from "@ezlegin/auth";
+import { signIn } from "@parallane/auth";
 
 export const GoogleOAuthSignIn = async ({
   callbackUrl,

@@ -1,7 +1,7 @@
 "use server";
 
 import { getAdminByEmail } from "@/data/admin";
-import { isHumanOrNot, sendOtpEmail } from "@ezlegin/utils";
+import { isHumanOrNot, sendOtpEmail } from "@parallane/utils";
 import bcrypt from "bcrypt";
 
 export const verifyLogin = async (

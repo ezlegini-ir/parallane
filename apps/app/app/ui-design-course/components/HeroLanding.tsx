@@ -1,8 +1,8 @@
 import React from "react";
 import CourseTitle from "./CourseTitle";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import { ArrowDown } from "lucide-react";
-import TizerVideo from "@ezlegin/ui/components/TizerVideo";
+import TizerVideo from "@parallane/ui/components/TizerVideo";
 
 interface Props {
   courseSummary: string;

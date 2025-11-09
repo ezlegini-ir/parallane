@@ -1,7 +1,7 @@
-import { ezleginLogoSquare } from "@/public";
-import Avatar from "@ezlegin/ui/components/Avatar";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { truncateFileName } from "@ezlegin/utils";
+import { parallaneLogoSquare } from "@/public";
+import Avatar from "@parallane/ui/components/Avatar";
+import { Button } from "@parallane/ui/components/ui/button";
+import { truncateFileName } from "@parallane/utils";
 import { formatDate } from "date-fns";
 import { Download } from "lucide-react";
 import Image from "next/image";
@@ -22,7 +22,7 @@ const TicketMessages = ({ messages }: TicketMessagesProps) => {
                 {message.senderType === "ADMIN" ? (
                   <Image
                     alt=""
-                    src={ezleginLogoSquare}
+                    src={parallaneLogoSquare}
                     width={40}
                     height={40}
                   />
@@ -33,7 +33,7 @@ const TicketMessages = ({ messages }: TicketMessagesProps) => {
                 <div className="flex flex-col text-muted-foreground">
                   <span>
                     {message.senderType === "ADMIN"
-                      ? "Ezlegin"
+                      ? "parallane"
                       : message.user?.name}
                   </span>
                   <span className="text-[10px] ">

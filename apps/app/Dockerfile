@@ -34,7 +34,7 @@
   ENV DATABASE_URL=${DATABASE_URL}
   ARG NEXT_PUBLIC_RECAPTCHA_SITE_KEY
   ENV NEXT_PUBLIC_RECAPTCHA_SITE_KEY=${NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-  ENV NEXT_PUBLIC_BASE_URL="https://ezlegin.com"
+  ENV NEXT_PUBLIC_BASE_URL="https://parallane.com"
   ENV AUTH_APP="app"
 
   RUN npx prisma generate --schema=packages/database/prisma/schema.prisma

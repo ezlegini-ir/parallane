@@ -1,6 +1,6 @@
 import MainSlidersForm from "@/components/forms/announcement/MainSlidersForm";
 import PanelSlidersForm from "@/components/forms/announcement/PanelSlidersForm";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 
 const page = async () => {
   const mainSliders = await database.slider.findMany({

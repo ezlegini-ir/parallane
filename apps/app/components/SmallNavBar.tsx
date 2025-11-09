@@ -1,6 +1,6 @@
-import Avatar from "@ezlegin/ui/components/Avatar";
-import EzleginLogoSquare from "@ezlegin/ui/components/EzleginLogoSquare";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import Avatar from "@parallane/ui/components/Avatar";
+import parallaneLogoSquare from "@parallane/ui/components/parallaneLogoSquare";
+import { Button } from "@parallane/ui/components/ui/button";
 import { User } from "lucide-react";
 import Link from "next/link";
 import { NavbarProps } from "./NavBar";
@@ -9,7 +9,7 @@ const SmallNavBar = ({ user }: NavbarProps) => {
   return (
     <div className="flex justify-between">
       <Link href={"/"}>
-        <EzleginLogoSquare size={48} />
+        <parallaneLogoSquare size={48} />
       </Link>
 
       <div className="flex gap-2 text-foreground">

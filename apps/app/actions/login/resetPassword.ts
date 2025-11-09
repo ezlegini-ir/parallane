@@ -1,8 +1,8 @@
 "use server";
 
 import { getUserByEmail } from "@/data/user";
-import { database } from "@ezlegin/database";
-import { sendResetPasswordEmail } from "@ezlegin/utils";
+import { database } from "@parallane/database";
+import { sendResetPasswordEmail } from "@parallane/utils";
 import { addMinutes } from "date-fns";
 import { v4 as uuidv4 } from "uuid";
 import bcrypt from "bcrypt";

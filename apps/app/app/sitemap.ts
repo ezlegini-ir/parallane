@@ -3,7 +3,7 @@ import type { MetadataRoute } from "next";
 
 export const dynamic = "force-dynamic";
 
-const url = process.env.NEXT_PUBLIC_BASE_URL || "https://ezlegin.com";
+const url = process.env.NEXT_PUBLIC_BASE_URL || "https://parallane.com";
 type ChangeFreq =
   | "daily"
   | "yearly"

@@ -1,6 +1,6 @@
 import TicketMessageForm from "@/components/forms/TicketMessageForm";
-import { File, TicketMessage, User } from "@ezlegin/database";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
+import { File, TicketMessage, User } from "@parallane/database";
+import { Separator } from "@parallane/ui/components/ui/separator";
 import TicketMessages from "./TicketMessages";
 
 export interface TicketMessagesProps {

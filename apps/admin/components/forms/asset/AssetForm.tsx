@@ -4,10 +4,10 @@ import { createAsset, deleteAsset, updateAsset } from "@/actions/asset";
 import { AssetType } from "@/app/(DASHBOARD)/assets/list/AssetsList";
 import { assetFormSchema, AssetFormType } from "@/lib/validationSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
-import CardBox from "@ezlegin/ui/components/CardBox";
-import DeleteButton from "@ezlegin/ui/components/DeleteButton";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import CardBox from "@parallane/ui/components/CardBox";
+import DeleteButton from "@parallane/ui/components/DeleteButton";
+import Loader from "@parallane/ui/components/Loader";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Form,
   FormControl,
@@ -15,17 +15,17 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@ezlegin/ui/components/ui/select";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
-import { useImagePreview, useLoading } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/select";
+import { Separator } from "@parallane/ui/components/ui/separator";
+import { useImagePreview, useLoading } from "@parallane/utils";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";

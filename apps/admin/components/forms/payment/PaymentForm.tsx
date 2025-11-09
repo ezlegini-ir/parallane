@@ -4,7 +4,7 @@ import { EnrollmentFormType } from "@/lib/validationSchema";
 import { useState } from "react";
 
 import { createPayment, updatePayment } from "@/actions/payment";
-import { Form } from "@ezlegin/ui/components/ui/form";
+import { Form } from "@parallane/ui/components/ui/form";
 import { paymentFormSchema } from "@/lib/validationSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import {
@@ -15,7 +15,7 @@ import {
   Tutor,
   User,
   Wallet,
-} from "@ezlegin/database";
+} from "@parallane/database";
 import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";

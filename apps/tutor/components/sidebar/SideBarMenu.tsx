@@ -4,7 +4,7 @@ import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "@ezlegin/ui/components/ui/collapsible";
+} from "@parallane/ui/components/ui/collapsible";
 import {
   SidebarGroup,
   SidebarGroupContent,
@@ -14,8 +14,8 @@ import {
   SidebarMenuItem,
   SidebarMenuSub,
   SidebarMenuSubItem,
-} from "@ezlegin/ui/components/ui/sidebar";
-import { tutorDashboardMenu } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/sidebar";
+import { tutorDashboardMenu } from "@parallane/utils";
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";

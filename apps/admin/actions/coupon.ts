@@ -1,7 +1,7 @@
 "use server";
 
 import { CouponFormType } from "@/lib/validationSchema";
-import { database, Prisma } from "@ezlegin/database";
+import { database, Prisma } from "@parallane/database";
 
 //* CREATE ------------------------------------------------------
 

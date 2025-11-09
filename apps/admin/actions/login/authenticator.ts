@@ -1,6 +1,6 @@
 "use server";
 
-import { signIn } from "@ezlegin/auth";
+import { signIn } from "@parallane/auth";
 import { redirect } from "next/navigation";
 
 export const authenticator = async (identifier: string) => {

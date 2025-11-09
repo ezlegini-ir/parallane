@@ -1,5 +1,5 @@
-import Avatar from "@ezlegin/ui/components/Avatar";
-import { Course, Review, User } from "@ezlegin/database";
+import Avatar from "@parallane/ui/components/Avatar";
+import { Course, Review, User } from "@parallane/database";
 import { Star } from "lucide-react";
 import CardBox from "./CardBox";
 

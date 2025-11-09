@@ -1,14 +1,14 @@
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { Button } from "@parallane/ui/components/ui/button";
+import { Separator } from "@parallane/ui/components/ui/separator";
 import { placeHolder } from "@/public";
 import { Eye, Pencil, Star } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { CourseType } from "./CoursesList";
-import Avatar from "@ezlegin/ui/components/Avatar";
-import { Enrollment } from "@ezlegin/database";
-import { formatPrice } from "@ezlegin/utils";
+import Avatar from "@parallane/ui/components/Avatar";
+import { Enrollment } from "@parallane/database";
+import { formatPrice } from "@parallane/utils";
 
 interface Props {
   course: CourseType;

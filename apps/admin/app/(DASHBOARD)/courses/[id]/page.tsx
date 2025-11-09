@@ -1,7 +1,7 @@
 import CourseForm from "@/components/forms/dashboard/course/CourseForm/CourseForm";
 import { getCourseById } from "@/data/course";
 import { getAllTutors } from "@/data/tutor";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import { notFound } from "next/navigation";
 
 interface Props {

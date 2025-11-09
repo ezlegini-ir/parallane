@@ -1,6 +1,6 @@
 "use server";
 
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 
 export const getReviewByUserIdAndCourseId = async (
   userId: number,

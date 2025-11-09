@@ -1,15 +1,15 @@
 import TutorForm from "@/components/forms/tutor/TutorForm";
-import NewButton from "@ezlegin/ui/components/NewButton";
+import NewButton from "@parallane/ui/components/NewButton";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@ezlegin/ui/components/ui/dialog";
-import { database } from "@ezlegin/database";
+} from "@parallane/ui/components/ui/dialog";
+import { database } from "@parallane/database";
 import TutorsList from "./TutorsList";
-import { globalPageSize, pagination } from "@ezlegin/utils";
+import { globalPageSize, pagination } from "@parallane/utils";
 interface Props {
   searchParams: Promise<{ page: string; search: string }>;
 }

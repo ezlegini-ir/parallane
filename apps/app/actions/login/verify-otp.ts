@@ -1,7 +1,7 @@
 "use server";
 
-import { database } from "@ezlegin/database";
-import { isHumanOrNot } from "@ezlegin/utils";
+import { database } from "@parallane/database";
+import { isHumanOrNot } from "@parallane/utils";
 import bcrypt from "bcryptjs";
 
 export const verifyOtp = async (

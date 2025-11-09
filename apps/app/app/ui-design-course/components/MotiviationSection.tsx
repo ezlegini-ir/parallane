@@ -9,7 +9,7 @@ const MotiviationSection = () => {
       <div className="flex flex-wrap md:flex-nowrap items-center md:gap-10">
         <div className="md:w-1/3">
           <Image
-            alt="Alireza Ezlegini"
+            alt="Alireza parallanei"
             src={alirezaEzlegniPointing}
             width={400}
             height={400}
@@ -40,7 +40,7 @@ const MotiviationSection = () => {
           </p>
 
           <div>
-            <p>Alireza Ezlegini</p>
+            <p>Alireza parallanei</p>
             <p className="text-muted-foreground text-xs">
               Senior Web Designer & Developer
             </p>

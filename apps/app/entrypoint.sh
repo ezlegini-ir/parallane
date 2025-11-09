@@ -7,7 +7,7 @@ done
 
 # echo "🛡 Creating database backup before migration..."
 
-# mysqldump --host=database --user=root --protocol=tcp ezlegin > /app/backups/ezlegin_backup_$(date +%F_%T).sql
+# mysqldump --host=database --user=root --protocol=tcp parallane > /app/backups/parallane_backup_$(date +%F_%T).sql
 
 # if [ $? -eq 0 ]; then
 #   echo "✅ Backup created successfully."

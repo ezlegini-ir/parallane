@@ -1,7 +1,7 @@
 "use server";
 
 import { CommentFormType } from "@/lib/validationSchema";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 
 //* CREATE ------------------------------------------------------------
 

@@ -1,7 +1,7 @@
 // AnimatedShadcnButton.tsx
 "use client";
 
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import { motion } from "framer-motion";
 import React from "react";
 

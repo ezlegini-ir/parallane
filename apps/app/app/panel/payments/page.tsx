@@ -1,4 +1,4 @@
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import PaymentsList from "./PaymentsList";
 import { getSessionUser } from "@/data/user";
 import { Metadata } from "next";

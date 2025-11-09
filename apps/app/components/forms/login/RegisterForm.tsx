@@ -6,14 +6,14 @@ import {
   registerUserFormSchema,
   RegisterUserFormType,
 } from "@/lib/validationSchema";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import Loader from "@parallane/ui/components/Loader";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardTitle,
-} from "@ezlegin/ui/components/ui/card";
+} from "@parallane/ui/components/ui/card";
 import {
   Form,
   FormControl,
@@ -21,9 +21,9 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
-import { sendOtpEmail, useLoading } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
+import { sendOtpEmail, useLoading } from "@parallane/utils";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Check, Handshake } from "lucide-react";
 import Link from "next/link";
@@ -187,7 +187,7 @@ const RegisterForm = ({
                   <Handshake size={40} />
 
                   <span>
-                    By registering on Ezlegin, you agree to its{" "}
+                    By registering on parallane, you agree to its{" "}
                     <Link
                       className="underline text-primary"
                       href={"/terms-and-conditions"}

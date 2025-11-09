@@ -1,4 +1,4 @@
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import { NextResponse } from "next/server";
 
 export async function DELETE(req: Request) {

@@ -1,6 +1,6 @@
 import { getSessionUser } from "@/data/user";
-import { database } from "@ezlegin/database";
-import BreadCrumb from "@ezlegin/ui/components/BreadCrumb";
+import { database } from "@parallane/database";
+import BreadCrumb from "@parallane/ui/components/BreadCrumb";
 import { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
 import { cache } from "react";

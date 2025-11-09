@@ -1,8 +1,8 @@
 import { Search, X } from "lucide-react";
 import React, { JSX, useEffect, useRef, useState } from "react";
-import { Input } from "@ezlegin/ui/components/ui/input";
-import { useLoading } from "@ezlegin/utils";
-import Loader from "@ezlegin/ui/components/Loader";
+import { Input } from "@parallane/ui/components/ui/input";
+import { useLoading } from "@parallane/utils";
+import Loader from "@parallane/ui/components/Loader";
 
 interface SearchFieldProps<T> {
   placeholder?: string;

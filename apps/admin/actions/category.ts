@@ -6,9 +6,9 @@ import {
   getPostCategoryById,
   getPostCategoryByUrl,
 } from "@/data/category";
-import { encodeUrl as encodeSlug } from "@ezlegin/utils";
+import { encodeUrl as encodeSlug } from "@parallane/utils";
 import { CategoryFormType } from "@/lib/validationSchema";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 
 export type CategoryFor = "POST" | "COURSE";
 

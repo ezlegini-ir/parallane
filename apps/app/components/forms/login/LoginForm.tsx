@@ -1,7 +1,7 @@
 "use client";
 
-import { User } from "@ezlegin/database";
-import RecaptchaWrapper from "@ezlegin/ui/components/RecaptchaWrapper";
+import { User } from "@parallane/database";
+import RecaptchaWrapper from "@parallane/ui/components/RecaptchaWrapper";
 import { Dispatch, SetStateAction, useState } from "react";
 import ResetPasswordInputForm from "./ResetPasswordInputForm";
 import InputForm from "./InputForm";

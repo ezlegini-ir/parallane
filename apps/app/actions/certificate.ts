@@ -1,7 +1,7 @@
 "use server";
 
-import { isHumanOrNot } from "@ezlegin/utils";
-import { database } from "@ezlegin/database";
+import { isHumanOrNot } from "@parallane/utils";
+import { database } from "@parallane/database";
 
 export const verifyCertificate = async (
   serial: string,
@@ -25,13 +25,13 @@ export const verifyCertificate = async (
     if (certificate) {
       return {
         success:
-          "This Certificate is valid and registered in Ezlegin's system.",
+          "This Certificate is valid and registered in parallane's system.",
         certificate,
       };
     } else {
       return {
         error:
-          "This Certificate is not valid and registered in Ezlegin's system. ",
+          "This Certificate is not valid and registered in parallane's system. ",
       };
     }
   } catch (error) {

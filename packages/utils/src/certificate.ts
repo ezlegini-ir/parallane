@@ -1,7 +1,7 @@
 "use server";
 
-import { User } from "@ezlegin/database";
-import { formatDuration } from "@ezlegin/utils";
+import { User } from "@parallane/database";
+import { formatDuration } from "@parallane/utils";
 import { format } from "date-fns";
 import path from "path";
 import PDFDocument from "pdfkit";

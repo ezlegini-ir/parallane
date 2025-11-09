@@ -1,4 +1,4 @@
-import RecaptchaWrapper from "@ezlegin/ui/components/RecaptchaWrapper";
+import RecaptchaWrapper from "@parallane/ui/components/RecaptchaWrapper";
 import { getSessionTutor } from "@/data/tutor";
 import { redirect } from "next/navigation";
 import { ReactNode } from "react";

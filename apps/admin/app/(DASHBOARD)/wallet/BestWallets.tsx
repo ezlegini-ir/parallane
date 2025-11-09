@@ -1,6 +1,6 @@
-import { User, Wallet } from "@ezlegin/database";
-import Avatar from "@ezlegin/ui/components/Avatar";
-import { formatPrice } from "@ezlegin/utils";
+import { User, Wallet } from "@parallane/database";
+import Avatar from "@parallane/ui/components/Avatar";
+import { formatPrice } from "@parallane/utils";
 import { formatDistance } from "date-fns";
 import Link from "next/link";
 

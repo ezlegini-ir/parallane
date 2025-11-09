@@ -1,6 +1,6 @@
 "use server";
 
-import { signIn } from "@ezlegin/auth";
+import { signIn } from "@parallane/auth";
 import type { AuthError as _AuthError } from "next-auth";
 
 export const signInUser = async ({

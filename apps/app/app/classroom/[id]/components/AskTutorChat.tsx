@@ -4,10 +4,10 @@ import {
   Image as ImageType,
   Tutor,
   User,
-} from "@ezlegin/database";
-import Avatar from "@ezlegin/ui/components/Avatar";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { truncateFileName } from "@ezlegin/utils";
+} from "@parallane/database";
+import Avatar from "@parallane/ui/components/Avatar";
+import { Button } from "@parallane/ui/components/ui/button";
+import { truncateFileName } from "@parallane/utils";
 import { formatDate } from "date-fns";
 import { Download } from "lucide-react";
 import Link from "next/link";

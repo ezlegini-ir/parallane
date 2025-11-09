@@ -1,7 +1,7 @@
 "use client";
 
-import Bg from "@ezlegin/ui/components/bg";
-import { MyBarChart, MyLineChart } from "@ezlegin/ui/components/MyCharts";
+import Bg from "@parallane/ui/components/bg";
+import { MyBarChart, MyLineChart } from "@parallane/ui/components/MyCharts";
 import { EllipsisVertical, MoveDownRight, MoveUpRight } from "lucide-react";
 import { JSX } from "react";
 

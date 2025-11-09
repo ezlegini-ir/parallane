@@ -1,10 +1,10 @@
-import Filter from "@ezlegin/ui/components/Filter";
-import NewButton from "@ezlegin/ui/components/NewButton";
-import Search from "@ezlegin/ui/components/Search";
-import { database } from "@ezlegin/database";
+import Filter from "@parallane/ui/components/Filter";
+import NewButton from "@parallane/ui/components/NewButton";
+import Search from "@parallane/ui/components/Search";
+import { database } from "@parallane/database";
 import EnrollmentsList from "./EnrollmentsList";
-import { globalPageSize, pagination } from "@ezlegin/utils";
-import { EnrollmentStatus, Prisma } from "@ezlegin/database";
+import { globalPageSize, pagination } from "@parallane/utils";
+import { EnrollmentStatus, Prisma } from "@parallane/database";
 
 interface Props {
   searchParams: Promise<{

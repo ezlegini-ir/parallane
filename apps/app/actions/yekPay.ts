@@ -1,6 +1,6 @@
 "use server";
 
-import { User } from "@ezlegin/database";
+import { User } from "@parallane/database";
 import axios from "axios";
 
 interface PurchaseParams {
@@ -47,7 +47,7 @@ export async function initiatePurchase(params: PurchaseParams) {
       callback:
         process.env.NODE_ENV === "development"
           ? "http://localhost:3000/api/payment-result"
-          : "https://ezlegin.com/api/payment-result",
+          : "https://parallane.com/api/payment-result",
       firstName,
       lastName,
       email,

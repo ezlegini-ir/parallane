@@ -1,10 +1,10 @@
 {
-  "name": "@ezlegin/editor",
+  "name": "@parallane/editor",
   "version": "0.0.0",
   "main": "index.js",
   "dependencies": {
-    "@ezlegin/database": "*",
-    "@ezlegin/ui": "*",
+    "@parallane/database": "*",
+    "@parallane/ui": "*",
     "@lexical/clipboard": "^0.27.2",
     "@lexical/code": "^0.27.2",
     "@lexical/file": "^0.27.2",

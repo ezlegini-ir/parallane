@@ -1,7 +1,7 @@
-import CardBox from "@ezlegin/ui/components/CardBox";
-import Table from "@ezlegin/ui/components/Table";
-import { TableCell, TableRow } from "@ezlegin/ui/components/ui/table";
-import { Comment, Post, User } from "@ezlegin/database";
+import CardBox from "@parallane/ui/components/CardBox";
+import Table from "@parallane/ui/components/Table";
+import { TableCell, TableRow } from "@parallane/ui/components/ui/table";
+import { Comment, Post, User } from "@parallane/database";
 import Link from "next/link";
 
 interface CommentType extends Comment {

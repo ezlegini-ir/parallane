@@ -1,12 +1,12 @@
-import { Badge } from "@ezlegin/ui/components/ui/badge";
+import { Badge } from "@parallane/ui/components/ui/badge";
 import { Banknote } from "lucide-react";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@ezlegin/ui/components/ui/tooltip";
-import { cashBackCalculator, formatPrice } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/tooltip";
+import { cashBackCalculator, formatPrice } from "@parallane/utils";
 
 const CashBackCard = ({ price }: { price: number }) => {
   const cashBackAmount = cashBackCalculator(price);

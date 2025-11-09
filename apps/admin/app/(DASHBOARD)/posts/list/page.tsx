@@ -1,11 +1,11 @@
-import Filter from "@ezlegin/ui/components/Filter";
-import NewButton from "@ezlegin/ui/components/NewButton";
-import Search from "@ezlegin/ui/components/Search";
+import Filter from "@parallane/ui/components/Filter";
+import NewButton from "@parallane/ui/components/NewButton";
+import Search from "@parallane/ui/components/Search";
 import PostsList from "./PostsList";
-import { database } from "@ezlegin/database";
-import { PostStatus } from "@ezlegin/database";
+import { database } from "@parallane/database";
+import { PostStatus } from "@parallane/database";
 import { getSessionAdmin } from "@/data/admin";
-import { globalPageSize, pagination } from "@ezlegin/utils";
+import { globalPageSize, pagination } from "@parallane/utils";
 interface Props {
   searchParams: Promise<{ page: string; filter: string; search: string }>;
 }

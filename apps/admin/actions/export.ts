@@ -1,6 +1,6 @@
 "use server";
 
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import ExcelJS from "exceljs";
 
 export async function fullUserExport(): Promise<string> {

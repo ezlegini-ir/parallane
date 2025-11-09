@@ -1,10 +1,10 @@
-import Avatar from "@ezlegin/ui/components/Avatar";
+import Avatar from "@parallane/ui/components/Avatar";
 import { TicketType } from "@/components/forms/ticket/TicketForm";
-import Pagination from "@ezlegin/ui/components/Pagination";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
-import { formatMiladiDate } from "@ezlegin/utils";
+import Pagination from "@parallane/ui/components/Pagination";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { Button } from "@parallane/ui/components/ui/button";
+import { Separator } from "@parallane/ui/components/ui/separator";
+import { formatMiladiDate } from "@parallane/utils";
 import { Eye, Frown } from "lucide-react";
 import Link from "next/link";
 

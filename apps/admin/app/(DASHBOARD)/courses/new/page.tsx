@@ -1,6 +1,6 @@
 import CourseForm from "@/components/forms/dashboard/course/CourseForm/CourseForm";
 import { getAllTutors } from "@/data/tutor";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 
 const page = async () => {
   const tutors = await getAllTutors();

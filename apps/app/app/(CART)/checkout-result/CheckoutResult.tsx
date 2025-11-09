@@ -1,8 +1,8 @@
 "use client";
 
 import { verifyPayment } from "@/actions/payment";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
+import { Button } from "@parallane/ui/components/ui/button";
+import { Separator } from "@parallane/ui/components/ui/separator";
 import useError from "@/hooks/useError";
 import useSuccess from "@/hooks/useSuccess";
 import { CircleCheckBig, CircleX, Loader2 } from "lucide-react";

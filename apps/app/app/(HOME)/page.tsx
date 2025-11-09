@@ -1,10 +1,10 @@
-import { alirezaEzleginiProfile } from "@/public";
-import { database } from "@ezlegin/database";
-import TizerVideo from "@ezlegin/ui/components/TizerVideo";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { Card, CardContent } from "@ezlegin/ui/components/ui/card";
-import { formatPrice } from "@ezlegin/utils";
+import { alirezaparallaneiProfile } from "@/public";
+import { database } from "@parallane/database";
+import TizerVideo from "@parallane/ui/components/TizerVideo";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { Button } from "@parallane/ui/components/ui/button";
+import { Card, CardContent } from "@parallane/ui/components/ui/card";
+import { formatPrice } from "@parallane/utils";
 import { Check, Star, User, Video } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -26,7 +26,7 @@ export default async function Page() {
             <Badge className="mb-4">New · Complete UI Course</Badge>
 
             <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
-              Ezlegin —{" "}
+              parallane —{" "}
               <span className="text-indigo-400">Design Without Limits</span>
             </h1>
 
@@ -80,14 +80,14 @@ export default async function Page() {
 
             <div className="flex gap-2 items-center">
               <Image
-                src={alirezaEzleginiProfile}
-                alt="Alireza Ezlegini"
+                src={alirezaparallaneiProfile}
+                alt="Alireza parallanei"
                 width={56}
                 height={56}
                 className="rounded-full border border-neutral-800"
               />
               <div>
-                <div className="font-semibold">Alireza Ezlegini</div>
+                <div className="font-semibold">Alireza parallanei</div>
                 <div className="text-xs text-muted-foreground">
                   Senior Web Designer & Developer
                 </div>

@@ -1,9 +1,9 @@
 import React from "react";
 import QaChat from "./QaChat";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import { notFound } from "next/navigation";
-import { formatMiladiDate } from "@ezlegin/utils";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
+import { formatMiladiDate } from "@parallane/utils";
+import { Separator } from "@parallane/ui/components/ui/separator";
 
 interface Props {
   params: Promise<{ id: string; slug: string }>;

@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
     const redirectUrl =
       process.env.NODE_ENV === "development"
         ? `${origin}/checkout-result?Authority=${authority}&Status=${success}`
-        : `https://ezlegin.com/checkout-result?Authority=${authority}&Status=${success}`;
+        : `https://parallane.com/checkout-result?Authority=${authority}&Status=${success}`;
 
     return NextResponse.redirect(redirectUrl, 303);
   } catch (error: any) {

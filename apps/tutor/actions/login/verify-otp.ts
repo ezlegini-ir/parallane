@@ -1,7 +1,7 @@
 "use server";
 
-import { isHumanOrNot } from "@ezlegin/utils";
-import { database } from "@ezlegin/database";
+import { isHumanOrNot } from "@parallane/utils";
+import { database } from "@parallane/database";
 import bcrypt from "bcrypt";
 import { getOtpByEmail } from "@/data/otp";
 

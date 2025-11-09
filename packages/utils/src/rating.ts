@@ -1,4 +1,4 @@
-import { Review } from "@ezlegin/database";
+import { Review } from "@parallane/database";
 
 export function calculateCourseRate(reviews: Review[]) {
   if (reviews.length === 0) {

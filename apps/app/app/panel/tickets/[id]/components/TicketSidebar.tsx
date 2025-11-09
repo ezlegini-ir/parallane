@@ -2,7 +2,7 @@
 
 import { closeTicket } from "@/actions/ticket";
 import CardBox from "@/app/panel/components/CardBox";
-import { Ticket, TicketDepartment } from "@ezlegin/database";
+import { Ticket, TicketDepartment } from "@parallane/database";
 import {
   AlertDialog,
   AlertDialogAction,
@@ -13,10 +13,10 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@ezlegin/ui/components/ui/alert-dialog";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
-import { formatMiladiDate } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/alert-dialog";
+import { Button } from "@parallane/ui/components/ui/button";
+import { Separator } from "@parallane/ui/components/ui/separator";
+import { formatMiladiDate } from "@parallane/utils";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";

@@ -8,7 +8,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@ezlegin/ui/components/ui/card";
+} from "@parallane/ui/components/ui/card";
 import {
   ChartConfig,
   ChartContainer,
@@ -16,14 +16,14 @@ import {
   ChartLegendContent,
   ChartTooltip,
   ChartTooltipContent,
-} from "@ezlegin/ui/components/ui/chart";
+} from "@parallane/ui/components/ui/chart";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@ezlegin/ui/components/ui/select";
+} from "@parallane/ui/components/ui/select";
 import { subMonths } from "date-fns";
 
 export interface ChartDataItem {

@@ -4,8 +4,8 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@ezlegin/ui/components/ui/accordion";
-import { Button } from "@ezlegin/ui/components/ui/button";
+} from "@parallane/ui/components/ui/accordion";
+import { Button } from "@parallane/ui/components/ui/button";
 import { Metadata } from "next";
 import Link from "next/link";
 
@@ -49,7 +49,7 @@ const Faq = () => {
 const faqItems = [
   {
     q: "How can I download the videos?",
-    a: "To comply with copyright laws and prevent unauthorized distribution of Ezlegin courses, downloading videos is not available for users. You can watch all videos online through your account.",
+    a: "To comply with copyright laws and prevent unauthorized distribution of parallane courses, downloading videos is not available for users. You can watch all videos online through your account.",
   },
   {
     q: "How can I receive the course completion certificate?",
@@ -61,7 +61,7 @@ const faqItems = [
   },
   {
     q: "How can I ask questions to the instructor?",
-    a: "After entering the classroom via Account > Courses, you can ask your questions and receive answers from Ezlegin instructors.",
+    a: "After entering the classroom via Account > Courses, you can ask your questions and receive answers from parallane instructors.",
   },
   {
     q: "How long does it take for the instructor to respond?",
@@ -73,7 +73,7 @@ const faqItems = [
   },
   {
     q: "What certificate is provided after completing the course?",
-    a: "Upon successful completion of the course, an official Ezlegin School certificate will be issued exclusively for you and can be received via your account.",
+    a: "Upon successful completion of the course, an official parallane School certificate will be issued exclusively for you and can be received via your account.",
   },
   {
     q: "Is installment purchase of courses available?",

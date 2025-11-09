@@ -1,8 +1,8 @@
 "use server";
 
 import { TicketFormType } from "@/lib/validationSchema";
-import { database, File as FileType } from "@ezlegin/database";
-import { deleteManyCloudFiles, uploadCloudFile } from "@ezlegin/utils";
+import { database, File as FileType } from "@parallane/database";
+import { deleteManyCloudFiles, uploadCloudFile } from "@parallane/utils";
 import { UploadApiResponse } from "cloudinary";
 
 //* CREATE ---------------------------------------------------------

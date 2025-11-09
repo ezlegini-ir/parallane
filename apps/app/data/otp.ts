@@ -1,6 +1,6 @@
 "use server";
 
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 
 export const getOtpByEmail = async (email: string) => {
   return await database.otp.findFirst({ where: { email } });

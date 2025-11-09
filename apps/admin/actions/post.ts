@@ -2,8 +2,8 @@
 
 import { getPostById, getPostByUrl } from "@/data/post";
 import { PostFormType } from "@/lib/validationSchema";
-import { database } from "@ezlegin/database";
-import { deleteCloudFile, encodeUrl, uploadCloudFile } from "@ezlegin/utils";
+import { database } from "@parallane/database";
+import { deleteCloudFile, encodeUrl, uploadCloudFile } from "@parallane/utils";
 import { UploadApiResponse } from "cloudinary";
 
 //* CREATE ------------------------------------------------------------

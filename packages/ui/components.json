@@ -11,10 +11,10 @@
     "prefix": ""
   },
   "aliases": {
-    "components": "@ezlegin/ui/components",
-    "ui": "@ezlegin/ui/components/ui",
-    "utils": "@ezlegin/ui/lib/utils",
-    "lib": "@ezlegin/ui/lib",
-    "hooks": "@ezlegin/ui/hooks"
+    "components": "@parallane/ui/components",
+    "ui": "@parallane/ui/components/ui",
+    "utils": "@parallane/ui/lib/utils",
+    "lib": "@parallane/ui/lib",
+    "hooks": "@parallane/ui/hooks"
   }
 }

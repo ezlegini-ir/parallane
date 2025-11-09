@@ -1,7 +1,7 @@
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import TransactionsList from "./TransactionsList";
-import { globalPageSize, pagination } from "@ezlegin/utils";
-import { Prisma, TransactionType } from "@ezlegin/database";
+import { globalPageSize, pagination } from "@parallane/utils";
+import { Prisma, TransactionType } from "@parallane/database";
 import BestWallets from "./BestWallets";
 import WalletForm from "@/components/forms/wallet/WalletForn";
 

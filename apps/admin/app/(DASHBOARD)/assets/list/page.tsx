@@ -1,8 +1,8 @@
-import { AssetStatus, database, Prisma } from "@ezlegin/database";
-import Filter from "@ezlegin/ui/components/Filter";
-import NewButton from "@ezlegin/ui/components/NewButton";
-import Search from "@ezlegin/ui/components/Search";
-import { globalPageSize, pagination } from "@ezlegin/utils";
+import { AssetStatus, database, Prisma } from "@parallane/database";
+import Filter from "@parallane/ui/components/Filter";
+import NewButton from "@parallane/ui/components/NewButton";
+import Search from "@parallane/ui/components/Search";
+import { globalPageSize, pagination } from "@parallane/utils";
 import AssetsList from "./AssetsList";
 interface Props {
   searchParams: Promise<{

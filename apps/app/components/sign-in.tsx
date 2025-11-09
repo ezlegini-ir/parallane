@@ -2,9 +2,9 @@
 
 import { GoogleOAuthSignIn } from "@/actions/login/oAuth";
 import { googleLogo } from "@/public";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { useLoading } from "@ezlegin/utils";
+import Loader from "@parallane/ui/components/Loader";
+import { Button } from "@parallane/ui/components/ui/button";
+import { useLoading } from "@parallane/utils";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 

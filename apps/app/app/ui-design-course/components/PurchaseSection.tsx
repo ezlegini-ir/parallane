@@ -19,7 +19,7 @@ import {
   Review,
   Tutor,
   User,
-} from "@ezlegin/database";
+} from "@parallane/database";
 import {
   Award,
   FileText,

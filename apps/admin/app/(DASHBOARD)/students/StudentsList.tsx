@@ -1,17 +1,17 @@
 import StudentForm from "@/components/forms/user/StudentForm";
-import { User } from "@ezlegin/database";
-import Avatar from "@ezlegin/ui/components/Avatar";
-import EditButton from "@ezlegin/ui/components/EditButton";
-import Pagination from "@ezlegin/ui/components/Pagination";
-import Table from "@ezlegin/ui/components/Table";
+import { User } from "@parallane/database";
+import Avatar from "@parallane/ui/components/Avatar";
+import EditButton from "@parallane/ui/components/EditButton";
+import Pagination from "@parallane/ui/components/Pagination";
+import Table from "@parallane/ui/components/Table";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@ezlegin/ui/components/ui/dialog";
-import { TableCell, TableRow } from "@ezlegin/ui/components/ui/table";
+} from "@parallane/ui/components/ui/dialog";
+import { TableCell, TableRow } from "@parallane/ui/components/ui/table";
 import { formatDistance } from "date-fns";
 
 interface Props {

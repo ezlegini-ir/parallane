@@ -1,8 +1,8 @@
-import Table from "@ezlegin/ui/components/Table";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import Table from "@parallane/ui/components/Table";
+import { Button } from "@parallane/ui/components/ui/button";
 
-import { TableCell, TableRow } from "@ezlegin/ui/components/ui/table";
-import { formatNumber } from "@ezlegin/utils";
+import { TableCell, TableRow } from "@parallane/ui/components/ui/table";
+import { formatNumber } from "@parallane/utils";
 import Link from "next/link";
 
 interface Props {

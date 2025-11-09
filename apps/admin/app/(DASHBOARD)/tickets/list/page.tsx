@@ -1,12 +1,12 @@
 import React from "react";
 import TicketList from "./TicketList";
-import Filter from "@ezlegin/ui/components/Filter";
-import NewButton from "@ezlegin/ui/components/NewButton";
-import { globalPageSize, pagination } from "@ezlegin/utils";
-import { database } from "@ezlegin/database";
-import { Prisma, TicketDepartment, TicketStatus } from "@ezlegin/database";
+import Filter from "@parallane/ui/components/Filter";
+import NewButton from "@parallane/ui/components/NewButton";
+import { globalPageSize, pagination } from "@parallane/utils";
+import { database } from "@parallane/database";
+import { Prisma, TicketDepartment, TicketStatus } from "@parallane/database";
 import { ticketDepartment, ticketStatus } from "@/lib/validationSchema";
-import Search from "@ezlegin/ui/components/Search";
+import Search from "@parallane/ui/components/Search";
 
 interface Props {
   searchParams: Promise<{

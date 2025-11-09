@@ -1,6 +1,6 @@
 import CheckoutForm from "@/components/forms/CheckoutForm";
 import { getSessionUser } from "@/data/user";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import { notFound } from "next/navigation";
 
 interface Props {

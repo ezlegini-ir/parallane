@@ -11,24 +11,24 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Dialog,
   DialogContent,
   DialogDescription,
   DialogTitle,
   DialogTrigger,
-} from "@ezlegin/ui/components/ui/dialog";
+} from "@parallane/ui/components/ui/dialog";
 import {
   Form,
   FormControl,
   FormField,
   FormItem,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import Loader from "@ezlegin/ui/components/Loader";
-import Rating from "@ezlegin/ui/components/Rating";
-import { Textarea } from "@ezlegin/ui/components/ui/textarea";
+} from "@parallane/ui/components/ui/form";
+import Loader from "@parallane/ui/components/Loader";
+import Rating from "@parallane/ui/components/Rating";
+import { Textarea } from "@parallane/ui/components/ui/textarea";
 interface Props {
   userId: number;
   courseId: number;

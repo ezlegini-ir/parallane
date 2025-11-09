@@ -2,14 +2,14 @@
 
 import { getCourseByUrl } from "@/data/course";
 import { CourseFormType } from "@/lib/validationSchema";
-import { Curriculum, database, DiscountType } from "@ezlegin/database";
+import { Curriculum, database, DiscountType } from "@parallane/database";
 import {
   deleteCloudFile,
   deleteManyCloudFiles,
   encodeUrl,
   uploadCloudFile,
   uploadManyCloudFiles,
-} from "@ezlegin/utils";
+} from "@parallane/utils";
 import { UploadApiResponse } from "cloudinary";
 
 function discountedPrice(

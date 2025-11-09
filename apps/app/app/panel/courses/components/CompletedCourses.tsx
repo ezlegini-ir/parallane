@@ -1,9 +1,9 @@
 import CourseRatingForm from "@/components/forms/CourseRatingForm";
-import Table from "@ezlegin/ui/components/Table";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { TableCell, TableRow } from "@ezlegin/ui/components/ui/table";
+import Table from "@parallane/ui/components/Table";
+import { Button } from "@parallane/ui/components/ui/button";
+import { TableCell, TableRow } from "@parallane/ui/components/ui/table";
 import { getSessionUser } from "@/data/user";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import { placeHolder } from "@/public";
 import {
   Certificate,
@@ -12,7 +12,7 @@ import {
   Enrollment,
   Image as ImageType,
   Tutor,
-} from "@ezlegin/database";
+} from "@parallane/database";
 import { Download, Star } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -22,7 +22,7 @@ import {
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@ezlegin/ui/components/ui/tooltip";
+} from "@parallane/ui/components/ui/tooltip";
 import { getReviewByUserIdAndCourseId } from "@/data/review";
 import { redirect } from "next/navigation";
 import { loginPageRoute } from "@/middleware";

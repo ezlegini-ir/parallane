@@ -1,6 +1,6 @@
 "use server";
 
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import { kavenegar } from "./config/kavenegar";
 import {
   newQaCreationText,

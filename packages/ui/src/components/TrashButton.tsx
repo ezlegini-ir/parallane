@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import { PencilIcon, Trash } from "lucide-react";
 
 const TrashButton = ({ href }: { href: string }) => {

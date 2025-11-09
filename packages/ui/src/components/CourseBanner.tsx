@@ -1,12 +1,12 @@
 "use client";
 
-import { Course, Image, Post } from "@ezlegin/database";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Course, Image, Post } from "@parallane/database";
+import { Button } from "@parallane/ui/components/ui/button";
 import NextImage from "next/image";
 import { useEffect, useState } from "react";
-import { getCourseById } from "@ezlegin/editor/getCourseById";
-import { getPostById } from "@ezlegin/editor/getPostById";
-import { cn } from "@ezlegin/utils";
+import { getCourseById } from "@parallane/editor/getCourseById";
+import { getPostById } from "@parallane/editor/getPostById";
+import { cn } from "@parallane/utils";
 import Link from "next/link";
 
 interface CourseType extends Course {

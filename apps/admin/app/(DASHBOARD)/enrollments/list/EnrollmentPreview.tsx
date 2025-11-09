@@ -1,18 +1,18 @@
 import EnrollmentStatusForm from "@/components/forms/payment/EnrollmentStatusForm";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
+import { Badge } from "@parallane/ui/components/ui/badge";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@ezlegin/ui/components/ui/dialog";
-import ViewButton from "@ezlegin/ui/components/ViewButton";
-import { formatMiladiDate } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/dialog";
+import ViewButton from "@parallane/ui/components/ViewButton";
+import { formatMiladiDate } from "@parallane/utils";
 import { ExternalLink } from "lucide-react";
 import Link from "next/link";
 import { EnrollmentType } from "./EnrollmentsList";
-import { formatPrice } from "@ezlegin/utils";
+import { formatPrice } from "@parallane/utils";
 
 const EnrollmentPreview = ({ enrollment }: { enrollment: EnrollmentType }) => {
   const pending = enrollment.status === "PENDING";

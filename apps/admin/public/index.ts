@@ -1,6 +1,6 @@
 // LOGOS
-export { default as ezleginLogo } from "./ezlegin-logo-light.svg";
-export { default as ezleginLogoSquare } from "./ezlegin-logo-square.svg";
+export { default as parallaneLogo } from "./parallane-logo-light.svg";
+export { default as parallaneLogoSquare } from "./parallane-logo-square.svg";
 
 // NONE-EXISTING PHOTOS
 export const avatar = "/avatar.svg";

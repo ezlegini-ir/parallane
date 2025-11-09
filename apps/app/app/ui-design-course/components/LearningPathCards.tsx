@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Card } from "@ezlegin/ui/components/ui/card";
+import { Card } from "@parallane/ui/components/ui/card";
 import { motion } from "framer-motion";
 import Image from "next/image";
 

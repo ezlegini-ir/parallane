@@ -5,7 +5,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@ezlegin/ui/components/ui/sidebar";
+} from "@parallane/ui/components/ui/sidebar";
 import { ChartNoAxesCombined } from "lucide-react";
 import Link from "next/link";
 import SideBarMenu from "./SideBarMenu";

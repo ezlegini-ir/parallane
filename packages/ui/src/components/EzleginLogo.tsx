@@ -8,7 +8,7 @@ interface Props {
   lightMode?: boolean;
 }
 
-const EzleginLogo = ({
+const parallaneLogo = ({
   inputProps,
   className,
   width,
@@ -17,8 +17,8 @@ const EzleginLogo = ({
 }: Props) => {
   return (
     <Image
-      src={lightMode ? "/ezlegin-logo-light.svg" : "/ezlegin-logo-dark.svg"}
-      alt={"Ezlegin!"}
+      src={lightMode ? "/parallane-logo-light.svg" : "/parallane-logo-dark.svg"}
+      alt={"parallane!"}
       width={width || 142}
       height={height || 30}
       draggable={false}
@@ -28,4 +28,4 @@ const EzleginLogo = ({
   );
 };
 
-export default EzleginLogo;
+export default parallaneLogo;

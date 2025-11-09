@@ -12,14 +12,14 @@ import {
   settlementStatus,
 } from "@/lib/validationSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Image, Tutor } from "@ezlegin/database";
-import Avatar from "@ezlegin/ui/components/Avatar";
-import ComboField from "@ezlegin/ui/components/ComboField";
-import DeleteButton from "@ezlegin/ui/components/DeleteButton";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { Calendar } from "@ezlegin/ui/components/ui/calendar";
+import { Image, Tutor } from "@parallane/database";
+import Avatar from "@parallane/ui/components/Avatar";
+import ComboField from "@parallane/ui/components/ComboField";
+import DeleteButton from "@parallane/ui/components/DeleteButton";
+import Loader from "@parallane/ui/components/Loader";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { Button } from "@parallane/ui/components/ui/button";
+import { Calendar } from "@parallane/ui/components/ui/calendar";
 import {
   Form,
   FormControl,
@@ -27,21 +27,21 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
+} from "@parallane/ui/components/ui/form";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@ezlegin/ui/components/ui/popover";
+} from "@parallane/ui/components/ui/popover";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@ezlegin/ui/components/ui/select";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
-import { cn, formatPrice, useLoading } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/select";
+import { Separator } from "@parallane/ui/components/ui/separator";
+import { cn, formatPrice, useLoading } from "@parallane/utils";
 import { addDays, format, startOfMonth } from "date-fns";
 import { CalendarIcon } from "lucide-react";
 import { useRouter } from "next/navigation";

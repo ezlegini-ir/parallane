@@ -1,4 +1,4 @@
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import bcrypt from "bcryptjs";
 import { NextAuthConfig } from "next-auth";
 import Credentials from "next-auth/providers/credentials";

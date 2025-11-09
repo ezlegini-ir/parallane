@@ -1,8 +1,8 @@
 "use client";
 
 import { fullUserExport } from "@/actions/export";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import Loader from "@parallane/ui/components/Loader";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Card,
   CardContent,
@@ -10,14 +10,14 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@ezlegin/ui/components/ui/card";
+} from "@parallane/ui/components/ui/card";
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from "@ezlegin/ui/components/ui/tabs";
-import { useLoading } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/tabs";
+import { useLoading } from "@parallane/utils";
 import ExportUsersForm from "./ExportUsersForm";
 
 export function ExportTabs() {

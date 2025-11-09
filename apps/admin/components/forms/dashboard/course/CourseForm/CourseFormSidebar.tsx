@@ -2,45 +2,45 @@
 
 import { deleteCourse } from "@/actions/course";
 import { deleteImage } from "@/actions/image";
-import Avatar from "@ezlegin/ui/components/Avatar";
-import CardBox from "@ezlegin/ui/components/CardBox";
-import ComboField from "@ezlegin/ui/components/ComboField";
-import DeleteButton from "@ezlegin/ui/components/DeleteButton";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { Calendar } from "@ezlegin/ui/components/ui/calendar";
+import Avatar from "@parallane/ui/components/Avatar";
+import CardBox from "@parallane/ui/components/CardBox";
+import ComboField from "@parallane/ui/components/ComboField";
+import DeleteButton from "@parallane/ui/components/DeleteButton";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { Button } from "@parallane/ui/components/ui/button";
+import { Calendar } from "@parallane/ui/components/ui/calendar";
 import {
   FormControl,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
-import { Label } from "@ezlegin/ui/components/ui/label";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
+import { Label } from "@parallane/ui/components/ui/label";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@ezlegin/ui/components/ui/popover";
+} from "@parallane/ui/components/ui/popover";
 import {
   RadioGroup,
   RadioGroupItem,
-} from "@ezlegin/ui/components/ui/radio-group";
+} from "@parallane/ui/components/ui/radio-group";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@ezlegin/ui/components/ui/select";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
-import { Switch } from "@ezlegin/ui/components/ui/switch";
-import { useImagePreview } from "@ezlegin/utils";
-import { useLoading } from "@ezlegin/utils";
-import { cn } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/select";
+import { Separator } from "@parallane/ui/components/ui/separator";
+import { Switch } from "@parallane/ui/components/ui/switch";
+import { useImagePreview } from "@parallane/utils";
+import { useLoading } from "@parallane/utils";
+import { cn } from "@parallane/utils";
 import { CourseFormType } from "@/lib/validationSchema";
-import { CourseCategory } from "@ezlegin/database";
+import { CourseCategory } from "@parallane/database";
 import { addDays, format } from "date-fns";
 import { BadgePercent, CalendarIcon, Plus, X } from "lucide-react";
 import Image from "next/image";
@@ -50,7 +50,7 @@ import { DateRange } from "react-day-picker";
 import { UseFormReturn } from "react-hook-form";
 import { CourseType, TutorType } from "./CourseForm";
 import { toast } from "sonner";
-import Loader from "@ezlegin/ui/components/Loader";
+import Loader from "@parallane/ui/components/Loader";
 import ImageField from "@/components/forms/ImageField";
 
 interface Props {

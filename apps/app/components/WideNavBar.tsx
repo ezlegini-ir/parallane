@@ -1,6 +1,6 @@
-import EzleginLogo from "@ezlegin/ui/components/EzleginLogo";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import UserBar from "@ezlegin/ui/components/UserBar";
+import parallaneLogo from "@parallane/ui/components/parallaneLogo";
+import { Button } from "@parallane/ui/components/ui/button";
+import UserBar from "@parallane/ui/components/UserBar";
 import Link from "next/link";
 import { NavbarProps } from "./NavBar";
 import { User } from "lucide-react";
@@ -9,7 +9,7 @@ const WideNavBar = ({ user }: NavbarProps) => {
   return (
     <div className="flex justify-between items-center">
       <Link href={"/"}>
-        <EzleginLogo width={130} height={28} />
+        <parallaneLogo width={130} height={28} />
       </Link>
 
       {!user ? (

@@ -1,6 +1,6 @@
 import { Eye } from "lucide-react";
 import Link from "next/link";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 
 const ViewButton = ({ href }: { href?: string }) => {
   return (

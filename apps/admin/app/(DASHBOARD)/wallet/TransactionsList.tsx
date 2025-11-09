@@ -1,11 +1,11 @@
-import Filter from "@ezlegin/ui/components/Filter";
-import Pagination from "@ezlegin/ui/components/Pagination";
-import Search from "@ezlegin/ui/components/Search";
-import Table from "@ezlegin/ui/components/Table";
-import { TableCell, TableRow } from "@ezlegin/ui/components/ui/table";
-import { formatMiladiDate } from "@ezlegin/utils";
-import { formatPrice } from "@ezlegin/utils";
-import { User, Wallet, WalletTransaction } from "@ezlegin/database";
+import Filter from "@parallane/ui/components/Filter";
+import Pagination from "@parallane/ui/components/Pagination";
+import Search from "@parallane/ui/components/Search";
+import Table from "@parallane/ui/components/Table";
+import { TableCell, TableRow } from "@parallane/ui/components/ui/table";
+import { formatMiladiDate } from "@parallane/utils";
+import { formatPrice } from "@parallane/utils";
+import { User, Wallet, WalletTransaction } from "@parallane/database";
 
 interface WalletTransactionType extends WalletTransaction {
   wallet: Wallet & { user: User };

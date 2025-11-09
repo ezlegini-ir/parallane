@@ -1,5 +1,5 @@
 import FloatingBannerForm from "@/components/forms/announcement/FloatingBannerForm";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 
 const page = async () => {
   const floatingBanner = await database.floatingBanner.findFirst({

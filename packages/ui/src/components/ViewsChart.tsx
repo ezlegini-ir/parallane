@@ -1,10 +1,10 @@
 "use client";
 
-import { ChartConfig } from "@ezlegin/ui/components/ui/chart";
+import { ChartConfig } from "@parallane/ui/components/ui/chart";
 
-import MyLineChartWide from "@ezlegin/ui/components/MyCharts";
-import { useTimeRange } from "@ezlegin/utils";
-import { formatNumber, getSumByTimeRange } from "@ezlegin/utils";
+import MyLineChartWide from "@parallane/ui/components/MyCharts";
+import { useTimeRange } from "@parallane/utils";
+import { formatNumber, getSumByTimeRange } from "@parallane/utils";
 import { ArrowUpRight } from "lucide-react";
 import RangeSelector from "./RangeSelector";
 

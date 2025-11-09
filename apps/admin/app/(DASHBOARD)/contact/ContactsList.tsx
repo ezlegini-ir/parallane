@@ -1,19 +1,19 @@
-import Pagination from "@ezlegin/ui/components/Pagination";
-import Table from "@ezlegin/ui/components/Table";
-import ViewButton from "@ezlegin/ui/components/ViewButton";
+import Pagination from "@parallane/ui/components/Pagination";
+import Table from "@parallane/ui/components/Table";
+import ViewButton from "@parallane/ui/components/ViewButton";
 import ContactForm, {
   ContactType,
 } from "@/components/forms/contact/ContactForm";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
+import { Badge } from "@parallane/ui/components/ui/badge";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@ezlegin/ui/components/ui/dialog";
-import { TableCell, TableRow } from "@ezlegin/ui/components/ui/table";
-import { formatMiladiDate } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/dialog";
+import { TableCell, TableRow } from "@parallane/ui/components/ui/table";
+import { formatMiladiDate } from "@parallane/utils";
 
 interface Props {
   contacts: ContactType[];

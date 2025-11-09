@@ -1,7 +1,7 @@
 "use server";
 
 import { OverallOffFormType } from "@/lib/validationSchema";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 
 export const updateOverallOff = async (
   data: OverallOffFormType,

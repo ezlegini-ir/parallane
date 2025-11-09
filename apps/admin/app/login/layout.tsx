@@ -1,4 +1,4 @@
-import RecaptchaWrapper from "@ezlegin/ui/components/RecaptchaWrapper";
+import RecaptchaWrapper from "@parallane/ui/components/RecaptchaWrapper";
 import { ReactNode } from "react";
 
 export default function layout({ children }: { children: ReactNode }) {

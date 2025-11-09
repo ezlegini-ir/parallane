@@ -4,7 +4,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Form,
   FormControl,
@@ -12,20 +12,20 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
+} from "@parallane/ui/components/ui/form";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@ezlegin/ui/components/ui/select";
+} from "@parallane/ui/components/ui/select";
 import { enrollmentStatus } from "@/lib/validationSchema";
 import { EnrollmentType } from "@/app/(DASHBOARD)/enrollments/list/EnrollmentsList";
 import { deleteEnrollment, updateEnrollmentStatus } from "@/actions/payment";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
-import DeleteButton from "@ezlegin/ui/components/DeleteButton";
+import DeleteButton from "@parallane/ui/components/DeleteButton";
 
 export const enrollmentStatusFormForm = z.object({
   enrollmentStatus: z.enum(enrollmentStatus),

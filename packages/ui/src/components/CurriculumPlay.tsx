@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic";
 import { useRef, useState } from "react";
-import { Skeleton } from "@ezlegin/ui/components/ui/skeleton";
+import { Skeleton } from "@parallane/ui/components/ui/skeleton";
 
 const ReactPlayer = dynamic(() => import("react-player"), {
   ssr: false,

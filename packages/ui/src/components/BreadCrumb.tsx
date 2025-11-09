@@ -6,7 +6,7 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@ezlegin/ui/components/ui/breadcrumb";
+} from "@parallane/ui/components/ui/breadcrumb";
 import Link from "next/link";
 import { Home } from "lucide-react";
 

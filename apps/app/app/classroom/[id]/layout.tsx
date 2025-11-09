@@ -1,7 +1,7 @@
 import NavBar from "@/components/NavBar";
 import SimpleFooter from "@/components/SimpleFooter";
 import { authenticateSession } from "@/lib/auth";
-import NotifBar from "@ezlegin/ui/components/NotifBar";
+import NotifBar from "@parallane/ui/components/NotifBar";
 import { Metadata } from "next";
 
 export default async function PanelLayout({
@@ -30,5 +30,5 @@ export const metadata: Metadata = {
     default: "Classroom",
     template: "%s - Classroom",
   },
-  description: "Ezlegin Classroom, where educational skills are shaped.",
+  description: "parallane Classroom, where educational skills are shaped.",
 };

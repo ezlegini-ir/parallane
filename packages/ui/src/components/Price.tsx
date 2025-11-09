@@ -1,5 +1,5 @@
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { formatPrice } from "@ezlegin/utils";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { formatPrice } from "@parallane/utils";
 
 interface Props {
   basePrice: number;

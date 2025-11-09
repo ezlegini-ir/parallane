@@ -1,4 +1,4 @@
-import { Card } from "@ezlegin/ui/components/ui/card";
+import { Card } from "@parallane/ui/components/ui/card";
 import { LucideIcon } from "lucide-react";
 
 export interface CourseIncludesTypes {

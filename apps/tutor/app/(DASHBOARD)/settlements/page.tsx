@@ -1,5 +1,5 @@
-import { globalPageSize, pagination } from "@ezlegin/utils";
-import { database } from "@ezlegin/database";
+import { globalPageSize, pagination } from "@parallane/utils";
+import { database } from "@parallane/database";
 import SettlementsList from "./SettlementsList";
 import { getSessionTutor } from "@/data/tutor";
 interface Props {

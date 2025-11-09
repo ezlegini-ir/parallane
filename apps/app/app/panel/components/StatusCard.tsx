@@ -1,4 +1,4 @@
-import { CardDescription } from "@ezlegin/ui/components/ui/card";
+import { CardDescription } from "@parallane/ui/components/ui/card";
 import React, { JSX } from "react";
 
 interface Props {

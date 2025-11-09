@@ -2,13 +2,13 @@
 
 import React, { useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { Input } from "@ezlegin/ui/components/ui/input";
+import { Input } from "@parallane/ui/components/ui/input";
 import {
   Form,
   FormControl,
   FormField,
   FormItem,
-} from "@ezlegin/ui/components/ui/form";
+} from "@parallane/ui/components/ui/form";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";

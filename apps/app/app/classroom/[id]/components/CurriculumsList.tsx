@@ -1,11 +1,11 @@
 import CardBox from "@/app/panel/components/CardBox";
-import { Curriculum, Lesson } from "@ezlegin/database";
+import { Curriculum, Lesson } from "@parallane/database";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@ezlegin/ui/components/ui/accordion";
+} from "@parallane/ui/components/ui/accordion";
 import { Download, File, Video } from "lucide-react";
 import { useEffect, useState } from "react";
 import { LessonType } from "./ClassroomContent";

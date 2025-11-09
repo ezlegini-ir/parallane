@@ -1,5 +1,5 @@
 import OverallOffForm from "@/components/forms/marketing/OverallOffForm";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 
 const page = async () => {
   const overallOff = await database.overallOff.findFirst();

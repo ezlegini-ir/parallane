@@ -1,4 +1,4 @@
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import { addDays, format, subDays } from "date-fns";
 
 //! --------------------------------------------------------

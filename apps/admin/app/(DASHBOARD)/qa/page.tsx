@@ -1,10 +1,10 @@
-import Avatar from "@ezlegin/ui/components/Avatar";
-import Pagination from "@ezlegin/ui/components/Pagination";
-import Search from "@ezlegin/ui/components/Search";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
-import { pagination } from "@ezlegin/utils";
-import { database } from "@ezlegin/database";
+import Avatar from "@parallane/ui/components/Avatar";
+import Pagination from "@parallane/ui/components/Pagination";
+import Search from "@parallane/ui/components/Search";
+import { Button } from "@parallane/ui/components/ui/button";
+import { Separator } from "@parallane/ui/components/ui/separator";
+import { pagination } from "@parallane/utils";
+import { database } from "@parallane/database";
 import { placeHolder } from "@/public";
 import {
   AskTutor,
@@ -13,7 +13,7 @@ import {
   Image as ImageType,
   Prisma,
   Tutor,
-} from "@ezlegin/database";
+} from "@parallane/database";
 import Image from "next/image";
 import Link from "next/link";
 

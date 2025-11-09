@@ -1,6 +1,6 @@
 import PostForm from "@/components/forms/dashboard/post/PostForm";
 import { getPostById } from "@/data/post";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import { notFound } from "next/navigation";
 
 interface Props {

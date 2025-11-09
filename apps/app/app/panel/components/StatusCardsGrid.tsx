@@ -1,6 +1,6 @@
 import RadialProgress from "@/app/panel/components/RadialProgress";
 import { getSessionUser } from "@/data/user";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import StatusCard from "./StatusCard";
 
 const StatusCardsGrid = async () => {

@@ -2,8 +2,8 @@
 
 import { getCouponByCode } from "@/data/coupon";
 import { searchCoupons } from "@/data/search";
-import { Coupon } from "@ezlegin/database";
-import SearchField from "@ezlegin/ui/components/SearchField";
+import { Coupon } from "@parallane/database";
+import SearchField from "@parallane/ui/components/SearchField";
 import { useEffect, useState } from "react";
 
 const SearchCoupons = ({

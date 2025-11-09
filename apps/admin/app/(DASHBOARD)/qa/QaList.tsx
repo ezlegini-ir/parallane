@@ -1,7 +1,7 @@
-import Pagination from "@ezlegin/ui/components/Pagination";
-import Table from "@ezlegin/ui/components/Table";
-import { TableCell, TableRow } from "@ezlegin/ui/components/ui/table";
-import ViewButton from "@ezlegin/ui/components/ViewButton";
+import Pagination from "@parallane/ui/components/Pagination";
+import Table from "@parallane/ui/components/Table";
+import { TableCell, TableRow } from "@parallane/ui/components/ui/table";
+import ViewButton from "@parallane/ui/components/ViewButton";
 
 type QaQaType = {
   id: number;

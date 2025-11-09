@@ -1,8 +1,8 @@
 "use server";
 
 import { getSessionAdmin } from "@/data/admin";
-import { sendEmail } from "@ezlegin/utils";
-import { database, ContactStatus } from "@ezlegin/database";
+import { sendEmail } from "@parallane/utils";
+import { database, ContactStatus } from "@parallane/database";
 
 //* SEND ------------------------------------------------
 export const sendContactResponse = async (options: {

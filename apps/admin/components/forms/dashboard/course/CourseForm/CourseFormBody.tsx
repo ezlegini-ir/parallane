@@ -1,18 +1,18 @@
 "use client";
 
 import CurriculumSectionsForm from "@/components/forms/dashboard/course/CurriculumSectionsForm";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   FormControl,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
-import { Skeleton } from "@ezlegin/ui/components/ui/skeleton";
-import { Textarea } from "@ezlegin/ui/components/ui/textarea";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
+import { Separator } from "@parallane/ui/components/ui/separator";
+import { Skeleton } from "@parallane/ui/components/ui/skeleton";
+import { Textarea } from "@parallane/ui/components/ui/textarea";
 import { CourseFormType } from "@/lib/validationSchema";
 import { Plus, Trash } from "lucide-react";
 import dynamic from "next/dynamic";
@@ -20,7 +20,7 @@ import Link from "next/link";
 import { useFieldArray, UseFormReturn } from "react-hook-form";
 import { CourseType } from "./CourseForm";
 
-const TextEditor = dynamic(() => import("@ezlegin/editor/Editor"), {
+const TextEditor = dynamic(() => import("@parallane/editor/Editor"), {
   ssr: false,
   loading: () => (
     <Skeleton className="w-full h-[450px] bg-white border rounded-sm" />

@@ -1,5 +1,5 @@
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { Card } from "@ezlegin/ui/components/ui/card";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { Card } from "@parallane/ui/components/ui/card";
 import { LucideIcon } from "lucide-react";
 
 export interface courseContentItemsType {

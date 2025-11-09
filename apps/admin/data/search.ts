@@ -1,6 +1,6 @@
 "use server";
 
-import { database, Prisma } from "@ezlegin/database";
+import { database, Prisma } from "@parallane/database";
 
 export const searchUsers = async (query: string) => {
   const where: Prisma.UserWhereInput = query

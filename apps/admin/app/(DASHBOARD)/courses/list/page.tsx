@@ -1,18 +1,18 @@
-import Filter from "@ezlegin/ui/components/Filter";
-import NewButton from "@ezlegin/ui/components/NewButton";
-import Search from "@ezlegin/ui/components/Search";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import Filter from "@parallane/ui/components/Filter";
+import NewButton from "@parallane/ui/components/NewButton";
+import Search from "@parallane/ui/components/Search";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuLabel,
   DropdownMenuTrigger,
-} from "@ezlegin/ui/components/ui/dropdown-menu";
-import { pagination } from "@ezlegin/utils";
-import { database } from "@ezlegin/database";
+} from "@parallane/ui/components/ui/dropdown-menu";
+import { pagination } from "@parallane/utils";
+import { database } from "@parallane/database";
 import { SlidersHorizontal } from "lucide-react";
 import CoursesList from "./CoursesList";
-import { Prisma, CourseStatus } from "@ezlegin/database";
+import { Prisma, CourseStatus } from "@parallane/database";
 
 interface Props {
   searchParams: Promise<{

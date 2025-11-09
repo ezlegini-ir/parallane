@@ -2,24 +2,24 @@
 
 import { authenticator } from "@/actions/login/authenticator";
 import { verifyOtp } from "@/actions/login/verify-otp";
-import CountdownTimer from "@ezlegin/ui/components/CountDown";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import CountdownTimer from "@parallane/ui/components/CountDown";
+import Loader from "@parallane/ui/components/Loader";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Form,
   FormControl,
   FormField,
   FormItem,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
+} from "@parallane/ui/components/ui/form";
 import {
   InputOTP,
   InputOTPGroup,
   InputOTPSlot,
-} from "@ezlegin/ui/components/ui/input-otp";
+} from "@parallane/ui/components/ui/input-otp";
 import { OtpType, otpFormSchema } from "@/lib/validationSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useLoading } from "@ezlegin/utils";
+import { useLoading } from "@parallane/utils";
 import { REGEXP_ONLY_DIGITS } from "input-otp";
 import { CircleCheckBig } from "lucide-react";
 import { Dispatch, SetStateAction, useEffect } from "react";

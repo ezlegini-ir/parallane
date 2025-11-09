@@ -1,13 +1,13 @@
 "use server";
 
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import {
   generateCertificate,
   generateUniqueSerial,
   sendFinishCourseEmail,
-} from "@ezlegin/utils";
+} from "@parallane/utils";
 import { UploadApiResponse } from "cloudinary";
-import { uploadCloudFile } from "@ezlegin/utils";
+import { uploadCloudFile } from "@parallane/utils";
 import { getSessionUser } from "@/data/user";
 
 export const createLessonProgress = async (

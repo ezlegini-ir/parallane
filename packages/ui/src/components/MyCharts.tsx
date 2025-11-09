@@ -1,10 +1,10 @@
-import { StatCardProps } from "@ezlegin/ui/components/StatCard";
+import { StatCardProps } from "@parallane/ui/components/StatCard";
 import {
   ChartConfig,
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from "@ezlegin/ui/components/ui/chart";
+} from "@parallane/ui/components/ui/chart";
 import { Bar, BarChart, Line, LineChart } from "recharts";
 
 export const chartColorVariants = {
@@ -90,7 +90,7 @@ export const MyLineChart = ({
 import {
   ChartLegend,
   ChartLegendContent,
-} from "@ezlegin/ui/components/ui/chart";
+} from "@parallane/ui/components/ui/chart";
 
 import { Area, AreaChart, CartesianGrid, XAxis, YAxis } from "recharts";
 

@@ -1,5 +1,5 @@
 import SimpleFooter from "@/components/SimpleFooter";
-import NotifBar from "@ezlegin/ui/components/NotifBar";
+import NotifBar from "@parallane/ui/components/NotifBar";
 
 export default async function Layout({
   children,

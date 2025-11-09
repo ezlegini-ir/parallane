@@ -1,6 +1,6 @@
-import Avatar from "@ezlegin/ui/components/Avatar";
-import IgraphLogo from "@ezlegin/ui/components/EzleginLogo";
-import { SidebarHeader } from "@ezlegin/ui/components/ui/sidebar";
+import Avatar from "@parallane/ui/components/Avatar";
+import IgraphLogo from "@parallane/ui/components/parallaneLogo";
+import { SidebarHeader } from "@parallane/ui/components/ui/sidebar";
 import { getSessionTutor } from "@/data/tutor";
 import Link from "next/link";
 import React from "react";

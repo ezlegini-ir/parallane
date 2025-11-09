@@ -1,5 +1,5 @@
 import { PrismaAdapter } from "@auth/prisma-adapter";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import NextAuth from "next-auth";
 import authConfig from "./auth.config";
 

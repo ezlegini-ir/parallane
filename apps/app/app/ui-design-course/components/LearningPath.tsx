@@ -1,7 +1,7 @@
 import AnimatedSquarePattern from "@/components/animations/AnimatedSquarePattern";
 import AnimatedTitle from "@/components/animations/AnimatedTitle";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { Button } from "@parallane/ui/components/ui/button";
 import { ArrowDown } from "lucide-react";
 import LearningPathCards from "./LearningPathCards";
 

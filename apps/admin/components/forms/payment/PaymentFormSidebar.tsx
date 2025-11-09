@@ -1,39 +1,39 @@
 "use client";
 
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   FormControl,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@ezlegin/ui/components/ui/select";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
+} from "@parallane/ui/components/ui/select";
+import { Separator } from "@parallane/ui/components/ui/separator";
 import { EnrollmentFormType, paymentStatus } from "@/lib/validationSchema";
 
 import { deletePayment } from "@/actions/payment";
-import DeleteButton from "@ezlegin/ui/components/DeleteButton";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
+import DeleteButton from "@parallane/ui/components/DeleteButton";
+import Loader from "@parallane/ui/components/Loader";
+import { Badge } from "@parallane/ui/components/ui/badge";
 import { getCouponByCode } from "@/data/coupon";
-import { useLoading } from "@ezlegin/utils";
-import { formatPrice } from "@ezlegin/utils";
-import { Coupon, CouponType, User, Wallet } from "@ezlegin/database";
+import { useLoading } from "@parallane/utils";
+import { formatPrice } from "@parallane/utils";
+import { Coupon, CouponType, User, Wallet } from "@parallane/database";
 import { useRouter } from "next/navigation";
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { UseFormReturn } from "react-hook-form";
 import { toast } from "sonner";
 import { CourseType, PaymentType } from "./PaymentForm";
-import { Switch } from "@ezlegin/ui/components/ui/switch";
-import { cashBackCalculator } from "@ezlegin/utils";
+import { Switch } from "@parallane/ui/components/ui/switch";
+import { cashBackCalculator } from "@parallane/utils";
 
 export interface priceType {
   price: number;

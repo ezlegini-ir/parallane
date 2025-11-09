@@ -1,13 +1,13 @@
 import Link from "next/link";
-import EzleginLogoSquare from "@ezlegin/ui/components/EzleginLogoSquare";
-import SocialsIcon from "@ezlegin/ui/components/SocialsIcon";
+import parallaneLogoSquare from "@parallane/ui/components/parallaneLogoSquare";
+import SocialsIcon from "@parallane/ui/components/SocialsIcon";
 
 const SimpleFooter = () => {
   return (
     <div>
       <div className="py-3 border-b border-t flex justify-between items-center">
         <Link href={"/"}>
-          <EzleginLogoSquare size={40} />
+          <parallaneLogoSquare size={40} />
         </Link>
 
         <SocialsIcon />

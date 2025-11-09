@@ -1,16 +1,16 @@
 import ReviewForm from "@/components/forms/dashboard/course/ReviewForm";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@ezlegin/ui/components/ui/dialog";
-import { globalPageSize, pagination } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/dialog";
+import { globalPageSize, pagination } from "@parallane/utils";
 import ReviewsList from "./ReviewsList";
-import Search from "@ezlegin/ui/components/Search";
-import { Prisma, database } from "@ezlegin/database";
+import Search from "@parallane/ui/components/Search";
+import { Prisma, database } from "@parallane/database";
 
 interface Props {
   searchParams: Promise<{ page: string; search: string }>;

@@ -1,4 +1,4 @@
-import { Sidebar } from "@ezlegin/ui/components/ui/sidebar";
+import { Sidebar } from "@parallane/ui/components/ui/sidebar";
 import DashboardSidebarContent from "./DashboardSidebarContect";
 import DashboardSidebarHeader from "./DashboardSidebarHeader";
 

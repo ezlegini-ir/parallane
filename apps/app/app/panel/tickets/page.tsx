@@ -1,9 +1,9 @@
 import { getSessionUser } from "@/data/user";
 import FaqBanner from "./components/FaqBanner";
 import TicketsList from "./components/TicketsList";
-import { database } from "@ezlegin/database";
-import { Prisma, TicketStatus } from "@ezlegin/database";
-import { pagination } from "@ezlegin/utils";
+import { database } from "@parallane/database";
+import { Prisma, TicketStatus } from "@parallane/database";
+import { pagination } from "@parallane/utils";
 import { Metadata } from "next";
 
 interface Props {

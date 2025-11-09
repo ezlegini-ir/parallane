@@ -1,7 +1,7 @@
-import Avatar from "@ezlegin/ui/components/Avatar";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { formatMiladiDate } from "@ezlegin/utils";
-import { truncateFileName } from "@ezlegin/utils";
+import Avatar from "@parallane/ui/components/Avatar";
+import { Button } from "@parallane/ui/components/ui/button";
+import { formatMiladiDate } from "@parallane/utils";
+import { truncateFileName } from "@parallane/utils";
 import {
   AskTutor,
   AskTutorMessages,
@@ -10,7 +10,7 @@ import {
   Image as ImageType,
   Tutor,
   User,
-} from "@ezlegin/database";
+} from "@parallane/database";
 import { Download } from "lucide-react";
 import Link from "next/link";
 

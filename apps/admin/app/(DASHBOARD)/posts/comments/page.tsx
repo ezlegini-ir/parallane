@@ -1,14 +1,14 @@
 import CommentForm from "@/components/forms/dashboard/post/CommentForm";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@ezlegin/ui/components/ui/dialog";
-import { globalPageSize, pagination } from "@ezlegin/utils";
-import { database } from "@ezlegin/database";
+} from "@parallane/ui/components/ui/dialog";
+import { globalPageSize, pagination } from "@parallane/utils";
+import { database } from "@parallane/database";
 import CommentsList from "./CommentsList";
 
 interface Props {

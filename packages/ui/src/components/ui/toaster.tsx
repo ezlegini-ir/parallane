@@ -1,6 +1,6 @@
 "use client";
 
-import { useToast } from "@ezlegin/ui/hooks/use-toast";
+import { useToast } from "@parallane/ui/hooks/use-toast";
 import {
   Toast,
   ToastClose,
@@ -8,7 +8,7 @@ import {
   ToastProvider,
   ToastTitle,
   ToastViewport,
-} from "@ezlegin/ui/components/ui/toast";
+} from "@parallane/ui/components/ui/toast";
 
 export function Toaster() {
   const { toasts } = useToast();

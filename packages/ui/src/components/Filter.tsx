@@ -6,8 +6,8 @@ import {
   SelectTrigger,
   SelectValue,
   Select as UiSelect,
-} from "@ezlegin/ui/components/ui/select";
-import { useValue } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/select";
+import { useValue } from "@parallane/utils";
 import { useRouter, useSearchParams } from "next/navigation";
 import React, { useEffect } from "react";
 

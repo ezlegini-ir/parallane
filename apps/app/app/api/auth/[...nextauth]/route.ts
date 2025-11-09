@@ -1,4 +1,4 @@
-import { handlers } from "@ezlegin/auth";
+import { handlers } from "@parallane/auth";
 
 // for understanding the auth flow of this constant, you can refer to the auth.config.ts file in the packages/auth folder
 // this constant is used to determine which auth config to use based on the AUTH_APP environment variable

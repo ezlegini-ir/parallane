@@ -1,7 +1,7 @@
 "use server";
 
-import { database } from "@ezlegin/database";
-import { uploadCloudFile } from "@ezlegin/utils";
+import { database } from "@parallane/database";
+import { uploadCloudFile } from "@parallane/utils";
 import { UploadApiResponse } from "cloudinary";
 import { QaFormType } from "@/lib/validationSchema";
 

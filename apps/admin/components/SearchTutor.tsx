@@ -1,7 +1,7 @@
 "use client";
 
 import { getTutorById } from "@/data/tutor";
-import { Tutor } from "@ezlegin/database";
+import { Tutor } from "@parallane/database";
 import { useEffect, useState } from "react";
 import SearchField from "./forms/SearchField";
 import { searchTutors } from "@/data/search";

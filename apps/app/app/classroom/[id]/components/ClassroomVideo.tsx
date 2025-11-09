@@ -1,8 +1,8 @@
 import { createLessonProgress } from "@/actions/classroom";
-import ConfettiWrapper from "@ezlegin/ui/components/ConfettiWrapper";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { useLoading } from "@ezlegin/utils";
+import ConfettiWrapper from "@parallane/ui/components/ConfettiWrapper";
+import Loader from "@parallane/ui/components/Loader";
+import { Button } from "@parallane/ui/components/ui/button";
+import { useLoading } from "@parallane/utils";
 import { Check, Download, File } from "lucide-react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
@@ -11,7 +11,7 @@ import { useState } from "react";
 import { toast } from "sonner";
 import { LessonType } from "./ClassroomContent";
 
-const Video = dynamic(() => import("@ezlegin/ui/components/Video"), {
+const Video = dynamic(() => import("@parallane/ui/components/Video"), {
   ssr: false,
 });
 

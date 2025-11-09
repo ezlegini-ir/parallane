@@ -2,9 +2,9 @@
 
 import { createTutor, deleteTutor, updateTutor } from "@/actions/tutor";
 import { TutorType } from "@/app/(DASHBOARD)/tutors/TutorsList";
-import DeleteButton from "@ezlegin/ui/components/DeleteButton";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import DeleteButton from "@parallane/ui/components/DeleteButton";
+import Loader from "@parallane/ui/components/Loader";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Form,
   FormControl,
@@ -13,11 +13,11 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
-import { Textarea } from "@ezlegin/ui/components/ui/textarea";
-import { useImagePreview } from "@ezlegin/utils";
-import { useLoading } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
+import { Textarea } from "@parallane/ui/components/ui/textarea";
+import { useImagePreview } from "@parallane/utils";
+import { useLoading } from "@parallane/utils";
 import { TutorFormType, tutorFormSchema } from "@/lib/validationSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useRouter } from "next/navigation";

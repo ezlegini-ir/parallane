@@ -13,13 +13,13 @@ import {
   Image as ImageType,
   User,
   Wallet,
-} from "@ezlegin/database";
-import Avatar from "@ezlegin/ui/components/Avatar";
-import CardBox from "@ezlegin/ui/components/CardBox";
-import CashBackCard from "@ezlegin/ui/components/CashBackCard";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { Button } from "@ezlegin/ui/components/ui/button";
+} from "@parallane/database";
+import Avatar from "@parallane/ui/components/Avatar";
+import CardBox from "@parallane/ui/components/CardBox";
+import CashBackCard from "@parallane/ui/components/CashBackCard";
+import Loader from "@parallane/ui/components/Loader";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Form,
   FormControl,
@@ -27,12 +27,12 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
-import { Switch } from "@ezlegin/ui/components/ui/switch";
-import { Textarea } from "@ezlegin/ui/components/ui/textarea";
-import { formatPrice, truncateName, useLoading } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
+import { Separator } from "@parallane/ui/components/ui/separator";
+import { Switch } from "@parallane/ui/components/ui/switch";
+import { Textarea } from "@parallane/ui/components/ui/textarea";
+import { formatPrice, truncateName, useLoading } from "@parallane/utils";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { X } from "lucide-react";
 import Image from "next/image";

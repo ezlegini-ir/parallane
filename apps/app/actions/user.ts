@@ -6,7 +6,7 @@ import {
   ProfileFormType,
   RegisterUserFormType,
 } from "@/lib/validationSchema";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import bcrypt from "bcrypt";
 
 //* CREATE --------------------------------------------------------

@@ -1,4 +1,4 @@
-import { formatPrice } from "@ezlegin/utils";
+import { formatPrice } from "@parallane/utils";
 import { CircleArrowOutDownLeft, Percent, UserPlus, Users } from "lucide-react";
 import { JSX } from "react";
 

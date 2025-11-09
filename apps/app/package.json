@@ -11,11 +11,11 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@ezlegin/auth": "*",
-    "@ezlegin/database": "*",
-    "@ezlegin/editor": "*",
-    "@ezlegin/ui": "*",
-    "@ezlegin/utils": "*",
+    "@parallane/auth": "*",
+    "@parallane/database": "*",
+    "@parallane/editor": "*",
+    "@parallane/ui": "*",
+    "@parallane/utils": "*",
     "@hookform/resolvers": "^3.10.0",
     "@next/third-parties": "^15.2.4",
     "@types/react-select-country-list": "^2.2.3",

@@ -8,7 +8,7 @@ import {
   CardContent,
   CardHeader,
   CardTitle,
-} from "@ezlegin/ui/components/ui/card";
+} from "@parallane/ui/components/ui/card";
 
 interface QueryCardProps {
   name?: string;

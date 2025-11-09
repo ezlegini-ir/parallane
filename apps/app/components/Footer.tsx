@@ -1,5 +1,5 @@
-import SocialsIcon from "@ezlegin/ui/components/SocialsIcon";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
+import SocialsIcon from "@parallane/ui/components/SocialsIcon";
+import { Separator } from "@parallane/ui/components/ui/separator";
 import { Copyright } from "lucide-react";
 import Link from "next/link";
 
@@ -35,12 +35,12 @@ const Footer = () => {
           <Link href="/terms-and-conditions" className="underline">
             Terms and Privacy Policy
           </Link>{" "}
-          of Ezlegin.com
+          of parallane.com
         </p>
 
         <p className="flex items-center justify-center md:justify-start gap-2">
           <Copyright size={18} />
-          All rights reserved for Ezlegin.com
+          All rights reserved for parallane.com
         </p>
       </div>
     </div>

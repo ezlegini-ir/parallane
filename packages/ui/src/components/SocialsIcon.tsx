@@ -17,8 +17,8 @@ const SocialsIcon = () => {
 };
 
 const socials = [
-  { href: "https://youtube.com/@ezlegin", icon: <Youtube size={23} /> },
-  { href: "https://instagram.com/ezlegin.co", icon: <Instagram size={23} /> },
+  { href: "https://youtube.com/@parallane", icon: <Youtube size={23} /> },
+  { href: "https://instagram.com/parallane.co", icon: <Instagram size={23} /> },
 ];
 
 export default SocialsIcon;

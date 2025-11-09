@@ -1,6 +1,6 @@
 "use server";
 
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 
 export async function getPostCategoryByUrl(url: string) {
   return await database.postCategory.findUnique({

@@ -14,13 +14,13 @@ import {
   ticketDepartment,
   ticketStatus,
 } from "@/lib/validationSchema";
-import { ezleginLogoSquare } from "@/public";
-import { File, Ticket, TicketMessage, User } from "@ezlegin/database";
-import Avatar from "@ezlegin/ui/components/Avatar";
-import CardBox from "@ezlegin/ui/components/CardBox";
-import DeleteButton from "@ezlegin/ui/components/DeleteButton";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { parallaneLogoSquare } from "@/public";
+import { File, Ticket, TicketMessage, User } from "@parallane/database";
+import Avatar from "@parallane/ui/components/Avatar";
+import CardBox from "@parallane/ui/components/CardBox";
+import DeleteButton from "@parallane/ui/components/DeleteButton";
+import Loader from "@parallane/ui/components/Loader";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Form,
   FormControl,
@@ -28,23 +28,23 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@ezlegin/ui/components/ui/select";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
-import { Textarea } from "@ezlegin/ui/components/ui/textarea";
+} from "@parallane/ui/components/ui/select";
+import { Separator } from "@parallane/ui/components/ui/separator";
+import { Textarea } from "@parallane/ui/components/ui/textarea";
 import {
   formatMiladiDate,
   truncateFileName as truncateName,
   useFileName,
   useLoading,
-} from "@ezlegin/utils";
+} from "@parallane/utils";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Download, Link as LinkIcon, Send, X } from "lucide-react";
 import Image from "next/image";
@@ -316,7 +316,7 @@ const TicketForm = ({ type, ticket }: Props) => {
                           {message.senderType === "ADMIN" ? (
                             <Image
                               alt=""
-                              src={ezleginLogoSquare}
+                              src={parallaneLogoSquare}
                               width={40}
                               height={40}
                             />

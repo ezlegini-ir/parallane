@@ -1,9 +1,9 @@
 "use client";
 
 import { updateOverallOff } from "@/actions/overallOff";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { Calendar } from "@ezlegin/ui/components/ui/calendar";
+import Loader from "@parallane/ui/components/Loader";
+import { Button } from "@parallane/ui/components/ui/button";
+import { Calendar } from "@parallane/ui/components/ui/calendar";
 import {
   Form,
   FormControl,
@@ -11,28 +11,28 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@ezlegin/ui/components/ui/popover";
+} from "@parallane/ui/components/ui/popover";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@ezlegin/ui/components/ui/select";
-import { Switch } from "@ezlegin/ui/components/ui/switch";
-import { cn } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/select";
+import { Switch } from "@parallane/ui/components/ui/switch";
+import { cn } from "@parallane/utils";
 import {
   OverallOffFormType,
   overallOffFormSchema,
 } from "@/lib/validationSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { OverallOff } from "@ezlegin/database";
+import { OverallOff } from "@parallane/database";
 import { addDays, format } from "date-fns";
 import { CalendarIcon } from "lucide-react";
 import { useRouter } from "next/navigation";

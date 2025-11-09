@@ -4,7 +4,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@ezlegin/ui/components/ui/table";
+} from "@parallane/ui/components/ui/table";
 import { Frown } from "lucide-react";
 import { ReactNode } from "react";
 

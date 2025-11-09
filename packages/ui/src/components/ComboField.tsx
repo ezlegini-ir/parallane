@@ -1,17 +1,17 @@
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Command,
   CommandEmpty,
   CommandInput,
   CommandItem,
   CommandList,
-} from "@ezlegin/ui/components/ui/command";
+} from "@parallane/ui/components/ui/command";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@ezlegin/ui/components/ui/popover";
-import { cn } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/popover";
+import { cn } from "@parallane/utils";
 import { Check, ChevronsUpDown } from "lucide-react";
 import { JSX, useEffect, useState } from "react";
 

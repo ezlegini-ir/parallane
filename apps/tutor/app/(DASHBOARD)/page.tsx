@@ -1,4 +1,4 @@
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import { format, startOfMonth, subMonths } from "date-fns";
 import { AreaChart } from "./components/AreaChart";
 import StatCards from "./components/StatCards";

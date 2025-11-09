@@ -1,7 +1,7 @@
 "use server";
 
 import { CourseReviewFormType } from "@/lib/validationSchema";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 
 export const createReview = async (
   data: CourseReviewFormType,

@@ -1,8 +1,8 @@
 "use server";
 
-import { isHumanOrNot } from "@ezlegin/utils";
+import { isHumanOrNot } from "@parallane/utils";
 import { ContactFormType } from "@/lib/validationSchema";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 
 export const createContact = async (
   data: ContactFormType,

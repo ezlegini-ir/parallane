@@ -1,6 +1,6 @@
-import Table from "@ezlegin/ui/components/Table";
-import { TableCell, TableRow } from "@ezlegin/ui/components/ui/table";
-import { formatNumber } from "@ezlegin/utils";
+import Table from "@parallane/ui/components/Table";
+import { TableCell, TableRow } from "@parallane/ui/components/ui/table";
+import { formatNumber } from "@parallane/utils";
 import Link from "next/link";
 import React from "react";
 

@@ -2,8 +2,8 @@
 
 import { sendTicketMessage } from "@/actions/ticket";
 import CardBox from "@/app/panel/components/CardBox";
-import { truncateFileName, useFileName } from "@ezlegin/utils";
-import { useLoading } from "@ezlegin/utils";
+import { truncateFileName, useFileName } from "@parallane/utils";
+import { useLoading } from "@parallane/utils";
 import {
   ticketMessageFormSchema,
   TicketMessageFormType,
@@ -12,7 +12,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { Link, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { ControllerRenderProps, useForm } from "react-hook-form";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Form,
   FormControl,
@@ -20,10 +20,10 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Textarea } from "@ezlegin/ui/components/ui/textarea";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
+import Loader from "@parallane/ui/components/Loader";
+import { Textarea } from "@parallane/ui/components/ui/textarea";
 import { toast } from "sonner";
 import { getSessionUser } from "@/data/user";
 import { allowedFomatsForUplaod } from "@/data/utils";

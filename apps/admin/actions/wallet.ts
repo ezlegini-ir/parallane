@@ -1,7 +1,7 @@
 "use server";
 
 import { WalletFormType } from "@/lib/validationSchema";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 
 export const updateWallet = async (data: WalletFormType) => {
   const { amount, description, type, userId } = data;

@@ -3,9 +3,9 @@
 import { signInUser } from "@/actions/login/signin-user";
 import OAuthSignInForm from "@/components/sign-in";
 import { LoginFormType, loginFormSchema } from "@/lib/validationSchema";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { CardDescription, CardTitle } from "@ezlegin/ui/components/ui/card";
+import Loader from "@parallane/ui/components/Loader";
+import { Button } from "@parallane/ui/components/ui/button";
+import { CardDescription, CardTitle } from "@parallane/ui/components/ui/card";
 import {
   Form,
   FormControl,
@@ -13,10 +13,10 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
-import { isHumanOrNot, useLoading } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
+import { Separator } from "@parallane/ui/components/ui/separator";
+import { isHumanOrNot, useLoading } from "@parallane/utils";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { redirect } from "next/navigation";
 import { useState } from "react";
@@ -91,7 +91,7 @@ const InputForm = ({
     <div className="space-y-8">
       <div className="text-center space-y-1">
         <CardTitle>
-          <h3 className="font-medium">Welcome back to Ezlegin!</h3>
+          <h3 className="font-medium">Welcome back to parallane!</h3>
         </CardTitle>
         <CardDescription className="text-xs">
           Please enter your details to sign in your account

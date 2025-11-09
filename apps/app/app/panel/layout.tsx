@@ -1,12 +1,12 @@
 import { SideBar } from "@/app/panel/components/SideBar";
 import { getSessionUser } from "@/data/user";
-import NotifBar from "@ezlegin/ui/components/NotifBar";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import NotifBar from "@parallane/ui/components/NotifBar";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   SidebarProvider,
   SidebarTrigger,
-} from "@ezlegin/ui/components/ui/sidebar";
-import UserBar from "@ezlegin/ui/components/UserBar";
+} from "@parallane/ui/components/ui/sidebar";
+import UserBar from "@parallane/ui/components/UserBar";
 import { Home } from "lucide-react";
 import { Metadata } from "next";
 import Link from "next/link";

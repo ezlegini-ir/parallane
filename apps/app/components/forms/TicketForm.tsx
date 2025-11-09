@@ -3,15 +3,15 @@
 import { createTicket } from "@/actions/ticket";
 import CardBox from "@/app/panel/components/CardBox";
 import { getSessionUser } from "@/data/user";
-import { useFileName } from "@ezlegin/utils";
-import { useLoading } from "@ezlegin/utils";
+import { useFileName } from "@parallane/utils";
+import { useLoading } from "@parallane/utils";
 import { ticketFormSchema, TicketFormType } from "@/lib/validationSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Link, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { ControllerRenderProps, useForm } from "react-hook-form";
 import { toast } from "sonner";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Form,
   FormControl,
@@ -19,18 +19,18 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
-import Loader from "@ezlegin/ui/components/Loader";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
+import Loader from "@parallane/ui/components/Loader";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@ezlegin/ui/components/ui/select";
+} from "@parallane/ui/components/ui/select";
 import { allowedFomatsForUplaod } from "@/data/utils";
-import { Textarea } from "@ezlegin/ui/components/ui/textarea";
+import { Textarea } from "@parallane/ui/components/ui/textarea";
 
 const TicketForm = () => {
   // HOOKS

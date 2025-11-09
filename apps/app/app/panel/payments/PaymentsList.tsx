@@ -4,18 +4,18 @@ import {
   Enrollment,
   Image as ImageType,
   Payment,
-} from "@ezlegin/database";
-import CardBox from "@ezlegin/ui/components/CardBox";
-import Table from "@ezlegin/ui/components/Table";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
+} from "@parallane/database";
+import CardBox from "@parallane/ui/components/CardBox";
+import Table from "@parallane/ui/components/Table";
+import { Badge } from "@parallane/ui/components/ui/badge";
 import {
   Dialog,
   DialogContent,
   DialogTitle,
   DialogTrigger,
-} from "@ezlegin/ui/components/ui/dialog";
-import { TableCell, TableRow } from "@ezlegin/ui/components/ui/table";
-import { formatPrice } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/dialog";
+import { TableCell, TableRow } from "@parallane/ui/components/ui/table";
+import { formatPrice } from "@parallane/utils";
 import { formatDate } from "date-fns";
 import { Eye } from "lucide-react";
 import Image from "next/image";

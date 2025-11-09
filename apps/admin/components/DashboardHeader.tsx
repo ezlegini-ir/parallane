@@ -1,8 +1,8 @@
 import { getSessionAdmin } from "@/data/admin";
 import { getOnlineUsers } from "@/data/ga";
-import { database } from "@ezlegin/database";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { SidebarTrigger } from "@ezlegin/ui/components/ui/sidebar";
+import { database } from "@parallane/database";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { SidebarTrigger } from "@parallane/ui/components/ui/sidebar";
 import { Home, MessageCircle, Phone } from "lucide-react";
 import Link from "next/link";
 import AdminUserBar from "./AdminUserBar";

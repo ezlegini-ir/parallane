@@ -4,7 +4,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@ezlegin/ui/components/ui/accordion";
+} from "@parallane/ui/components/ui/accordion";
 import React from "react";
 
 const FAQSection = () => {

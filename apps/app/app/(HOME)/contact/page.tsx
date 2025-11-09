@@ -1,7 +1,7 @@
 import AnimatedTitle from "@/components/animations/AnimatedTitle";
 import ContactForm from "@/components/forms/ContactForm";
-import RecaptchaWrapper from "@ezlegin/ui/components/RecaptchaWrapper";
-import SocialsIcon from "@ezlegin/ui/components/SocialsIcon";
+import RecaptchaWrapper from "@parallane/ui/components/RecaptchaWrapper";
+import SocialsIcon from "@parallane/ui/components/SocialsIcon";
 import { Mail } from "lucide-react";
 import { Metadata } from "next";
 
@@ -9,9 +9,9 @@ const page = () => {
   return (
     <div className="space-y-16">
       <AnimatedTitle
-        title={"Contact with Ezlegin Team"}
+        title={"Contact with parallane Team"}
         highlight="Contact"
-        subtitle={"On this page, you can contact Ezlegin"}
+        subtitle={"On this page, you can contact parallane"}
       />
 
       <div className="flex flex-wrap md:flex-nowrap gap-10 lg:gap-20 justify-between">
@@ -34,7 +34,7 @@ const page = () => {
               Email
             </h3>
 
-            <a href="mailto:ezlegin.com@gmail.com">Ezlegin.com@gmail.com</a>
+            <a href="mailto:parallane.com@gmail.com">parallane.com@gmail.com</a>
           </div>
         </div>
 
@@ -57,5 +57,5 @@ export default page;
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "If you need support, advice, or want to collaborate, get in touch with us. Ezlegin's contact information includes email, phone number, social networks, and contact form.",
+    "If you need support, advice, or want to collaborate, get in touch with us. parallane's contact information includes email, phone number, social networks, and contact form.",
 };

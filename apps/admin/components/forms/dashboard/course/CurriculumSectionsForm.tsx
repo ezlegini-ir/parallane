@@ -1,21 +1,21 @@
 "use client";
 
-import Table from "@ezlegin/ui/components/Table";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import Table from "@parallane/ui/components/Table";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   FormControl,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
-import { Switch } from "@ezlegin/ui/components/ui/switch";
-import { TableCell, TableRow } from "@ezlegin/ui/components/ui/table";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
+import { Switch } from "@parallane/ui/components/ui/switch";
+import { TableCell, TableRow } from "@parallane/ui/components/ui/table";
 import {
   ToggleGroup,
   ToggleGroupItem,
-} from "@ezlegin/ui/components/ui/toggle-group";
+} from "@parallane/ui/components/ui/toggle-group";
 import { CourseFormType } from "@/lib/validationSchema";
 import { Download, File, Plus, Trash, Video, X } from "lucide-react";
 import { Control, useFieldArray } from "react-hook-form";

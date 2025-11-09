@@ -2,9 +2,9 @@
 
 import { getTutorById, getTutorByIdentifier } from "@/data/tutor";
 import { TutorFormType } from "@/lib/validationSchema";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 import bcrypt from "bcrypt";
-import { deleteCloudFile, uploadCloudFile } from "@ezlegin/utils";
+import { deleteCloudFile, uploadCloudFile } from "@parallane/utils";
 import { UploadApiResponse } from "cloudinary";
 
 //* CREATE ------------------------------------------------------------

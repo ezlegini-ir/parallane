@@ -2,7 +2,7 @@
 
 import AnimatedFigmaCursor from "@/components/animations/AnimatedFigmaCursor";
 import AnimatedFigmaLogo from "@/components/animations/AnimatedFigmaLogo";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
+import { Badge } from "@parallane/ui/components/ui/badge";
 import { motion } from "framer-motion";
 
 const CourseTitle = ({

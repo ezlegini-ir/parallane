@@ -26,7 +26,7 @@
   "engines": {
     "node": ">=18"
   },
-  "name": "ezlegin",
+  "name": "parallane",
   "version": "0.1.0",
   "packageManager": "npm@11.3.0",
   "workspaces": [

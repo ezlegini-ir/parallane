@@ -1,7 +1,7 @@
 "use server";
 
 import { AssetType } from "@/app/(DASHBOARD)/assets/list/AssetsList";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 
 export async function getAssetByUrl(url: string) {
   return await database.asset.findUnique({

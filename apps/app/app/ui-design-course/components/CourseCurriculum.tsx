@@ -1,18 +1,18 @@
-import CurriculumPlay from "@ezlegin/ui/components/CurriculumPlay";
+import CurriculumPlay from "@parallane/ui/components/CurriculumPlay";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@ezlegin/ui/components/ui/accordion";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
+} from "@parallane/ui/components/ui/accordion";
+import { Badge } from "@parallane/ui/components/ui/badge";
 import {
   Dialog,
   DialogContent,
   DialogTitle,
   DialogTrigger,
-} from "@ezlegin/ui/components/ui/dialog";
-import { Curriculum, Lesson } from "@ezlegin/database";
+} from "@parallane/ui/components/ui/dialog";
+import { Curriculum, Lesson } from "@parallane/database";
 import { Download, File, Lock, Video } from "lucide-react";
 
 export interface CurriculumType extends Curriculum {

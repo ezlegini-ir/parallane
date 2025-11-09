@@ -1,7 +1,7 @@
 "use client";
 
-import DeleteButton from "@ezlegin/ui/components/DeleteButton";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import DeleteButton from "@parallane/ui/components/DeleteButton";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Form,
   FormControl,
@@ -10,29 +10,29 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
 import {
   AdminFormType,
   adminFormSchema,
   adminRoles,
 } from "@/lib/validationSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useLoading } from "@ezlegin/utils";
+import { useLoading } from "@parallane/utils";
 import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
 
 import { createAdmin, deleteAdmin, updateAdmin } from "@/actions/admin";
 import { AdminType } from "@/app/(DASHBOARD)/admins/AdminsList";
-import Loader from "@ezlegin/ui/components/Loader";
+import Loader from "@parallane/ui/components/Loader";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@ezlegin/ui/components/ui/select";
-import { useImagePreview } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/select";
+import { useImagePreview } from "@parallane/utils";
 import { toast } from "sonner";
 import AvatarField from "@/components/forms/AvatarField";
 

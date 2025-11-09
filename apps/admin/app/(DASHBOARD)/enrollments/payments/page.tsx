@@ -1,9 +1,9 @@
 import { paymentStatus } from "@/lib/validationSchema";
-import { database, PaymentStatus, Prisma } from "@ezlegin/database";
-import Filter from "@ezlegin/ui/components/Filter";
-import NewButton from "@ezlegin/ui/components/NewButton";
-import Search from "@ezlegin/ui/components/Search";
-import { globalPageSize, pagination } from "@ezlegin/utils";
+import { database, PaymentStatus, Prisma } from "@parallane/database";
+import Filter from "@parallane/ui/components/Filter";
+import NewButton from "@parallane/ui/components/NewButton";
+import Search from "@parallane/ui/components/Search";
+import { globalPageSize, pagination } from "@parallane/utils";
 import PaymentsList from "./PaymentsList";
 
 interface Props {

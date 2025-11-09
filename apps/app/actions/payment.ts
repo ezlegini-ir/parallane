@@ -1,12 +1,12 @@
 "use server";
 
 import { adminData } from "@/data/adminData";
-import { database, User, Wallet } from "@ezlegin/database";
+import { database, User, Wallet } from "@parallane/database";
 import {
   cashBackCalculator,
   sendSuccessPaymentEmail,
   sendSuccessPaymentEmailToAdmin,
-} from "@ezlegin/utils";
+} from "@parallane/utils";
 import { initiatePurchase, verifyPurchase } from "./yekPay";
 
 //* CREATE PAYMENT -------------------------------------------------------

@@ -1,13 +1,13 @@
 "use client";
 
-import { User } from "@ezlegin/database";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { User } from "@parallane/database";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@ezlegin/ui/components/ui/dropdown-menu";
+} from "@parallane/ui/components/ui/dropdown-menu";
 import { DropdownMenu, DropdownMenuGroup } from "@radix-ui/react-dropdown-menu";
 import {
   ChevronDown,

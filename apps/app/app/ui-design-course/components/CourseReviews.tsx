@@ -1,7 +1,7 @@
 "use client";
 
-import Avatar from "@ezlegin/ui/components/Avatar";
-import { Card } from "@ezlegin/ui/components/ui/card";
+import Avatar from "@parallane/ui/components/Avatar";
+import { Card } from "@parallane/ui/components/ui/card";
 import { formatDate } from "date-fns";
 import { motion } from "framer-motion";
 import { Check, Star } from "lucide-react";

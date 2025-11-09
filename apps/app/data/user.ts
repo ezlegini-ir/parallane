@@ -1,7 +1,7 @@
 "use server";
 
-import { auth } from "@ezlegin/auth";
-import { database } from "@ezlegin/database";
+import { auth } from "@parallane/auth";
+import { database } from "@parallane/database";
 
 export const getUserById = async (id: number) => {
   if (!id) return;

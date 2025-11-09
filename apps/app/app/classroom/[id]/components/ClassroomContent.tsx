@@ -15,10 +15,10 @@ import {
   LessonProgress,
   Tutor,
   User,
-} from "@ezlegin/database";
-import { Badge } from "@ezlegin/ui/components/ui/badge";
-import { Progress } from "@ezlegin/ui/components/ui/progress";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
+} from "@parallane/database";
+import { Badge } from "@parallane/ui/components/ui/badge";
+import { Progress } from "@parallane/ui/components/ui/progress";
+import { Separator } from "@parallane/ui/components/ui/separator";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import AskTutorChat from "./AskTutorChat";

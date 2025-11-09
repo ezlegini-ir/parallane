@@ -1,10 +1,10 @@
 "use client";
 
 import { markAsRead, sendAskTutorMessage } from "@/actions/askTutor";
-import Avatar from "@ezlegin/ui/components/Avatar";
-import CardBox from "@ezlegin/ui/components/CardBox";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import Avatar from "@parallane/ui/components/Avatar";
+import CardBox from "@parallane/ui/components/CardBox";
+import Loader from "@parallane/ui/components/Loader";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Form,
   FormControl,
@@ -12,13 +12,13 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
-import { Textarea } from "@ezlegin/ui/components/ui/textarea";
-import { useFileName } from "@ezlegin/utils";
-import { useLoading } from "@ezlegin/utils";
-import { truncateFileName as truncateName } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
+import { Separator } from "@parallane/ui/components/ui/separator";
+import { Textarea } from "@parallane/ui/components/ui/textarea";
+import { useFileName } from "@parallane/utils";
+import { useLoading } from "@parallane/utils";
+import { truncateFileName as truncateName } from "@parallane/utils";
 import { QaFormSchema, QaFormType } from "@/lib/validationSchema";
 import { placeHolder } from "@/public";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -30,7 +30,7 @@ import {
   Image as ImageType,
   Tutor,
   User,
-} from "@ezlegin/database";
+} from "@parallane/database";
 import { Download, Link as LinkIcon, Send, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";

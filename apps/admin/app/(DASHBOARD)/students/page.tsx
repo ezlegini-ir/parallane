@@ -1,16 +1,16 @@
 import StudentForm from "@/components/forms/user/StudentForm";
-import NewButton from "@ezlegin/ui/components/NewButton";
-import Search from "@ezlegin/ui/components/Search";
+import NewButton from "@parallane/ui/components/NewButton";
+import Search from "@parallane/ui/components/Search";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@ezlegin/ui/components/ui/dialog";
-import { database, Prisma } from "@ezlegin/database";
+} from "@parallane/ui/components/ui/dialog";
+import { database, Prisma } from "@parallane/database";
 import StudentsList from "./StudentsList";
-import { globalPageSize, pagination } from "@ezlegin/utils";
+import { globalPageSize, pagination } from "@parallane/utils";
 interface Props {
   searchParams: Promise<{ page: string; search: string }>;
 }

@@ -1,7 +1,7 @@
 "use client";
 
-import { useIdentifier } from "@ezlegin/utils";
-import { useLoginStep } from "@ezlegin/utils";
+import { useIdentifier } from "@parallane/utils";
+import { useLoginStep } from "@parallane/utils";
 import InputForm from "./InputForm";
 import OtpForm from "./OtpForm";
 

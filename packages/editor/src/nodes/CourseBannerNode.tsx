@@ -1,6 +1,6 @@
 import { DecoratorNode } from "lexical";
 import { JSX } from "react";
-import CourseBanner from "@ezlegin/ui/components/CourseBanner";
+import CourseBanner from "@parallane/ui/components/CourseBanner";
 
 export class CourseBannerNode extends DecoratorNode<JSX.Element> {
   __courseId: string;

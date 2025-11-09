@@ -1,4 +1,4 @@
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import { Headset, Plus } from "lucide-react";
 import Link from "next/link";
 import React from "react";

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { notFound as notFoundImage } from "@/public";
 import { Metadata } from "next";
 import Link from "next/link";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import NavBar from "@/components/NavBar";
 import SimpleFooter from "@/components/SimpleFooter";
 

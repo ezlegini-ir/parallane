@@ -1,7 +1,7 @@
 import {
   SidebarInset,
   SidebarProvider,
-} from "@ezlegin/ui/components/ui/sidebar";
+} from "@parallane/ui/components/ui/sidebar";
 import DashboardSidebar from "../../components/sidebar/Dashboard-Sidebar";
 import TutorDashboardHeader from "../../components/TutorDashboardHeader";
 import { authenticateSession } from "../../lib/auth";

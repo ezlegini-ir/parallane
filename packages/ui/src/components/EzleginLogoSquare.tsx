@@ -5,11 +5,11 @@ interface Props {
   inputProps?: any;
 }
 
-const EzleginLogoSquare = ({ size, inputProps }: Props) => {
+const parallaneLogoSquare = ({ size, inputProps }: Props) => {
   return (
     <Image
-      src={"/ezlegin-logo-square.svg"}
-      alt={"Ezlegin"}
+      src={"/parallane-logo-square.svg"}
+      alt={"parallane"}
       width={size || 50}
       height={size || 50}
       draggable={false}
@@ -21,4 +21,4 @@ const EzleginLogoSquare = ({ size, inputProps }: Props) => {
   );
 };
 
-export default EzleginLogoSquare;
+export default parallaneLogoSquare;

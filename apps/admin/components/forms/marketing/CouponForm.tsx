@@ -4,11 +4,11 @@ import { createCoupon, deleteCoupon, updateCoupon } from "@/actions/coupon";
 import SearchCourses from "@/components/SearchCourses";
 import { CouponFormType, couponFormSchema } from "@/lib/validationSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Coupon, Course } from "@ezlegin/database";
-import DeleteButton from "@ezlegin/ui/components/DeleteButton";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { Calendar } from "@ezlegin/ui/components/ui/calendar";
+import { Coupon, Course } from "@parallane/database";
+import DeleteButton from "@parallane/ui/components/DeleteButton";
+import Loader from "@parallane/ui/components/Loader";
+import { Button } from "@parallane/ui/components/ui/button";
+import { Calendar } from "@parallane/ui/components/ui/calendar";
 import {
   Form,
   FormControl,
@@ -16,23 +16,23 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@ezlegin/ui/components/ui/popover";
+} from "@parallane/ui/components/ui/popover";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@ezlegin/ui/components/ui/select";
-import { Switch } from "@ezlegin/ui/components/ui/switch";
-import { Textarea } from "@ezlegin/ui/components/ui/textarea";
-import { cn, useLoading } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/select";
+import { Switch } from "@parallane/ui/components/ui/switch";
+import { Textarea } from "@parallane/ui/components/ui/textarea";
+import { cn, useLoading } from "@parallane/utils";
 import { addDays, format } from "date-fns";
 import { CalendarIcon, Plus, Trash } from "lucide-react";
 import { useRouter } from "next/navigation";

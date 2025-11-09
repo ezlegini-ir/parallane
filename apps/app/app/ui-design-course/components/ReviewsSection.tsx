@@ -34,7 +34,7 @@ const ReviewsSection = () => {
       <AnimatedTitle
         title="From Beginners to Senior Designers"
         highlight="Senior Designers"
-        subtitle="Hear how students transformed their skills with Ezlegin."
+        subtitle="Hear how students transformed their skills with parallane."
       />
 
       <div className="max-w-screen-xl mx-auto">

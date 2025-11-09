@@ -1,7 +1,7 @@
 "use client";
 
 import { createContact } from "@/actions/contact";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Form,
   FormControl,
@@ -9,16 +9,16 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
-import Loader from "@ezlegin/ui/components/Loader";
-import { useLoading } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
+import Loader from "@parallane/ui/components/Loader";
+import { useLoading } from "@parallane/utils";
 import { contactFormSchema, ContactFormType } from "@/lib/validationSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";
-import { Textarea } from "@ezlegin/ui/components/ui/textarea";
+import { Textarea } from "@parallane/ui/components/ui/textarea";
 
 const ContactForm = () => {
   // HOOKS

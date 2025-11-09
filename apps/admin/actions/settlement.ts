@@ -1,7 +1,7 @@
 "use server";
 
 import { SettlementFormType } from "@/lib/validationSchema";
-import { database } from "@ezlegin/database";
+import { database } from "@parallane/database";
 
 export const createSettlement = async (data: SettlementFormType) => {
   const { date } = data;

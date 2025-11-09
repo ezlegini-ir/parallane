@@ -1,8 +1,8 @@
 import { getEnrollmentByUserIdAndCourseId } from "@/data/enrollment";
 import { getSessionUser } from "@/data/user";
-import Price from "@ezlegin/ui/components/Price";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { Card } from "@ezlegin/ui/components/ui/card";
+import Price from "@parallane/ui/components/Price";
+import { Button } from "@parallane/ui/components/ui/button";
+import { Card } from "@parallane/ui/components/ui/card";
 import { TvMinimalPlay } from "lucide-react";
 import Link from "next/link";
 import CourseRegisterButton from "./CourseRegisterButton";

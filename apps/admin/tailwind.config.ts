@@ -1,1 +1,1 @@
-export * from "@ezlegin/ui/tailwind.config";
+export * from "@parallane/ui/tailwind.config";

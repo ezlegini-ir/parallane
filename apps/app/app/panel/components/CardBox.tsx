@@ -1,6 +1,6 @@
-import Title from "@ezlegin/ui/components/Title";
-import { Button } from "@ezlegin/ui/components/ui/button";
-import { Separator } from "@ezlegin/ui/components/ui/separator";
+import Title from "@parallane/ui/components/Title";
+import { Button } from "@parallane/ui/components/ui/button";
+import { Separator } from "@parallane/ui/components/ui/separator";
 import Link from "next/link";
 import React, { ReactNode } from "react";
 

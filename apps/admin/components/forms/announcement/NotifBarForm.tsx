@@ -1,8 +1,8 @@
 "use client";
 
 import { createNotifBar, updateNotifBar } from "@/actions/notifBar";
-import Loader from "@ezlegin/ui/components/Loader";
-import { Button } from "@ezlegin/ui/components/ui/button";
+import Loader from "@parallane/ui/components/Loader";
+import { Button } from "@parallane/ui/components/ui/button";
 import {
   Form,
   FormControl,
@@ -10,13 +10,13 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@ezlegin/ui/components/ui/form";
-import { Input } from "@ezlegin/ui/components/ui/input";
-import { Switch } from "@ezlegin/ui/components/ui/switch";
-import { useLoading } from "@ezlegin/utils";
+} from "@parallane/ui/components/ui/form";
+import { Input } from "@parallane/ui/components/ui/input";
+import { Switch } from "@parallane/ui/components/ui/switch";
+import { useLoading } from "@parallane/utils";
 import { notifbarFormSchema, NotifbarFormType } from "@/lib/validationSchema";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Notifbar } from "@ezlegin/database";
+import { Notifbar } from "@parallane/database";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";
 
