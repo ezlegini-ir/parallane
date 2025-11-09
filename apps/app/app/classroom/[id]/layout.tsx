@@ -30,5 +30,5 @@ export const metadata: Metadata = {
     default: "Classroom",
     template: "%s - Classroom",
   },
-  description: "parallane Classroom, where educational skills are shaped.",
+  description: "Parallane Classroom, where educational skills are shaped.",
 };

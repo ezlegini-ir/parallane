@@ -8,7 +8,7 @@ interface Props {
   lightMode?: boolean;
 }
 
-const parallaneLogo = ({
+const ParallaneLogo = ({
   inputProps,
   className,
   width,
@@ -17,7 +17,11 @@ const parallaneLogo = ({
 }: Props) => {
   return (
     <Image
-      src={lightMode ? "/parallane-logo-light.svg" : "/parallane-logo-dark.svg"}
+      src={
+        lightMode
+          ? "/logos/parallane-logo-light.svg"
+          : "/logos/parallane-logo-dark.svg"
+      }
       alt={"parallane!"}
       width={width || 142}
       height={height || 30}
@@ -28,4 +32,4 @@ const parallaneLogo = ({
   );
 };
 
-export default parallaneLogo;
+export default ParallaneLogo;

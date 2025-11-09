@@ -3,7 +3,7 @@
 import { loginPageRoute } from "@/middleware";
 import { User } from "@parallane/database";
 import Avatar from "@parallane/ui/components/Avatar";
-import parallaneLogo from "@parallane/ui/components/parallaneLogo";
+import ParallaneLogo from "@parallane/ui/components/ParallaneLogo";
 import {
   Sidebar,
   SidebarContent,
@@ -41,7 +41,7 @@ export function SideBar({ user }: Props) {
     <Sidebar className="p-2 border-dashed border-muted bg-background">
       <SidebarHeader className="p-4 space-y-8">
         <Link href={"/"}>
-          <parallaneLogo width={120} />
+          <ParallaneLogo width={120} />
         </Link>
 
         <div className="flex justify-between items-center">

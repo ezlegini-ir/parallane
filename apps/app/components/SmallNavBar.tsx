@@ -1,5 +1,5 @@
 import Avatar from "@parallane/ui/components/Avatar";
-import parallaneLogoSquare from "@parallane/ui/components/parallaneLogoSquare";
+import ParallaneLogoSquare from "@parallane/ui/components/ParallaneLogoSquare";
 import { Button } from "@parallane/ui/components/ui/button";
 import { User } from "lucide-react";
 import Link from "next/link";
@@ -9,7 +9,7 @@ const SmallNavBar = ({ user }: NavbarProps) => {
   return (
     <div className="flex justify-between">
       <Link href={"/"}>
-        <parallaneLogoSquare size={48} />
+        <ParallaneLogoSquare size={48} />
       </Link>
 
       <div className="flex gap-2 text-foreground">

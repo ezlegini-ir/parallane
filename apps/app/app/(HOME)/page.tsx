@@ -1,4 +1,4 @@
-import { alirezaparallaneiProfile } from "@/public";
+import { alirezaEzleginiProfile } from "@/public";
 import { database } from "@parallane/database";
 import TizerVideo from "@parallane/ui/components/TizerVideo";
 import { Badge } from "@parallane/ui/components/ui/badge";
@@ -26,8 +26,8 @@ export default async function Page() {
             <Badge className="mb-4">New · Complete UI Course</Badge>
 
             <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
-              parallane —{" "}
-              <span className="text-indigo-400">Design Without Limits</span>
+              Parallane —{" "}
+              <span className="text-indigo-400">Where Lanes Meet Mastery.</span>
             </h1>
 
             <p className="text-muted-foreground mb-6 max-w-xl">
@@ -80,14 +80,14 @@ export default async function Page() {
 
             <div className="flex gap-2 items-center">
               <Image
-                src={alirezaparallaneiProfile}
-                alt="Alireza parallanei"
+                src={alirezaEzleginiProfile}
+                alt="Alireza Ezlegini"
                 width={56}
                 height={56}
                 className="rounded-full border border-neutral-800"
               />
               <div>
-                <div className="font-semibold">Alireza parallanei</div>
+                <div className="font-semibold">Alireza Ezlegini</div>
                 <div className="text-xs text-muted-foreground">
                   Senior Web Designer & Developer
                 </div>

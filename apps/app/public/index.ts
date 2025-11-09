@@ -1,7 +1,10 @@
 // LOGOS
-export { default as parallaneLogo } from "./parallane-logo-dark.svg";
-export { default as parallaneLogoIcon } from "./parallane-logo-icon.svg";
-export { default as parallaneLogoSquare } from "./parallane-logo-square.svg";
+export const parallaneLogo = "./logos/parallane-logo-dark.svg";
+export const parallaneLogoIcon = "./logos/parallane-logo-icon.svg";
+export const parallaneLogoSquare = "./logo/parallane-logo-square.svg";
+export const googleLogo = "/logos/google-logo.svg";
+export const paymentsLogos = "/logos/payments-logos.svg";
+export const figmaLogo = "/logos/figma-logo.svg";
 
 // NONE-EXISTING PHOTOS
 export const avatar = "/avatar.svg";
@@ -26,23 +29,20 @@ export const studentProfile7 = "/students/student-profile-7.webp";
 export const studentProfile8 = "/students/student-profile-8.webp";
 export const studentProfile9 = "/students/student-profile-9.webp";
 
-export const paymentsLogos = "/payments-logos.svg";
 export const userTall = "/user-tall.png";
 export const purse = "/purse.png";
 export const wallet = "/wallet.png";
 export const cart = "/cart.svg";
-export const googleLogo = "/google-logo.svg";
 export const squarePattern = "/square-pattern.svg";
 export const squarePatternSquare = "/square-pattern-square.svg";
-export const figmaLogo = "/figma-logo.svg";
 export const figmaCursor = "/figma-cursor.svg";
 
 // VIDEOS
 export const sketchVideo = "/sketch.mp4";
 
-// ALIREZA parallaneI
-export const alirezaparallaneiProfile = "/alireza-parallanei/profile.png";
-export const alirezaEzlegniPen = "/alireza-parallanei/pen.png";
-export const alirezaEzlegniPodcast = "/alireza-parallanei/podcast.png";
-export const alirezaEzlegniPointing = "/alireza-parallanei/pointing.png";
-export const alirezaEzlegniLooking = "/alireza-parallanei/looking.png";
+// ALIREZA EZLGINI
+export const alirezaEzleginiProfile = "/alireza-ezlegini/profile.png";
+export const alirezaEzleginiPen = "/alireza-ezlegini/pen.png";
+export const alirezaEzleginiPodcast = "/alireza-ezlegini/podcast.png";
+export const alirezaEzleginiPointing = "/alireza-ezlegini/pointing.png";
+export const alirezaEzleginiLooking = "/alireza-ezlegini/looking.png";

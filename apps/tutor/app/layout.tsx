@@ -20,11 +20,11 @@ export default function RootLayout({
 
 export const metadata: Metadata = {
   title: {
-    default: "Tutor - parallane",
-    template: "%s - parallane",
+    default: "Tutor - Parallane",
+    template: "%s - Parallane",
   },
   icons: {
-    icon: "/favicon.svg",
+    icon: "/logos/favicon.svg",
   },
-  description: "parallane Panel",
+  description: "Parallane Panel",
 };

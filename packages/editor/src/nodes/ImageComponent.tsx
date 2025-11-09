@@ -117,7 +117,7 @@ function LazyImage({
       ref={imageRef}
       style={{
         height,
-        // maxWidth, //! This is the max width of the image, not the container. we can set it to 500px or more in CSS. I (ALIREZA parallaneI) deleted this line to avoid CSS issues.
+        // maxWidth, //! This is the max width of the image, not the container. we can set it to 500px or more in CSS. I (ALIREZA EZLEGINI) deleted this line to avoid CSS issues.
         width,
       }}
       onError={onError}

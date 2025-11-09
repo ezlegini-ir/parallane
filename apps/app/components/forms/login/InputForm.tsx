@@ -91,7 +91,7 @@ const InputForm = ({
     <div className="space-y-8">
       <div className="text-center space-y-1">
         <CardTitle>
-          <h3 className="font-medium">Welcome back to parallane!</h3>
+          <h3 className="font-medium">Welcome back to Parallane!</h3>
         </CardTitle>
         <CardDescription className="text-xs">
           Please enter your details to sign in your account

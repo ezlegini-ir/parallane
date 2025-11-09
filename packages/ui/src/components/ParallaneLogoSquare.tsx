@@ -5,10 +5,10 @@ interface Props {
   inputProps?: any;
 }
 
-const parallaneLogoSquare = ({ size, inputProps }: Props) => {
+const ParallaneLogoSquare = ({ size, inputProps }: Props) => {
   return (
     <Image
-      src={"/parallane-logo-square.svg"}
+      src={"/logos/parallane-logo-square.svg"}
       alt={"parallane"}
       width={size || 50}
       height={size || 50}
@@ -21,4 +21,4 @@ const parallaneLogoSquare = ({ size, inputProps }: Props) => {
   );
 };
 
-export default parallaneLogoSquare;
+export default ParallaneLogoSquare;

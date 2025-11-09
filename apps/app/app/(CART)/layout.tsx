@@ -33,6 +33,6 @@ export default async function PanelLayout({
 export const metadata: Metadata = {
   title: {
     default: "Cart",
-    template: "%s - parallane",
+    template: "%s - Parallane",
   },
 };

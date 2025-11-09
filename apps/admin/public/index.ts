@@ -1,6 +1,6 @@
 // LOGOS
-export { default as parallaneLogo } from "./parallane-logo-light.svg";
-export { default as parallaneLogoSquare } from "./parallane-logo-square.svg";
+export { default as parallaneLogo } from "./logos/parallane-logo-light.svg";
+export { default as parallaneLogoSquare } from "./logos/parallane-logo-square.svg";
 
 // NONE-EXISTING PHOTOS
 export const avatar = "/avatar.svg";

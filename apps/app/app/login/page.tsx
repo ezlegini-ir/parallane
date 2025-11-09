@@ -1,5 +1,5 @@
 import LoginForm from "@/components/forms/login/LoginForm";
-import parallaneLogoSquare from "@parallane/ui/components/parallaneLogoSquare";
+import ParallaneLogoSquare from "@parallane/ui/components/ParallaneLogoSquare";
 import { Card } from "@parallane/ui/components/ui/card";
 import Link from "next/link";
 
@@ -18,11 +18,11 @@ const page = async ({ searchParams }: Props) => {
 
         <div className="relative z-10 flex flex-col items-center text-center space-y-3">
           <Link href={"/"} className="block">
-            <parallaneLogoSquare size={70} />
+            <ParallaneLogoSquare size={70} />
           </Link>
 
           <h2 className="text-xl text-foreground font-medium">
-            Learn Without Limits!
+            Where Lanes Meet Mastery!
           </h2>
           <p className="text-muted-foreground text-xs max-w-sm">
             Sign in to access your courses, track your progress, and unlock

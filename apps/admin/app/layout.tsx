@@ -23,11 +23,11 @@ export default function RootLayout({
 
 export const metadata: Metadata = {
   title: {
-    default: "Admin - parallane",
-    template: "%s - parallane",
+    default: "Admin - Parallane",
+    template: "%s - Parallane",
   },
   icons: {
-    icon: "/favicon.svg",
+    icon: "/logos/favicon.svg",
   },
-  description: "parallane Panel",
+  description: "Parallane Panel",
 };

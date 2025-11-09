@@ -1,5 +1,5 @@
 import AnimatedTitle from "@/components/animations/AnimatedTitle";
-import { alirezaEzlegniPointing } from "@/public";
+import { alirezaEzleginiPointing } from "@/public";
 import Image from "next/image";
 import React from "react";
 
@@ -9,8 +9,8 @@ const MotiviationSection = () => {
       <div className="flex flex-wrap md:flex-nowrap items-center md:gap-10">
         <div className="md:w-1/3">
           <Image
-            alt="Alireza parallanei"
-            src={alirezaEzlegniPointing}
+            alt="Alireza Ezlegini"
+            src={alirezaEzleginiPointing}
             width={400}
             height={400}
             className="mb-8"
@@ -40,7 +40,7 @@ const MotiviationSection = () => {
           </p>
 
           <div>
-            <p>Alireza parallanei</p>
+            <p>Alireza Ezlegini</p>
             <p className="text-muted-foreground text-xs">
               Senior Web Designer & Developer
             </p>
