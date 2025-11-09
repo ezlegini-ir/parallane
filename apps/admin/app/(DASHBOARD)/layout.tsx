@@ -11,7 +11,7 @@ export default async function Layout({
 }: {
   children: React.ReactNode;
 }) {
-  await authenticateSession();
+  // await authenticateSession();
 
   return (
     <div className="">
