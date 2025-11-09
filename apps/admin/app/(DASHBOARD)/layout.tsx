@@ -4,13 +4,14 @@ import {
   SidebarProvider,
 } from "@parallane/ui/components/ui/sidebar";
 import DashboardSidebar from "../../components/sidebar/Dashboard-Sidebar";
+import { authenticateSession } from "@/lib/auth";
 
 export default async function Layout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  // await authenticateSession();
+  await authenticateSession();
 
   return (
     <div className="">
