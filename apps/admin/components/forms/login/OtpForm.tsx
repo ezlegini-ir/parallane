@@ -141,7 +141,7 @@ const OtpForm = ({ setLoginStep, identifier }: Props) => {
                 </FormControl>
 
                 <div className="w-11/12 mx-auto pt-3">
-                  <CountdownTimer progressBar minute={2} />
+                  <CountdownTimer progressBar seconds={120} />
                 </div>
 
                 <FormMessage className="text-center" />
