@@ -20,7 +20,7 @@ export default async function Page() {
         {/* Decorative blobs */}
         <div className="pointer-events-none absolute left-0 top-36 h-[320px] w-[320px] bg-violet-700/20 rounded-full blur-[80px]" />
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-20 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-20 items-center text-center md:text-left">
           {/* Left: Text / CTA */}
           <div className="lg:col-span-6">
             <Badge className="mb-4">New · Complete UI Course</Badge>
@@ -98,27 +98,27 @@ export default async function Page() {
           {/* Right: Mockup / Video preview */}
           <div className="lg:col-span-6 flex items-center justify-center">
             <div className="w-full">
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+              <div className="relative rounded-xl overflow-hidden">
                 {/* Simulated video / Figma mockup */}
-                <div className="bg-gradient-to-br from-slate-800 via-indigo-900 to-indigo-700 p-6 space-y-3">
+                <div className="bg-gradient-to-br from-indigo-500 via-indigo-700 to-indigo-700 p-3 md:p-4 space-y-3">
                   <div className="text-xs  text-white/80">
-                    · Complete Ui Design Course Trailer
+                    · Complete Ui Design Course Teaser
                   </div>
                   <TizerVideo url={course?.tizerUrl || ""} />
                 </div>
               </div>
 
               {/* Social proof row */}
-              <div className="mt-6 grid grid-cols-3 gap-2 text-sm text-muted-foreground h-12">
-                <Card className="flex justify-center items-center gap-2 h-full">
+              <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-2 text-sm text-muted-foreground h-12">
+                <Card className="flex justify-center items-center gap-2 h-full p-1 md:p-0">
                   <Star className="text-yellow-500" size={18} />
-                  4.83/5 <div>Rating</div>
+                  4.9/5 <div>Rating</div>
                 </Card>
-                <Card className="flex justify-center items-center gap-2 h-full">
+                <Card className="flex justify-center items-center gap-2 h-full p-1 md:p-0">
                   <User className="text-primary" size={18} />
                   2,500+ students
                 </Card>
-                <Card className="flex justify-center items-center gap-2 h-full">
+                <Card className="flex justify-center items-center gap-2 h-full p-1 md:p-0">
                   <Video className="text-destructive" size={18} />
                   +15 hours content
                 </Card>

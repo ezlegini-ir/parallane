@@ -17,7 +17,7 @@ const CourseIncludes = ({ courseIncludes }: Props) => {
       <ul className="grid grid-cols-2 gap-3 text-sm text-muted-foreground">
         {courseIncludes.map((item, index) => (
           <li key={index}>
-            <Card className="p-3 w-full flex gap-3 items-center">
+            <Card className="p-3 w-full h-full flex gap-3 items-center">
               <item.icon
                 size={18}
                 className={`scale-125 md:scale-100 ${item.iconColor}`}

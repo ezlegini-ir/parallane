@@ -31,11 +31,7 @@ const page = async ({ params }: Props) => {
     where: { userId },
   });
 
-  return (
-    <div>
-      <CheckoutForm user={user!} course={course} wallet={wallet} />
-    </div>
-  );
+  return <CheckoutForm user={user!} course={course} wallet={wallet} />;
 };
 
 export default page;

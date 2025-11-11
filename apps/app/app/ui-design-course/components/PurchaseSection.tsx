@@ -127,7 +127,7 @@ const PurchaseSection = ({ course }: Props) => {
 
           <p className="flex flex-col items-center">
             <span className="text-3xl font-semibold bg-gradient-to-r from-orange-400  to-orange-600 bg-clip-text text-transparent">
-              4.83
+              4.9
             </span>
             <span className="text-muted-foreground text-sm">Rating</span>
           </p>

@@ -145,7 +145,7 @@
   }
 
   .title-gradient {
-    @apply bg-gradient-to-r from-indigo-400  to-indigo-600 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-indigo-400 to-indigo-600 bg-clip-text text-transparent;
   }
 
   .photo-frame {

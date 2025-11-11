@@ -302,10 +302,13 @@ const CheckoutForm = ({ course, wallet, user }: Props) => {
 
   return (
     <Form {...form}>
-      <form className="flex gap-5" onSubmit={form.handleSubmit(onPayment)}>
+      <form
+        className="flex flex-col md:flex-row gap-5"
+        onSubmit={form.handleSubmit(onPayment)}
+      >
         <CardBox
           title="Personal Info"
-          className="w-full"
+          className="md:w-1/2 lg:w-full"
           containerClassname="p-5"
         >
           <div className="flex gap-5">
@@ -430,7 +433,11 @@ const CheckoutForm = ({ course, wallet, user }: Props) => {
           />
         </CardBox>
 
-        <CardBox title="Checkout" className="w-3/5" containerClassname="p-5">
+        <CardBox
+          title="Checkout"
+          className="w-full md:w-1/2 lg:3/5"
+          containerClassname="p-5"
+        >
           <div className="flex items-center gap-2 card">
             <Image
               alt={course.title}

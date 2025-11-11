@@ -18,7 +18,7 @@ export default async function PanelLayout({
       <div>
         <NotifBar />
       </div>
-      <main className="relative mt-20">
+      <main className="relative md:mt-20 pb-20 md:pb-0">
         {children}
         <MobileNavbar />
       </main>
