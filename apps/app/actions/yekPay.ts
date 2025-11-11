@@ -117,6 +117,7 @@ export async function verifyPurchase(authority: string) {
       };
     }
   } catch (error) {
+    console.error(error);
     return { error: String(error) };
   }
 }

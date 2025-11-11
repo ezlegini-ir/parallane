@@ -22,7 +22,7 @@ export async function middleware(req: NextRequest) {
   );
 
   if (!isLoggedIn && isPrivateRoute && !isAuthRoute) {
-    // return NextResponse.redirect(new URL("/login", nextUrl));
+    return NextResponse.redirect(new URL("/login", nextUrl));
   }
 
   return NextResponse.next();
