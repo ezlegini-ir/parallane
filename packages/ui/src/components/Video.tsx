@@ -64,7 +64,11 @@ const Video: React.FC<VideoProps> = ({ poster, src }) => {
     },
   };
 
-  return <Plyr key={src} crossOrigin="anonymous" {...plyrProps} />;
+  return (
+    <div>
+      <Plyr crossOrigin="anonymous" {...plyrProps} />
+    </div>
+  );
 };
 
 export default Video;
